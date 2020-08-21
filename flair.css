@@ -64,10 +64,7 @@
   filter: brightness(120%);
 }
 
-
-/***********
- *  Color  *
- ***********/
+/* Colors */
 .spotify {
   color: #1ed761;
 }

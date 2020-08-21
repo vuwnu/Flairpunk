@@ -209,3 +209,26 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  max-width: var(--max-width);
+  background: var(--background-color);
+}
+nav a {
+  flex: 1 0 50px;
+  color: white;
+  margin: 0 2px;
+  transition: background-color .1s;
+  cursor:pointer;
+}
+nav a:hover {
+  background-color: #444;
+}
+nav a:active {
+  background-color: #333;
+}

@@ -19,22 +19,22 @@ md — for screens =< 992px (small laptops)
 lg — for screens =< 1200px (big screens) */
 
 @media (max-width: 1200px) {
-  .hide\:1200px {
+  .hide\:lg {
     display: none;
   }
 }
 @media (max-width: 992px) {
-  .hide\:992px {
+  .hide\:md {
     display: none;
   }
 }
 @media (max-width: 768px) {
-  .hide\:768px {
+  .hide\:sm {
     display: none;
   }
 }
 @media (max-width: 600px) {
-  .hide\:600px {
+  .hide\:xs {
     display: none;
   }
 }

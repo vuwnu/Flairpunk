@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+:root {
+
+  --color-accent-1: cornflowerblue;
+  --color-accent-2: rgba(171, 76, 239, 0.5);
+  --color-accent-3: limegreen;
+  --color-accent-4: limegreen;
+
+  --color-main-1: #222;
+  --color-main-2: darkgrey;
+  --color-main-3: lime;
+
+  --color-logo: #ab4cef;
+  --color-text: #dddddd;
+
+  --primary-color: #bbb;
+  --secondary-color: #222;
+  --tertiary-color: lime;
+  --background-color: transparent;
+  --background-border-color: #1d1d1d;
+  --border-bg-color: #222;
+  --background: #503266;
+
+  --border-type: solid;
+  --border-thickness: 0px;
+  --border-radius: 0px;
+  --border-color: #333;
+
+  --scrollbar-width: 5px;
+  --scrollbar-track: #111;
+  --scrollbar-handle: grey;
+
+  --max-width: 1000px;
+
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+  --font-header: 'Open Sans', sans-serif;
+  --font-logo: 'Anonymous Pro', monospace;
+  --font-size: var(--responsive-font-size);
+
+}
+
+.docsContents {
+  flex: 1 1 160px;
+  overflow: scroll;
+  height: 300px;
+  overflow-x: auto;
+}
+/* .docsContents a:before {
+  color: #b9b9b9;
+  content: '> ';
+  padding-left: 10px;
+}
+.docsContents h3 {
+    padding-top: 10px;
+}
+.docsContents h3:nth-of-type(1) {
+    padding-top: 0;
+} */

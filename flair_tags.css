@@ -16,6 +16,7 @@ body {
 
   /* Apply Base Font */
   font-family: var(--font-primary);
+  font-size: var(--font-size);
   color: var(--color-text);
   background: var(--background, white);
 

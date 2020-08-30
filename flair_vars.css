@@ -45,10 +45,10 @@
   --max-width: 1300px;
 
   /* Fonts */
+  --font-size: 100%;
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;
   --font-header: 'Open Sans', sans-serif;
   --font-logo: 'Open Sans', sans-serif;
-  --font-size: var(--responsive-font-size);
 
 }

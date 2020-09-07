@@ -1,0 +1,8 @@
+{
+  "siteName": "Flair",
+  "description": "Welcome to Flair CSS",
+  "config": "/",
+  "files": "assets",
+  "theme": "default",
+  "layout": "0"
+}

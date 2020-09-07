@@ -1,7 +1,5 @@
 @charset 'UTF-8';
-
 :root {
-
   --color-accent-1: cornflowerblue;
   --color-accent-2: rgba(171, 76, 239, 0.5);
   --color-accent-3: limegreen;
@@ -37,6 +35,5 @@
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;
   --font-header: 'Open Sans', sans-serif;
-  --font-logo: 'Anonymous Pro', monospace;
-
+  --font-logo: 'Pacifico', cursive;
 }

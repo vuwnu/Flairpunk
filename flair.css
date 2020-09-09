@@ -147,37 +147,6 @@
   color: #f96854;
 }
 
-/*****************
- *  Button List  *
- *****************/
-
-.button-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  list-style-type: none;
-  font-size: 2em;
-}
-.button-list li {
-  flex: 1 1;
-  margin: 10px 0;
-  padding: 30px;
-  font-size: 1em;
-  width: 100%;
-  transition: color ease-in-out .2s;
-  display: flex;
-  justify-content: center;
-}
-.button-list a:hover {
-  color: white;
-}
-.button-list a p {
-  font-size: 1em;
-  margin: 0;
-}
-
-
 /* Default */
 
 .default {
@@ -286,7 +255,6 @@
 .pb\:10 {padding-bottom:10px}
 .pb\:20 {padding-bottom:20px}
 
-
 /* Margin */
 .m\:0 {margin: 0;}
 .m\:10 {margin: 10px}
@@ -318,14 +286,24 @@
 .fl\:50 {flex: 1 1 50%;}
 .fl\:60 {flex: 1 1 60%;}
 
-/*** Pre-built Components ***/
-/* Navbox */
+/*   #####
+/*  #     #  ####  #    # #####   ####  #    # ###### #    # #####  ####
+/*  #       #    # ##  ## #    # #    # ##   # #      ##   #   #   #
+/*  #       #    # # ## # #    # #    # # #  # #####  # #  #   #    ####
+/*  #       #    # #    # #####  #    # #  # # #      #  # #   #        #
+/*  #     # #    # #    # #      #    # #   ## #      #   ##   #   #    #
+/*   #####   ####  #    # #       ####  #    # ###### #    #   #    ####
+/* */
+
+/************
+ *  Navbox  *
+ ************/
+
 .navbox .nav {
   justify-content: space-evenly;
   text-align: center;
   display: flex;
 }
-
 .navbox .nav a {
   flex: 1 1 50px;
   padding: 5px 5px;
@@ -338,13 +316,41 @@
   background: var(--border-bg-color);
   border-radius: var(--border-radius);
 }
-
 .navbox .nav a:hover {
   background-color: #444;
 }
-
 .navbox .nav a:active {
   background-color: #333;
+}
+
+/*****************
+ *  Button List  *
+ *****************/
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+  font-size: 2em;
+}
+.button-list li {
+  flex: 1 1;
+  margin: 10px 0;
+  padding: 30px;
+  font-size: 1em;
+  width: 100%;
+  transition: color ease-in-out .2s;
+  display: flex;
+  justify-content: center;
+}
+.button-list a:hover {
+  color: white;
+}
+.button-list a p {
+  font-size: 1em;
+  margin: 0;
 }
 
 /* ##     ##  #######  ########  #### ######## #### ######## ########   ######

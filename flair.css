@@ -39,7 +39,6 @@
   --selection-background: lightblue;
   --selection-color: white;
 
-  /* Sizes */
   /* Page Width */
   --max-width: 1300px;
 
@@ -72,7 +71,6 @@
   }
 }
 
-@import 'anima.css';
 
 /* Selection */
 ::selection {

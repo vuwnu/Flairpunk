@@ -162,14 +162,13 @@
   padding: 0 10px
 }
 .default z-nav {
-  background: #2c2c2c;
-  border: 5px rgba(1,1,1,0.1) solid;
+  border: 2px rgba(1,1,1,0.1) solid;
   margin-bottom: 10px;
 }
 .default z-nav a {
-  background: var(--color-main-1);
-  padding: 5px;
-  margin: var(--margin)
+  background: #00000050;
+  padding: 10px;
+  margin: var(--margin);
 }
 .default z-nav a:hover {
   background: var(--color-main-2);

@@ -265,6 +265,8 @@
 
 /* Width */
 .w\:100\% {width: 100%;}
+.w\:50\% {width: 50%;}
+.w\:25\% {width: 25%;}
 
 /* Max-width */
 .mw\:300 {max-width: 300px}
@@ -435,7 +437,7 @@ header .logo {
 }
 
 /* Filters */
-.ph {
+.placeholder {
   filter: brightness(40%);
 }
 .blur {

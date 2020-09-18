@@ -229,7 +229,7 @@
   border-radius: var(--border-radius);
 }
 
-/* Padding */
+/* PADDING */
 .p\:0 {padding: 0;}
 .p\:5 {padding: 5px;}
 .p\:10 {padding: 10px}
@@ -252,6 +252,11 @@
 .pb\:5 {padding-bottom:5px}
 .pb\:10 {padding-bottom:10px}
 .pb\:20 {padding-bottom:20px}
+
+/* Top */
+.pt\:5 {padding-top:5px}
+.pt\:10 {padding-top:10px}
+.pt\:20 {padding-top:20px}
 
 /* Margin */
 .m\:0 {margin: 0;}

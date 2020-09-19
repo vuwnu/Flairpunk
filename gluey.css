@@ -93,7 +93,7 @@
 
 /* Navbar */
 .current-page {
-  background-color: #555 !important;
+  filter: brightness(80%) !important;
 }
 
 /* Button */
@@ -234,7 +234,6 @@
 .p\:5 {padding: 5px;}
 .p\:10 {padding: 10px}
 .p\:20 {padding: 20px}
-
 .p\:0\/10 {padding: 0 10px}
 .p\:0\/20 {padding: 0 20px}
 
@@ -439,7 +438,6 @@ header .logo {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;

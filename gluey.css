@@ -460,6 +460,12 @@ header .logo {
   filter: grayscale();
 }
 
+/* Outline Text */
+.outline {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 /* ########     ###     ######  ########
 /* ##     ##   ## ##   ##    ## ##
 /* ##     ##  ##   ##  ##       ##

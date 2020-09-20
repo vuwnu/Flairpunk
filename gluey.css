@@ -525,6 +525,9 @@ a {
 a:hover {
   color: white;
 }
+a.underline {
+  text-decoration: underline;
+}
 
 /* SEMANTIC TAGS */
 

@@ -461,9 +461,11 @@ header .logo {
 }
 
 /* Outline Text */
-.outline {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+.outline-text {
+  --tsw: 1px;
+  --tsc: black;
+  -webkit-text-stroke-width: var(--tsw);
+  -webkit-text-stroke-color: var(--tsc);
 }
 
 /* ########     ###     ######  ########

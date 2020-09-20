@@ -712,3 +712,8 @@ nav a:hover {
 nav a:active {
   background-color: #333;
 }
+
+ul.minimal {
+  padding: 0;
+  list-style: none;
+}

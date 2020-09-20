@@ -6,7 +6,7 @@
   --x-axis-page-align: center;
   --align-text: left;
 
-  /** Colors **/
+  /* Colors */
   --color-accent-1: cornflowerblue;
   --color-accent-2: blue;
   --color-accent-3: lightblue;
@@ -24,7 +24,7 @@
 
   --background: #111;
 
-  /** Border **/
+  /* Border */
   --border-type: solid;
   --border-thickness: 0px;
   --border-radius: 0px;
@@ -70,7 +70,6 @@
     display: none;
   }
 }
-
 
 /* Selection */
 ::selection {
@@ -415,13 +414,13 @@ header .logo {
 }
 
 /* Text Align */
-.tal {
+.tal, .text-left {
   text-align: left;
 }
-.tar {
+.tar, .text-right {
   text-align: right;
 }
-.tac {
+.tac, .text-center {
   text-align: center;
 }
 

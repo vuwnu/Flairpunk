@@ -25,6 +25,7 @@
   --background: #111;
 
   /* Border */
+  --border: var(--border-type) var(--border-thickness) var(--border-radius) var(--border-color);
   --border-type: solid;
   --border-thickness: 0px;
   --border-radius: 0px;

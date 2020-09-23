@@ -276,17 +276,21 @@
 .mb\:20 {margin-top:10px}
 .mb\:20 {margin-top:20px}
 
-
 /* Width */
 .w\:100\% {width: 100%;}
 .w\:50\% {width: 50%;}
 .w\:25\% {width: 25%;}
 
 /* Max-width */
+.mw\:100 {max-width: 100px}
+.mw\:200 {max-width: 200px}
 .mw\:300 {max-width: 300px}
 .mw\:400 {max-width: 400px}
 .mw\:500 {max-width: 500px}
 .mw\:600 {max-width: 600px}
+.mw\:700 {max-width: 700px}
+.mw\:800 {max-width: 800px}
+.mw\:900 {max-width: 900px}
 
 /* Flex Group */
 .flg\:200 > * {flex: 1 1 200px}

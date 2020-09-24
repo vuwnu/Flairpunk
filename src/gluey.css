@@ -474,6 +474,21 @@ header .logo {
   filter: grayscale();
 }
 
+/* Transforms */
+.rotate {
+  --r: 0deg;
+  transform: rotate(var(--r));
+}
+.rotate-30 {
+  transform: rotate(30deg);
+}
+.rotate-60 {
+  transform: rotate(60deg);
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
 /* Outline Text */
 .outline-text {
   --tsw: 1px;

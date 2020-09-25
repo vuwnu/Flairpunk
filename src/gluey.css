@@ -257,29 +257,34 @@
 .pt\:10 {padding-top:15px}
 .pt\:20 {padding-top:20px}
 
-
 /** MARGIN **/
 .m\:0 {margin: 0;}
+.m\:5 {margin: 5px}
 .m\:10 {margin: 10px}
+.m\:15 {margin: 15px}
 .m\:20 {margin: 20px}
 .m\:0\/10 {margin: 0 10px}
 .m\:0\/20 {margin: 0 20px}
 /* Left */
-.ml\:20 {margin-left:5px}
-.ml\:20 {margin-left:10px}
+.ml\:5 {margin-left:5px}
+.ml\:10 {margin-left:10px}
+.ml\:15 {margin-left:15px}
 .ml\:20 {margin-left:20px}
 /* Right */
-.mr\:20 {margin-right:5px}
-.mr\:20 {margin-right:10px}
+.mr\:5 {margin-right:5px}
+.mr\:10 {margin-right:10px}
+.mr\:15 {margin-right:15px}
 .mr\:20 {margin-right:20px}
 /* Bottom */
-.mb\:20 {margin-bottom:5px}
-.mb\:20 {margin-bottom:10px}
+.mb\:5 {margin-bottom:5px}
+.mb\:10 {margin-bottom:10px}
+.mb\:15 {margin-bottom:15px}
 .mb\:20 {margin-bottom:20px}
 /* Top */
-.mb\:20 {margin-top:5px}
-.mb\:20 {margin-top:10px}
-.mb\:20 {margin-top:20px}
+.mt\:5 {margin-top:5px}
+.mt\:10 {margin-top:10px}
+.mt\:15 {margin-top:15px}
+.mt\:20 {margin-top:20px}
 
 /* Width */
 .w\:100\% {width: 100%;}

@@ -448,7 +448,6 @@ header .logo {
 .tac, .text-center {
   text-align: center;
 }
-
 .tac-h h1, .tac-h h2, .tac-h h3, .tac-h h4, .tac-h h5, .tac-h h6 {
   text-align: center;
 }
@@ -493,7 +492,7 @@ header .logo {
   filter: invert();
 }
 .grayscale {
-  filter: grayscale();
+  filter: grayscale(100%);
 }
 
 /* Transforms */

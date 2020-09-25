@@ -570,7 +570,6 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  text-align: var(--align-heading);
   font-family: var(--font-header);
 }
 h1 {
@@ -763,7 +762,6 @@ nav {
 }
 nav a {
   flex: 1 0 50px;
-  color: white;
   margin: 0 2px;
   transition: background-color .1s;
   cursor:pointer;

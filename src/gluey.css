@@ -220,6 +220,11 @@
 /*  #######  ########   ######  ########  ######     ##     ###### */
 
 
+.container {
+  border: var(--border-thickness) var(--border-type) var(--border-color);
+  border-radius: var(--border-radius);
+}
+
 .bg {
   background: var(--border-bg-color);
 }
@@ -403,7 +408,6 @@
 .strike {
   text-decoration: line-through;
 }
-
 
 
 

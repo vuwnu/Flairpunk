@@ -400,6 +400,10 @@
 /* ##     ## ##     ## ##     ##  ##  ##        ##  ##       ##    ##  ##    ##
 /* ##     ##  #######  ########  #### ##       #### ######## ##     ##  ###### */
 
+.strike {
+  text-decoration: line-through;
+}
+
 /* Flex Layout */
 .block-group {
   display: flex;

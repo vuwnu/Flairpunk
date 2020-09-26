@@ -404,6 +404,9 @@
   text-decoration: line-through;
 }
 
+
+
+
 /* Flex Layout */
 .block-group {
   display: flex;
@@ -504,7 +507,7 @@ header .logo {
   filter: blur(20%);
 }
 .invert {
-  filter: invert();
+  filter: invert(100%);
 }
 .grayscale {
   filter: grayscale(100%);

@@ -187,6 +187,8 @@
 .use-layout main {
   align-self: flex-start;
 }
+
+/* Single Column */
 .use-layout.single-column {
   grid-template-areas: "header"
                        "nav"
@@ -197,12 +199,16 @@
   grid-template-rows: min-content min-content 1fr min-content min-content;
   place-items: center;
 }
+
+/* Center */
 .use-layout.center {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-areas: "" ;
   place-items: center;
 }
+
+/* Side Navigation */
 .use-layout.side-nav {
   grid-template-areas: "header header"
                        "nav  main"

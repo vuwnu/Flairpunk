@@ -532,6 +532,19 @@ header .logo {
   user-drag: none;
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+.overflow-visible {
+  overflow: visible;
+}
+
 /* Filters */
 .placeholder {
   filter: brightness(40%);

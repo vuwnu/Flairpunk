@@ -519,7 +519,7 @@ header .logo {
   visibility: hidden;
 }
 
-.no-select {
+.no-select, .ns {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

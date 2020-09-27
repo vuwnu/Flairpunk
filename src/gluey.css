@@ -421,9 +421,6 @@
 /* ##     ## ##     ## ##     ##  ##  ##        ##  ##       ##    ##  ##    ##
 /* ##     ##  #######  ########  #### ##       #### ######## ##     ##  ###### */
 
-.strike {
-  text-decoration: line-through;
-}
 
 
 
@@ -510,7 +507,6 @@ header .logo {
 }
 
 /* Transform */
-
 .txt-uppercase {
   text-transform: uppercase;
 }
@@ -519,6 +515,17 @@ header .logo {
 }
 .txt-capitalise, .txt-capitalize {
   text-transform: capitalize;
+}
+
+/* Decoration */
+.underline {
+  text-decoration: underline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.overline {
+  text-decoration: overline;
 }
 
 /* Hide */

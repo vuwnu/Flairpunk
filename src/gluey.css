@@ -532,8 +532,29 @@ header .logo {
   text-decoration: none;
 }
 
-/* Hide */
-.hidden {
+/* DISPLAY */
+
+
+
+.disb, .d-block {
+  display: block;
+}
+.disf, .d-flex {
+  display: flex;
+}
+.disi, .d-inline {
+  display: inline;
+}
+.disib, .d-inline-block {
+  display: inline-block;
+}
+.disg, .d-grid {
+  display: grid;
+}
+.disf, .d-flex {
+  display: flex;
+}
+.disn, .hidden {
   display: none !important;
 }
 .invisible {

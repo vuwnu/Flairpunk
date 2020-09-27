@@ -518,14 +518,17 @@ header .logo {
 }
 
 /* Decoration */
-.underline {
+.tdu, .underline {
   text-decoration: underline;
 }
-.line-through {
+.tdll, .line-through {
   text-decoration: line-through;
 }
-.overline {
+.tdo, .overline {
   text-decoration: overline;
+}
+.tdn {
+  text-decoration: none;
 }
 
 /* Hide */

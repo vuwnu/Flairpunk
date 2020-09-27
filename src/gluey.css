@@ -466,7 +466,16 @@ header .logo {
   color: white;
 }
 
-/* Text Align */
+/* ######## ######## ##     ## ########
+/*    ##    ##        ##   ##     ##
+/*    ##    ##         ## ##      ##
+/*    ##    ######      ###       ##
+/*    ##    ##         ## ##      ##
+/*    ##    ##        ##   ##     ##
+/*    ##    ######## ##     ##    ##
+*/
+
+/* Align */
 .tal, .text-left {
   text-align: left;
 }
@@ -486,6 +495,18 @@ header .logo {
 
 .tar-h h1, .tar-h h2, .tar-h h3, .tar-h h4, .tar-h h5, .tar-h h6 {
   text-align: right;
+}
+
+/* Transform */
+
+.txt-uppercase {
+  text-transform: uppercase;
+}
+.txt-lowercase {
+  text-transform: uppercase;
+}
+.txt-capitalise, .txt-capitalize {
+  text-transform: capitalize;
 }
 
 /* Hide */

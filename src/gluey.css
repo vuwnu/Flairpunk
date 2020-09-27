@@ -559,7 +559,10 @@ header .logo {
   filter: grayscale(100%);
 }
 .filter-drop-shadow {
-  filter: drop-shadow(8px 8px 10px gray)
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.filter-sepia {
+  filter: sepia(100%);
 }
 
 /* Transforms */

@@ -278,8 +278,6 @@
 .m\:10 {margin: 10px}
 .m\:15 {margin: 15px}
 .m\:20 {margin: 20px}
-.m\:0\/10 {margin: 0 10px}
-.m\:0\/20 {margin: 0 20px}
 /* Left */
 .ml\:5 {margin-left:5px}
 .ml\:10 {margin-left:10px}
@@ -300,6 +298,14 @@
 .mt\:10 {margin-top:10px}
 .mt\:15 {margin-top:15px}
 .mt\:20 {margin-top:20px}
+/* X */
+.mx\:10 {margin: 0 10px}
+.mx\:20 {margin: 0 20px}
+/* Y */
+.my\:10 {margin: 10px 0}
+.my\:20 {margin: 20px 0}
+
+
 
 /* Width */
 .w\:100\% {width: 100%;}

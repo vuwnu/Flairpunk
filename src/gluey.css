@@ -507,13 +507,13 @@ header .logo {
 }
 
 /* Transform */
-.txt-uppercase {
+.ttu, .txt-uppercase {
   text-transform: uppercase;
 }
-.txt-lowercase {
-  text-transform: uppercase;
+.ttl, .txt-lowercase {
+  text-transform: lowercase;
 }
-.txt-capitalise, .txt-capitalize {
+.ttc, .txt-capitalise, .txt-capitalize {
   text-transform: capitalize;
 }
 

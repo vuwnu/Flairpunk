@@ -669,10 +669,10 @@ body {
   text-align: var(--align-text);
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-header);
 }
+/* Fix for h1 having a different size within section elements */
 h1 {
   font-size: 2em;
 }
@@ -688,14 +688,14 @@ a:hover {
   filter: brightness(150%);
 }
 
-/* SEMANTIC TAGS */
 
+/* SEMANTIC TAGS */
 header {
   grid-area: header;
   display: flex;
+  order: 1;
   align-content: center;
   align-items: center;
-  order: 1;
   width:100%;
   max-width: var(--max-width);
 }
@@ -707,18 +707,16 @@ nav {
 }
 main {
   grid-area: main;
-  order: 3;
   display: flex;
+  order: 3;
   flex-flow: column wrap;
   width: 100%;
   max-width: var(--max-width);
 }
-/* Aside */
 aside {
   order: 4;
   max-width: var(--max-width);
 }
-/* Footer */
 footer {
   grid-area: footer;
   align-content: center;
@@ -729,6 +727,7 @@ footer {
   width: 100%;
   max-width: var(--max-width);
 }
+
 
 /* Section */
 section {

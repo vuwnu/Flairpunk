@@ -848,10 +848,13 @@ hr {
   padding: 0;
 }
 hr.big {
-  border-top: 5px solid #ccc;
+  border-top: 5px;
 }
 hr.small {
-  border-top: 1px solid #ccc;
+  border-top: 1px;
+}
+hr.dashed {
+  border-top: dashed;
 }
 
 /* Navigation Bar */

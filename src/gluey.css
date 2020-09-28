@@ -423,8 +423,6 @@
 /* ##     ##  #######  ########  #### ##       #### ######## ##     ##  ###### */
 
 
-
-
 /* Flex Layout */
 .block-group {
   display: flex;
@@ -533,9 +531,6 @@ header .logo {
 }
 
 /* DISPLAY */
-
-
-
 .disb, .d-block {
   display: block;
 }
@@ -731,9 +726,6 @@ footer {
 
 /* Section */
 section {
-  margin: var(--margin);
-  padding: 1em;
-
   /* Flex */
   display: flex;
   flex-flow: column;

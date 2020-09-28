@@ -2,6 +2,7 @@
 
 :root {
   --margin: 5px;
+  --padding: 5px;
   --y-axis-page-align: flex-start;
   --x-axis-page-align: center;
   --align-text: left;

@@ -685,10 +685,7 @@ a {
   transition: color .2s;
 }
 a:hover {
-  color: white;
-}
-a.underline {
-  text-decoration: underline;
+  filter: brightness(150%);
 }
 
 /* SEMANTIC TAGS */

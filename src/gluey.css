@@ -313,7 +313,6 @@
 .my\:20 {margin: 20px 0}
 
 
-
 /* Width */
 .w\:100\% {width: 100%;}
 .w\:50\% {width: 50%;}
@@ -526,7 +525,7 @@ header .logo {
 .tdu, .underline {
   text-decoration: underline;
 }
-.tdll, .line-through {
+.tdlt, .line-through {
   text-decoration: line-through;
 }
 .tdo, .overline {

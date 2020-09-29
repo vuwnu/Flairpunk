@@ -162,13 +162,15 @@
 .default body {
   padding: 0 10px
 }
-.default z-nav {
-  margin-bottom: 10px;
-}
 .default z-nav a {
   background: #00000050;
   padding: 10px;
-  margin: var(--margin);
+}
+.default z-nav a:first-of-type {
+  border-right: 0;
+}
+.default z-nav a:last-of-type {
+  border-left: 0;
 }
 .default z-nav a:hover {
   background: var(--color-main-2);

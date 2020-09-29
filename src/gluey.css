@@ -231,6 +231,8 @@
 .container {
   border: var(--border-thickness) var(--border-type) var(--border-color);
   border-radius: var(--border-radius);
+  padding: 20px;
+  margin: 5px;
 }
 
 .bg {

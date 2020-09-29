@@ -1,10 +1,13 @@
 @charset 'UTF-8';
 
 :root {
+  /* Margin and Padding variables for giving an even size across site */
   --margin: 5px;
   --padding: 5px;
+
   --y-axis-page-align: flex-start;
   --x-axis-page-align: center;
+  
   --align-text: left;
 
   /* Colors */
@@ -28,9 +31,9 @@
   /* Border */
   --border: var(--border-type) var(--border-thickness) var(--border-radius) var(--border-color);
   --border-type: solid;
-  --border-thickness: 0px;
+  --border-thickness: 1px;
   --border-radius: 0px;
-  --border-color: #333;
+  --border-color: rgba(1,1,1,.3);
 
   /* Scrollbar */
   --scrollbar-width: 5px;

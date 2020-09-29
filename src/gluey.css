@@ -276,7 +276,7 @@
 .px\:20 {padding: 20px 0}
 
 /* MARGIN */
-.m {padding: var(--margin);}
+.m {margin: var(--margin);}
 .m\:0 {margin: 0;}
 .m\:5 {margin: 5px}
 .m\:10 {margin: 10px}

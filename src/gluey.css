@@ -487,16 +487,16 @@ header .logo {
 */
 
 /* Align */
-.tal, .text-left {
+.tal, .t-left {
   text-align: left;
 }
-.tar, .text-right {
+.tar, .t-right {
   text-align: right;
 }
-.tac, .text-center {
+.tac, .t-center {
   text-align: center;
 }
-.taj, .text-justify {
+.taj, .t-justify {
   text-align: justify;
 }
 
@@ -511,13 +511,13 @@ header .logo {
 }
 
 /* Transform */
-.ttu, .txt-uppercase {
+.ttu, .t-uppercase {
   text-transform: uppercase;
 }
-.ttl, .txt-lowercase {
+.ttl, .t-lowercase {
   text-transform: lowercase;
 }
-.ttc, .txt-capitalise, .txt-capitalize {
+.ttc, .t-capitalise, .t-capitalize {
   text-transform: capitalize;
 }
 

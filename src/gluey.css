@@ -784,13 +784,6 @@ option {
   background: var(--border-bg-color)
 }
 
-table.zoon {
- margin: auto;
- padding: 0;
- table-layout: auto;
- border: none;
- width: 95%;
-}
 
 /* table, th, td {
   text-align: center;

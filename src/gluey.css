@@ -151,27 +151,22 @@
   color: #f96854;
 }
 
-/* Default */
-
-.default section {
-  background: #00000050;
-}
-.default z-nav a {
+z-nav a {
   background: #00000050;
   border: 1px solid rgba(1,1,1,.3);
   padding: 10px;
   margin:0;
 }
-.default z-nav a:first-of-type {
+z-nav a:first-of-type {
   border-right: 0;
 }
-.default z-nav a:last-of-type {
+z-nav a:last-of-type {
   border-left: 0;
 }
-.default z-nav {
+z-nav {
   margin: 5px;
 }
-.default z-nav a:hover {
+z-nav a:hover {
   background: var(--color-main-2);
 }
 

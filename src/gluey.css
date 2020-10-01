@@ -273,8 +273,8 @@ z-nav a:hover {
 .px\:10 {padding: 0 10px}
 .px\:20 {padding: 0 20px}
 /* Y */
-.px\:10 {padding: 10px 0}
-.px\:20 {padding: 20px 0}
+.py\:10 {padding: 10px 0}
+.py\:20 {padding: 20px 0}
 
 /* MARGIN */
 .m {margin: var(--margin);}

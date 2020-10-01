@@ -178,12 +178,14 @@ z-nav a:hover {
 /* ##       ##     ##    ##    ##     ## ##     ##    ##    ##    ##
 /* ######## ##     ##    ##     #######   #######     ##     ###### */
 
+/* This class is used on the body element, applies default layout stuff */
 .use-layout {
   display: grid;
 }
 .use-layout main {
   align-self: flex-start;
 }
+
 
 /* Single Column */
 .use-layout.single-column {
@@ -479,6 +481,14 @@ header .logo {
   font-size: 3em;
   text-align: center;
   width: 100%;
+}
+
+/* Table */
+.table-auto {
+  table-layout: auto;
+}
+.table-fixed {
+  table-layout: fixed;
 }
 
 /* Lightswitch */

@@ -313,10 +313,28 @@
 .my\:20 {margin: 20px 0}
 
 
-/* Width */
-.w\:100\% {width: 100%;}
-.w\:50\% {width: 50%;}
-.w\:25\% {width: 25%;}
+/* WIDTH */
+/* Exact Widths */
+.w-25 {
+  width: 2.5rem;
+}
+.w-50 {
+  width: 5rem;
+}
+.w-100 {
+  width: 10rem;
+}
+
+/* Relative Widths */
+.w-full {
+  width: 100%;
+}
+.w-half {
+  width: 50%;
+}
+.w-quarter {
+  width: 25%;
+}
 
 /* Max-width */
 .mw\:100 {max-width: 100px}

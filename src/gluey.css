@@ -350,6 +350,15 @@ z-nav a:hover {
 .w-100 {
   width: 10rem;
 }
+.w-200 {
+  width: 20rem;
+}
+.w-300 {
+  width: 30rem;
+}
+.w-400 {
+  width: 40rem;
+}
 
 /* Relative Widths */
 .w-full {

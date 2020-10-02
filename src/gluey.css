@@ -212,11 +212,13 @@ z-nav a:hover {
   height: 100vh;
 }
 
+/* Holy Grail */
+.use-layout.header-with-nav {
   grid-template-areas:
-    "header header header"
-    "nav content side"
-    "footer footer footer";
-  grid-template-columns: 200px 1fr 200px;
+    "header nav"
+    "main main"
+    "footer footer";
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr auto;
   grid-gap: 10px;
   height: 100vh;

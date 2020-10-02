@@ -190,11 +190,11 @@ z-nav a:hover {
 
 /* Single Column */
 .use-layout.single-column {
-  grid-template-areas: "header"
-                       "nav"
-                       "main"
-                       "aside"
-                       "footer";
+  grid-template-areas: "hd"
+                       "nv"
+                       "mn"
+                       "sd"
+                       "ft";
   grid-template-columns: 1fr;
   grid-template-rows: min-content min-content 1fr min-content min-content;
   place-items: center;
@@ -203,21 +203,21 @@ z-nav a:hover {
 /* Holy Grail */
 .use-layout.holy-grail {
   grid-template-areas:
-    "header header header"
-    "nav main aside"
-    "footer footer footer";
+    "hh hd hd"
+    "nv mn sd"
+    "ft ft ft";
   grid-template-columns: 200px 1fr 200px;
   grid-template-rows: auto 1fr auto;
   grid-gap: 10px;
   height: 100vh;
 }
 
-/* Holy Grail */
+/* Header with Nav */
 .use-layout.header-with-nav {
   grid-template-areas:
-    "header nav"
-    "main main"
-    "footer footer";
+    "hd nv"
+    "mn mn"
+    "ft ft";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr auto;
   grid-gap: 10px;
@@ -239,11 +239,11 @@ z-nav a:hover {
 
 /* Side Navigation */
 .use-layout.side-nav {
-  grid-template-areas: "header header"
-                       "nav  main"
-                       "nav  footer";
-  grid-template-rows: 50px 1fr 30px;
+  grid-template-areas: "hd hd"
+                       "nv mn"
+                       "ft ft";
   grid-template-columns: 150px 1fr;
+  grid-template-rows: auto 1fr auto;
 }
 
 /*  #######  ########        ## ########  ######  ########  ######

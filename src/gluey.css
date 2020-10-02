@@ -688,7 +688,7 @@ header .logo {
 .rotate-150 {
   transform: rotate(150deg);
 }
-..rotate-180 {
+.rotate-180 {
   transform: rotate(180deg);
 }
 

@@ -671,6 +671,15 @@ header .logo {
 .rotate-90 {
   transform: rotate(90deg);
 }
+.rotate-120 {
+  transform: rotate(120deg);
+}
+.rotate-150 {
+  transform: rotate(150deg);
+}
+..rotate-180 {
+  transform: rotate(180deg);
+}
 
 /* Outline Text */
 .outline-text {

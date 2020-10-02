@@ -100,19 +100,6 @@
   filter: brightness(80%) !important;
 }
 
-/* Button */
-.btn {
-  color: var(--color-accent-1);
-  background: var(--color-main-2);
-  display: inline-block;
-  margin: var(--margin);
-  padding: 5px;
-  flex: 1 1;
-}
-.btn:hover {
-  filter: brightness(120%);
-}
-
 /* Colors */
 .spotify {
   color: #1ed761;
@@ -257,6 +244,21 @@ z-nav a:hover {
   background: #00000050;
   padding: 20px;
   margin: 5px;
+}
+
+/* Button */
+.btn {
+  color: var(--color-accent-1);
+  background: var(--color-main-2);
+  border: var(--border-thickness) var(--border-type) var(--border-color);
+  border-radius: var(--border-radius);
+  display: inline-block;
+  margin: var(--margin);
+  padding: var(--padding);
+  flex: 1 1;
+}
+.btn:hover {
+  filter: brightness(150%);
 }
 
 .bg {

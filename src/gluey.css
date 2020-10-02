@@ -199,6 +199,18 @@ z-nav a:hover {
   place-items: center;
 }
 
+/* Holy Grail */
+.use-layout.holy-grail {
+  grid-template-areas:
+    "header header header"
+    "nav content side"
+    "footer footer footer";
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
 /* Center */
 .use-layout.center {
   grid-template-columns: 1fr;

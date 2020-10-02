@@ -173,19 +173,19 @@ z-nav a:hover {
   align-self: flex-start;
 }
 .l-header {
-  grid-area: header;
+  grid-area: hd;
 }
 .l-nav {
-  grid-area: nav;
+  grid-area: nv;
 }
 .l-footer {
-  grid-area: footer;
+  grid-area: ft;
 }
 .l-main {
-  grid-area: main;
+  grid-area: mn;
 }
 .l-aside {
-  grid-area: aside;
+  grid-area: sd;
 }
 
 /* Single Column */

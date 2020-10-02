@@ -188,11 +188,17 @@ z-nav a:hover {
 .l-header {
   grid-area: header;
 }
+.l-nav {
+  grid-area: nav;
+}
 .l-footer {
   grid-area: footer;
 }
 .l-main {
   grid-area: main;
+}
+.l-aside {
+  grid-area: aside;
 }
 
 /* Single Column */

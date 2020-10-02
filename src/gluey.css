@@ -44,6 +44,9 @@
   --selection-background: lightblue;
   --selection-color: white;
 
+  /* LAYOUT VARIABLES */
+  --layout-grid-gap: 5px;
+  
   /* Page Width */
   --max-width: 1300px;
 
@@ -168,6 +171,7 @@ z-nav a:hover {
 /* This class is used on the body element, applies default layout stuff */
 .use-layout {
   display: grid;
+  grid-gap: var(--layout-grid-gap);
 }
 .use-layout main {
   align-self: flex-start;

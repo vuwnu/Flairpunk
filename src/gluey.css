@@ -185,7 +185,15 @@ z-nav a:hover {
 .use-layout main {
   align-self: flex-start;
 }
-
+.l-header {
+  grid-area: header;
+}
+.l-footer {
+  grid-area: footer;
+}
+.l-main {
+  grid-area: main;
+}
 
 /* Single Column */
 .use-layout.single-column {

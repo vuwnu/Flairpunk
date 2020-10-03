@@ -207,7 +207,7 @@ z-nav a:hover {
 /* Holy Grail */
 .use-layout.holy-grail {
   grid-template-areas:
-    "hh hd hd"
+    "hd hd hd"
     "nv mn sd"
     "ft ft ft";
   grid-template-columns: 200px 1fr 200px;

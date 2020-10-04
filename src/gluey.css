@@ -949,7 +949,6 @@ nav {
 }
 nav a {
   flex: 1 0 50px;
-  margin: 0 2px;
   transition: background-color .1s;
   cursor:pointer;
 }

@@ -15,21 +15,9 @@
   --color-logo: #ee4c73;
   --color-text: #dddddd;
 
-  --primary-color: #bbb;
-  --secondary-color: #222;
-  --tertiary-color: lime;
-  --background-color: transparent;
-  --background-border-color: #1d1d1d;
-  --border-bg-color: #222;
-
   --background: #663242;
-
-  --scrollbar-width: 5px;
-  --scrollbar-track: #111;
-  --scrollbar-handle: grey;
-
   --max-width: 1300px;
-  
+
   --font-size: 100%;
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;

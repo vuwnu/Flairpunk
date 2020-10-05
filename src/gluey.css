@@ -848,7 +848,7 @@ a:hover {
 
 /* SEMANTIC TAGS */
 header {
-  grid-area: header;
+  grid-area: hd;
   display: flex;
   order: 1;
   align-content: center;
@@ -857,13 +857,13 @@ header {
   max-width: var(--max-width);
 }
 nav {
-  grid-area: nav;
+  grid-area: nv;
   order: 2;
   width: 100%;
   max-width: var(--max-width);
 }
 main {
-  grid-area: main;
+  grid-area: mn;
   display: flex;
   order: 3;
   flex-flow: column wrap;
@@ -873,9 +873,10 @@ main {
 aside {
   order: 4;
   max-width: var(--max-width);
+  grid-area: sd;
 }
 footer {
-  grid-area: footer;
+  grid-area: ft;
   align-content: center;
   text-align: center;
   order: 5;

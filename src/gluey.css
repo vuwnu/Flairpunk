@@ -457,9 +457,7 @@ z-nav a:hover {
   user-select: none;
   transition: background-color .1s;
   text-decoration: none;
-  color: var(--secondary-color);
   border: var(--border-thickness) var(--border-type) var(--border-color);
-  background: var(--border-bg-color);
   border-radius: var(--border-radius);
 }
 .navbox .nav a:hover {
@@ -873,15 +871,13 @@ pre {
 }
 
 option {
-  background: var(--border-bg-color)
+  background: var(--color-accent-2)
 }
 
 
 /* table, th, td {
   text-align: center;
   border: 1px solid var(--border-color);
-  background: var(--background-color);
-  filter: brightness(130%)
 } */
 
 thead {
@@ -960,7 +956,6 @@ nav {
   text-align: center;
   width: 100%;
   max-width: var(--max-width);
-  background: var(--background-color);
 }
 nav a {
   flex: 1 0 50px;

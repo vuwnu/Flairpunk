@@ -1,5 +1,13 @@
 @charset 'UTF-8';
 
+/* ##     ##    ###    ########  ####    ###    ########  ##       ########  ######
+/* ##     ##   ## ##   ##     ##  ##    ## ##   ##     ## ##       ##       ##    ##
+/* ##     ##  ##   ##  ##     ##  ##   ##   ##  ##     ## ##       ##       ##
+/* ##     ## ##     ## ########   ##  ##     ## ########  ##       ######    ######
+/*  ##   ##  ######### ##   ##    ##  ######### ##     ## ##       ##             ##
+/*   ## ##   ##     ## ##    ##   ##  ##     ## ##     ## ##       ##       ##    ##
+/*    ###    ##     ## ##     ## #### ##     ## ########  ######## ########  ###### */
+
 :root {
   /* Margin and Padding variables for giving an even size across site */
   --margin: 5px;
@@ -16,15 +24,12 @@
   --color-accent-3: lightblue;
   --color-accent-4: darkblue;
 
-  --color-logo: blue;
-  --color-text: #dddddd;
   --color-main-1: #222;
   --color-main-2: darkgrey;
   --color-main-3: lime;
 
-  --background-color: transparent;
-  --background-border-color: #1d1d1d;
-  --border-bg-color: #222;
+  --color-logo: blue;
+  --color-text: #dddddd;
 
   --background: #111;
 
@@ -46,9 +51,10 @@
 
   /* LAYOUT VARIABLES */
   --layout-grid-gap: 5px;
-  
+
   /* Page Width */
   --max-width: 1300px;
+  --responsive-font-size: 100%;
 
   /* Fonts */
   --font-size: 100%;

@@ -64,6 +64,15 @@
   --font-logo: 'Open Sans', sans-serif;
 }
 
+
+/* ########  ########  ########    ###    ##    ## ########   #######  #### ##    ## ########  ######
+/* ##     ## ##     ## ##         ## ##   ##   ##  ##     ## ##     ##  ##  ###   ##    ##    ##    ##
+/* ##     ## ##     ## ##        ##   ##  ##  ##   ##     ## ##     ##  ##  ####  ##    ##    ##
+/* ########  ########  ######   ##     ## #####    ########  ##     ##  ##  ## ## ##    ##     ######
+/* ##     ## ##   ##   ##       ######### ##  ##   ##        ##     ##  ##  ##  ####    ##          ##
+/* ##     ## ##    ##  ##       ##     ## ##   ##  ##        ##     ##  ##  ##   ###    ##    ##    ##
+/* ########  ##     ## ######## ##     ## ##    ## ##         #######  #### ##    ##    ##     ###### */
+
 @media (max-width: 1200px) {
   .hide\:lg {
     display: none;
@@ -288,14 +297,21 @@ z-nav a:hover {
   filter: brightness(150%);
 }
 
-.bg {
-  background: var(--border-bg-color);
+.btn.lg {
+  width: 20px;
+  height: 20px;
+}
+.btn.sm {
+  width: 20px;
+  height: 20px;
 }
 
-.bdr {
-  border: var(--border-thickness) var(--border-type) var(--border-color);
-  border-radius: var(--border-radius);
+.btn.square {
+  width: 20px;
+  height: 20px;
 }
+
+
 
 /* PADDING */
 .p {padding: var(--padding);}

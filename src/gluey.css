@@ -264,8 +264,8 @@ z-nav a:hover {
 /* ##     ## ##     ## ##    ## ##       ##    ##    ##    ##    ##
 /*  #######  ########   ######  ########  ######     ##     ###### */
 
-
-.container {
+/* Container */
+.con, .container {
   border: var(--border-thickness) var(--border-type) var(--border-color);
   border-radius: var(--border-radius);
   background: #00000050;
@@ -274,7 +274,7 @@ z-nav a:hover {
 }
 
 /* Button */
-.btn {
+.btn, .button {
   color: var(--color-accent-1);
   background: var(--color-main-2);
   border: var(--border-thickness) var(--border-type) var(--border-color);
@@ -507,6 +507,15 @@ z-nav a:hover {
 /* ##     ## ##     ## ##     ##  ##  ##        ##  ##       ##    ##  ##    ##
 /* ##     ##  #######  ########  #### ##       #### ######## ##     ##  ###### */
 
+
+.bg {
+  background: var(--color-accent-2);
+}
+
+.bdr {
+  border: var(--border-thickness) var(--border-type) var(--border-color);
+  border-radius: var(--border-radius);
+}
 
 /* Flex Layout */
 .block-group {

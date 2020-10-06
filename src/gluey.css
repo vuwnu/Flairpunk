@@ -74,22 +74,22 @@
 /* ########  ##     ## ######## ##     ## ##    ## ##         #######  #### ##    ##    ##     ###### */
 
 @media (max-width: 1200px) {
-  .hide\:lg {
+  .hide-lg {
     display: none;
   }
 }
 @media (max-width: 992px) {
-  .hide\:md {
+  .hide-md {
     display: none;
   }
 }
 @media (max-width: 768px) {
-  .hide\:sm {
+  .hide-sm {
     display: none;
   }
 }
 @media (max-width: 600px) {
-  .hide\:xs {
+  .hide-xs {
     display: none;
   }
 }
@@ -315,71 +315,71 @@ z-nav a:hover {
 
 /* PADDING */
 .p {padding: var(--padding);}
-.p\:0 {padding: 0;}
-.p\:5 {padding: 5px;}
-.p\:10 {padding: 10px}
-.p\:15 {padding: 15px}
-.p\:20 {padding: 20px}
+.p-0 {padding: 0;}
+.p-5 {padding: 5px;}
+.p-10 {padding: 10px}
+.p-15 {padding: 15px}
+.p-20 {padding: 20px}
 /* Left */
-.pl\:5 {padding-left:5px}
-.pl\:10 {padding-left:10px}
-.pl\:15 {padding-left:15px}
-.pl\:20 {padding-left:20px}
+.pl-5 {padding-left:5px}
+.pl-10 {padding-left:10px}
+.pl-15 {padding-left:15px}
+.pl-20 {padding-left:20px}
 /* Right */
-.pr\:5 {padding-right:5px}
-.pr\:10 {padding-right:10px}
-.pr\:15 {padding-right:15px}
-.pr\:20 {padding-right:20px}
+.pr-5 {padding-right:5px}
+.pr-10 {padding-right:10px}
+.pr-15 {padding-right:15px}
+.pr-20 {padding-right:20px}
 /* Bottom */
-.pb\:5 {padding-bottom:5px}
-.pb\:10 {padding-bottom:10px}
-.pb\:15 {padding-bottom:15px}
-.pb\:20 {padding-bottom:20px}
+.pb-5 {padding-bottom:5px}
+.pb-10 {padding-bottom:10px}
+.pb-15 {padding-bottom:15px}
+.pb-20 {padding-bottom:20px}
 /* Top */
-.pt\:5 {padding-top:5px}
-.pt\:10 {padding-top:10px}
-.pt\:15 {padding-top:15px}
-.pt\:20 {padding-top:20px}
+.pt-5 {padding-top:5px}
+.pt-10 {padding-top:10px}
+.pt-15 {padding-top:15px}
+.pt-20 {padding-top:20px}
 /* X */
-.px\:10 {padding: 0 10px}
-.px\:20 {padding: 0 20px}
+.px-10 {padding: 0 10px}
+.px-20 {padding: 0 20px}
 /* Y */
-.py\:10 {padding: 10px 0}
-.py\:20 {padding: 20px 0}
+.py-10 {padding: 10px 0}
+.py-20 {padding: 20px 0}
 
 /* MARGIN */
 .m {margin: var(--margin);}
-.m\:0 {margin: 0;}
-.m\:5 {margin: 5px}
-.m\:10 {margin: 10px}
-.m\:15 {margin: 15px}
-.m\:20 {margin: 20px}
+.m-0 {margin: 0;}
+.m-5 {margin: 5px}
+.m-10 {margin: 10px}
+.m-15 {margin: 15px}
+.m-20 {margin: 20px}
 /* Left */
-.ml\:5 {margin-left:5px}
-.ml\:10 {margin-left:10px}
-.ml\:15 {margin-left:15px}
-.ml\:20 {margin-left:20px}
+.ml-5 {margin-left:5px}
+.ml-10 {margin-left:10px}
+.ml-15 {margin-left:15px}
+.ml-20 {margin-left:20px}
 /* Right */
-.mr\:5 {margin-right:5px}
-.mr\:10 {margin-right:10px}
-.mr\:15 {margin-right:15px}
-.mr\:20 {margin-right:20px}
+.mr-5 {margin-right:5px}
+.mr-10 {margin-right:10px}
+.mr-15 {margin-right:15px}
+.mr-20 {margin-right:20px}
 /* Bottom */
-.mb\:5 {margin-bottom:5px}
-.mb\:10 {margin-bottom:10px}
-.mb\:15 {margin-bottom:15px}
-.mb\:20 {margin-bottom:20px}
+.mb-5 {margin-bottom:5px}
+.mb-10 {margin-bottom:10px}
+.mb-15 {margin-bottom:15px}
+.mb-20 {margin-bottom:20px}
 /* Top */
-.mt\:5 {margin-top:5px}
-.mt\:10 {margin-top:10px}
-.mt\:15 {margin-top:15px}
-.mt\:20 {margin-top:20px}
+.mt-5 {margin-top:5px}
+.mt-10 {margin-top:10px}
+.mt-15 {margin-top:15px}
+.mt-20 {margin-top:20px}
 /* X */
-.mx\:10 {margin: 0 10px}
-.mx\:20 {margin: 0 20px}
+.mx-10 {margin: 0 10px}
+.mx-20 {margin: 0 20px}
 /* Y */
-.my\:10 {margin: 10px 0}
-.my\:20 {margin: 20px 0}
+.my-10 {margin: 10px 0}
+.my-20 {margin: 20px 0}
 
 
 /* WIDTH */
@@ -416,15 +416,15 @@ z-nav a:hover {
 }
 
 /* Max-width */
-.mw\:100 {max-width: 100px}
-.mw\:200 {max-width: 200px}
-.mw\:300 {max-width: 300px}
-.mw\:400 {max-width: 400px}
-.mw\:500 {max-width: 500px}
-.mw\:600 {max-width: 600px}
-.mw\:700 {max-width: 700px}
-.mw\:800 {max-width: 800px}
-.mw\:900 {max-width: 900px}
+.mw-100 {max-width: 100px}
+.mw-200 {max-width: 200px}
+.mw-300 {max-width: 300px}
+.mw-400 {max-width: 400px}
+.mw-500 {max-width: 500px}
+.mw-600 {max-width: 600px}
+.mw-700 {max-width: 700px}
+.mw-800 {max-width: 800px}
+.mw-900 {max-width: 900px}
 
 
 /* HEIGHT */
@@ -461,29 +461,29 @@ z-nav a:hover {
 }
 
 /* Max-height */
-.mh\:100 {max-height: 100px}
-.mh\:200 {max-height: 200px}
-.mh\:300 {max-height: 300px}
-.mh\:400 {max-height: 400px}
-.mh\:500 {max-height: 500px}
-.mh\:600 {max-height: 600px}
-.mh\:700 {max-height: 700px}
-.mh\:800 {max-height: 800px}
-.mh\:900 {max-height: 900px}
+.mh-100 {max-height: 100px}
+.mh-200 {max-height: 200px}
+.mh-300 {max-height: 300px}
+.mh-400 {max-height: 400px}
+.mh-500 {max-height: 500px}
+.mh-600 {max-height: 600px}
+.mh-700 {max-height: 700px}
+.mh-800 {max-height: 800px}
+.mh-900 {max-height: 900px}
 
 /* FLEX */
 
 /* Flex Group */
-.flg\:200 > * {flex: 1 1 200px}
-.flg\:300 > * {flex: 1 1 300px}
-.flg\:400 > * {flex: 1 1 400px}
+.flg-200 > * {flex: 1 1 200px}
+.flg-300 > * {flex: 1 1 300px}
+.flg-400 > * {flex: 1 1 400px}
 
 /* Flex Weights */
-.fl\:20 {flex: 1 1 200px;}
-.fl\:30 {flex: 1 1 300px;}
-.fl\:40 {flex: 1 1 400px;}
-.fl\:50 {flex: 1 1 500px;}
-.fl\:60 {flex: 1 1 600px;}
+.fl-20 {flex: 1 1 200px;}
+.fl-30 {flex: 1 1 300px;}
+.fl-40 {flex: 1 1 400px;}
+.fl-50 {flex: 1 1 500px;}
+.fl-60 {flex: 1 1 600px;}
 
 /*   #####
 /*  #     #  ####  #    # #####   ####  #    # ###### #    # #####  ####
@@ -514,7 +514,7 @@ z-nav a:hover {
   border-radius: var(--border-radius);
 }
 .navbox .nav a:hover {
-  background-color: #444;
+  background-color: #0000001f;
 }
 .navbox .nav a:active {
   background-color: #333;
@@ -1017,7 +1017,7 @@ nav a {
   cursor:pointer;
 }
 nav a:hover {
-  background-color: #444;
+  background-color: #0000001f;
 }
 nav a:active {
   background-color: #333;

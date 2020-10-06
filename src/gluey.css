@@ -341,10 +341,14 @@ z-nav a:hover {
 .pt-15 {padding-top:15px}
 .pt-20 {padding-top:20px}
 /* X */
+.px-5 {padding: 0 5px}
 .px-10 {padding: 0 10px}
+.px-15 {padding: 0 15px}
 .px-20 {padding: 0 20px}
 /* Y */
+.py-5 {padding: 5px 0}
 .py-10 {padding: 10px 0}
+.py-15 {padding: 15px 0}
 .py-20 {padding: 20px 0}
 
 /* MARGIN */
@@ -375,10 +379,14 @@ z-nav a:hover {
 .mt-15 {margin-top:15px}
 .mt-20 {margin-top:20px}
 /* X */
+.mx-5 {margin: 0 5px}
 .mx-10 {margin: 0 10px}
+.mx-15 {margin: 0 15px}
 .mx-20 {margin: 0 20px}
 /* Y */
+.my-5 {margin: 5px 0}
 .my-10 {margin: 10px 0}
+.my-15 {margin: 15px 0}
 .my-20 {margin: 20px 0}
 
 

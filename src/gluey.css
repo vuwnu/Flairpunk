@@ -614,15 +614,6 @@ header .logo {
   table-layout: fixed;
 }
 
-/* Lightswitch */
-.lightswitch-on {
-  background: white;
-  color: black;
-}
-.lightswitch-off {
-  background: black;
-  color: white;
-}
 
 /* ######## ######## ##     ## ########
 /*    ##    ##        ##   ##     ##

@@ -216,6 +216,7 @@ z-nav a:hover {
                        "ft";
   grid-template-columns: 1fr;
   grid-template-rows: min-content min-content 1fr min-content min-content;
+  place-items: center;
 }
 
 /* Holy Grail */

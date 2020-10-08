@@ -658,6 +658,9 @@ header .logo {
 .ttc, .t-capitalise, .t-capitalize {
   text-transform: capitalize;
 }
+.t-monospace {
+  font-family: monospace;
+}
 
 /* Decoration */
 .tdu, .underline {

@@ -1017,3 +1017,8 @@ ul.minimal {
   padding: 0;
   list-style: none;
 }
+
+code {
+  background: rgba(1,1,1,.2);
+  padding: 2px 5px;
+}

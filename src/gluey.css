@@ -216,7 +216,6 @@ z-nav a:hover {
                        "ft";
   grid-template-columns: 1fr;
   grid-template-rows: min-content min-content 1fr min-content min-content;
-  place-items: center;
 }
 
 /* Holy Grail */
@@ -228,7 +227,6 @@ z-nav a:hover {
   grid-template-columns: 200px 1fr 200px;
   grid-template-rows: auto 1fr auto;
   grid-gap: 10px;
-  height: 100vh;
 }
 
 /* Header with Nav */
@@ -240,7 +238,6 @@ z-nav a:hover {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr auto;
   grid-gap: 10px;
-  height: 100vh;
 }
 
 /* Center */

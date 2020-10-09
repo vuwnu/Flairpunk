@@ -551,8 +551,8 @@ z-nav a:hover {
 .flg-200 > * {flex: 1 1 200px}
 .flg-300 > * {flex: 1 1 300px}
 .flg-400 > * {flex: 1 1 400px}
-.flg-400 > * {flex: 1 1 500px}
-.flg-400 > * {flex: 1 1 600px}
+.flg-500 > * {flex: 1 1 500px}
+.flg-600 > * {flex: 1 1 600px}
 
 /* Flex Weights */
 .fl-20 {flex: 1 1 200px;}

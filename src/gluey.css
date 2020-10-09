@@ -315,7 +315,6 @@ z-nav a:hover {
 }
 
 
-
 /* PADDING */
 .p {padding: var(--padding);}
 .p-0 {padding: 0;}
@@ -427,32 +426,61 @@ z-nav a:hover {
 }
 
 /* Max-width */
-.mw-100 {
+.w-max-100 {
   max-width: 100px
 }
-.mw-200 {
+.w-max-200 {
   max-width: 200px
 }
-.mw-300 {
+.w-max-300 {
   max-width: 300px
 }
-.mw-400 {
+.w-max-400 {
   max-width: 400px
 }
-.mw-500 {
+.w-max-500 {
   max-width: 500px
 }
-.mw-600 {
+.w-max-600 {
   max-width: 600px
 }
-.mw-700 {
+.w-max-700 {
   max-width: 700px
 }
-.mw-800 {
+.w-max-800 {
   max-width: 800px
 }
-.mw-900 {
+.w-max-900 {
   max-width: 900px
+}
+
+/* Min-width */
+.w-min-100 {
+  min-width: 100px
+}
+.w-min-200 {
+  min-width: 200px
+}
+.w-min-300 {
+  min-width: 300px
+}
+.w-min-400 {
+  min-width: 400px
+}
+.w-min-500 {
+  min-width: 500px
+}
+.w-min-600 {
+  min-width: 600px
+}
+.w-min-700 {
+  min-width: 700px
+}
+.w-min-800 {
+  min-width: 800px
+}
+.w-min-900 {
+  min-width: 900px
 }
 
 /* HEIGHT */

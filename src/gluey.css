@@ -1076,3 +1076,8 @@ code {
   background: rgba(1,1,1,.2);
   padding: 2px 5px;
 }
+/* Removing code element styling when it's inside of a pre element */
+pre code {
+  background: 0;
+  padding: 0;
+}

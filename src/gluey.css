@@ -281,6 +281,10 @@ z-nav a:hover {
   margin: 5px;
 }
 
+.card {
+
+}
+
 /* Button */
 .btn, .button {
   color: var(--color-accent-1);

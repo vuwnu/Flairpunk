@@ -898,13 +898,11 @@ header {
   align-content: center;
   align-items: center;
   width:100%;
-  max-width: var(--max-width);
 }
 nav {
   grid-area: nv;
   order: 2;
   width: 100%;
-  max-width: var(--max-width);
 }
 main {
   grid-area: mn;
@@ -912,11 +910,9 @@ main {
   order: 3;
   flex-flow: column wrap;
   width: 100%;
-  max-width: var(--max-width);
 }
 aside {
   order: 4;
-  max-width: var(--max-width);
   grid-area: sd;
 }
 footer {
@@ -927,7 +923,6 @@ footer {
   display: flex;
   flex-flow: column;
   width: 100%;
-  max-width: var(--max-width);
 }
 
 

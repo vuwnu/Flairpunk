@@ -292,11 +292,13 @@ z-nav a:hover {
 .btn, .button {
   color: var(--color-accent-1);
   background: var(--color-main-2);
+
   border: var(--border-thickness) var(--border-type) var(--border-color);
   border-radius: var(--border-radius);
-  display: inline-block;
+
   margin: var(--margin);
   padding: var(--padding);
+  display: inline-block;
   flex: 1 1;
 }
 .btn:hover {

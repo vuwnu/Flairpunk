@@ -489,15 +489,26 @@ z-nav a:hover {
 }
 
 /* Max-height */
-.mh-100 {max-height: 100px}
-.mh-200 {max-height: 200px}
-.mh-300 {max-height: 300px}
-.mh-400 {max-height: 400px}
-.mh-500 {max-height: 500px}
-.mh-600 {max-height: 600px}
-.mh-700 {max-height: 700px}
-.mh-800 {max-height: 800px}
-.mh-900 {max-height: 900px}
+.h-max-100 {max-height: 100px}
+.h-max-200 {max-height: 200px}
+.h-max-300 {max-height: 300px}
+.h-max-400 {max-height: 400px}
+.h-max-500 {max-height: 500px}
+.h-max-600 {max-height: 600px}
+.h-max-700 {max-height: 700px}
+.h-max-800 {max-height: 800px}
+.h-max-900 {max-height: 900px}
+
+/* Min-height */
+.h-min-100 {min-height: 100px}
+.h-min-200 {min-height: 200px}
+.h-min-300 {min-height: 300px}
+.h-min-400 {min-height: 400px}
+.h-min-500 {min-height: 500px}
+.h-min-600 {min-height: 600px}
+.h-min-700 {min-height: 700px}
+.h-min-800 {min-height: 800px}
+.h-min-900 {min-height: 900px}
 
 /* FLEX */
 

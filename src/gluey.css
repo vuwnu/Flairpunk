@@ -786,9 +786,9 @@ header .logo {
 }
 
 /* Outline Text */
-.outline-text {
-  --tsw: 1px;
-  --tsc: black;
+.txt-outline {
+  --txt-outline-width: 1px;
+  --txt-outline-color: black;
   -webkit-text-stroke-width: var(--tsw);
   -webkit-text-stroke-color: var(--tsc);
 }

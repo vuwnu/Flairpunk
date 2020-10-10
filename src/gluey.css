@@ -9,12 +9,10 @@
 /*    ###    ##     ## ##     ## #### ##     ## ########  ######## ########  ###### */
 
 :root {
+  /* SIZING VARIABLES */
   /* Margin and Padding variables for giving an even size across site */
   --margin: 5px;
   --padding: 5px;
-
-  --y-axis-page-align: flex-start;
-  --x-axis-page-align: center;
 
   --align-text: left;
 
@@ -52,7 +50,6 @@
   /* LAYOUT VARIABLES */
   --layout-grid-gap: 5px;
   --layout-max-width: 1300px;
-
   --max-width: 1300px;
 
   /* FONT VARIABLES */
@@ -827,8 +824,6 @@ body {
   margin: auto;
 
   /* Page Alignment */
-  justify-content: var(--y-axis-page-align);
-  align-items: var(--x-axis-page-align);
   text-align: var(--align-text);
 }
 

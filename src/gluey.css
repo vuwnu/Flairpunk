@@ -1010,7 +1010,6 @@ nav {
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  max-width: var(--max-width);
 }
 nav a {
   flex: 1 0 50px;

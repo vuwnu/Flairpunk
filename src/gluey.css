@@ -801,10 +801,12 @@ header .logo {
 /* ########  ##     ##  ######  ######## */
 
 html {
-  background: black;
-  box-sizing: border-box;
   width: 100%;
   height: 100%;
+
+  background: black;
+  font-size: var(--font-size);
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 *, *:before, *:after {
@@ -816,7 +818,6 @@ body {
 
   /* Apply Base Font */
   font-family: var(--font-primary);
-  font-size: var(--font-size);
   color: var(--color-text);
   background: var(--background, white);
 

@@ -114,43 +114,21 @@
   filter: brightness(80%) !important;
 }
 
-/* Colors */
-.spotify {
-  color: #1ed761;
-}
-.instagram {
-  color: #55acee;
-}
-.black {
- color: black;
-}
-.white {
- color: white;
-}
-.whitesmoke {
- color: whitesmoke;
-}
-.dimgrey {
- color: dimgrey;
-}
-.blue {
-  color: #55acee;
-}
-.purple {
-  color: #6441a4;
-}
-.red {
-  color: #f00;
-}
-.green {
-  color: green;
-}
-.darkblue {
-  color: #4078c0;
-}
-.orange {
-  color: #f96854;
-}
+/* COLOR CLASSES */
+.black { color: black; }
+.blue { color: #55acee; }
+.darkblue { color: #4078c0; }
+.dimgrey { color: dimgrey; }
+.green { color: green; }
+.instagram { color: #55acee; }
+.magenta { color: magenta; }
+.orange { color: #f96854; }
+.purple { color: #6441a4; }
+.pink { color: pink; }
+.red { color: #f00; }
+.spotify { color: #1ed761; }
+.white { color: white; }
+.whitesmoke { color: whitesmoke; }
 
 z-nav a {
   background: #00000050;
@@ -187,6 +165,8 @@ z-nav a:hover {
 .use-layout main {
   align-self: flex-start;
 }
+
+/* GRID ASSIGNMENT CLASSES */
 .l-header {
   grid-area: hd;
 }

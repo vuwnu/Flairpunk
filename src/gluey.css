@@ -18,7 +18,7 @@
 
   --align-text: left;
 
-  /* Colors */
+  /* COLOR VARIABLES */
   --color-accent-1: cornflowerblue;
   --color-accent-2: blue;
   --color-accent-3: lightblue;
@@ -40,24 +40,23 @@
   --border-radius: 0px;
   --border-color: rgba(1,1,1,.3);
 
-  /* Scrollbar */
+  /* SCROLLBAR VARIABLES */
   --scrollbar-width: 5px;
   --scrollbar-track: #111;
   --scrollbar-handle: grey;
 
-  /* Selection */
+  /* SELECTION VARIABLES */
   --selection-background: lightblue;
   --selection-color: white;
 
   /* LAYOUT VARIABLES */
   --layout-grid-gap: 5px;
+  --layout-max-width: 1300px;
 
-  /* Page Width */
   --max-width: 1300px;
-  --responsive-font-size: 100%;
 
-  /* Fonts */
-  --font-size: 100%;
+  /* FONT VARIABLES */
+  --font-size: 14px;
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;
   --font-header: 'Open Sans', sans-serif;

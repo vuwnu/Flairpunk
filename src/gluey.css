@@ -700,16 +700,16 @@ header .logo {
   user-drag: none;
 }
 
-.overflow-auto {
+.overflow-auto, .of-auto {
   overflow: auto;
 }
-.overflow-hidden {
+.overflow-hidden, .of-hidden {
   overflow: hidden;
 }
-.overflow-scroll {
+.overflow-scroll, .of-scroll {
   overflow: scroll;
 }
-.overflow-visible {
+.overflow-visible, .of-visible {
   overflow: visible;
 }
 

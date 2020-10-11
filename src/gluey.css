@@ -403,6 +403,9 @@ z-nav a:hover {
 }
 
 /* Max-width */
+.w-max-50 {
+  max-width: 50px
+}
 .w-max-100 {
   max-width: 100px
 }
@@ -432,6 +435,9 @@ z-nav a:hover {
 }
 
 /* Min-width */
+.w-min-50 {
+  min-width: 50px
+}
 .w-min-100 {
   min-width: 100px
 }
@@ -494,6 +500,7 @@ z-nav a:hover {
 }
 
 /* Max-height */
+.h-max-50 {max-height: 50px}
 .h-max-100 {max-height: 100px}
 .h-max-200 {max-height: 200px}
 .h-max-300 {max-height: 300px}
@@ -505,6 +512,7 @@ z-nav a:hover {
 .h-max-900 {max-height: 900px}
 
 /* Min-height */
+.h-min-50 {min-height: 50px}
 .h-min-100 {min-height: 100px}
 .h-min-200 {min-height: 200px}
 .h-min-300 {min-height: 300px}
@@ -623,6 +631,7 @@ header .logo {
   text-align: justify;
 }
 
+/* Align only heading elements */
 .tac-h h1, .tac-h h2, .tac-h h3, .tac-h h4, .tac-h h5, .tac-h h6 {
   text-align: center;
 }

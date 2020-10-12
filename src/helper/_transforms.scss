@@ -1,0 +1,44 @@
+
+/* Filters */
+.placeholder {
+  filter: brightness(40%);
+}
+.filter-blur {
+  filter: blur(20%);
+}
+.filter-invert {
+  filter: invert(100%);
+}
+.filter-grayscale {
+  filter: grayscale(100%);
+}
+.filter-drop-shadow {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.filter-sepia {
+  filter: sepia(100%);
+}
+
+/* Transforms */
+.rotate {
+  --r: 0deg;
+  transform: rotate(var(--r));
+}
+.rotate-30 {
+  transform: rotate(30deg);
+}
+.rotate-60 {
+  transform: rotate(60deg);
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.rotate-120 {
+  transform: rotate(120deg);
+}
+.rotate-150 {
+  transform: rotate(150deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+}

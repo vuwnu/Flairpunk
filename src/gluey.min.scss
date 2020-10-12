@@ -2,30 +2,7 @@
 
 @import 'base/vars';
 @import 'base/breakpoints';
-
-/* Selection */
-::selection {
-  background: var(--selection-background, lightblue);
-  color: var(--selection-color, white);
-  text-shadow: none;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: var(--scrollbar-width);
-}
-::-webkit-scrollbar-track {
-  background: var(--scrollbar-track);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-handle);
-}
-
-/* Navbar */
-.current-page {
-  filter: brightness(80%) !important;
-}
-
+@import 'base/other';
 
 z-nav a {
   background: #00000050;
@@ -45,7 +22,6 @@ z-nav a:hover {
 }
 
 @import 'base/layout';
-
 @import 'base/components';
 
 // HELPER CLASSES

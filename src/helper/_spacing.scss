@@ -1,4 +1,6 @@
 
+// @include repeat-unit-classes-map($repeatable-slugs, 0, 10, px, 5);
+
 /* PADDING */
 .p {padding: var(--padding);}
 .p-0 {padding: 0;}

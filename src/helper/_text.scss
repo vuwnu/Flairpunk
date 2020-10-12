@@ -60,3 +60,11 @@
 .tdn {
   text-decoration: none;
 }
+
+/* Outline Text */
+.txt-outline {
+  --txt-outline-width: 1px;
+  --txt-outline-color: black;
+  -webkit-text-stroke-width: var(--tsw);
+  -webkit-text-stroke-color: var(--tsc);
+}

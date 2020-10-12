@@ -1,0 +1,39 @@
+// variables
+
+$l: left;
+$r: right;
+$t: top;
+$b: bottom;
+$pad: padding;
+$mar: margin;
+
+// map with keywords used to automate building of CSS class names and property names
+
+$repeatable-slugs: $pad $l, $pad $r, $pad $t, $pad $b, $mar $l, $mar $r, $mar $t, $mar $b;
+
+// helper functions
+
+@function add-unit-to-value($value, $unit){
+	@return if($value != 0, $value + $unit, 0);
+}
+
+@function increment($i, $increment, $unit){
+	@return add-unit-to-value(0 + ($i * $increment), $unit);
+}
+
+// class generator mixin
+
+@mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1){
+	@each $slug in $name-map {
+		$key: nth($slug, 1);
+		$value: nth($slug, 2);
+
+		/* #{$slug} */
+
+		@for $i from $start through $end {
+			.#{$key}-#{$i * $increment}-#{str-slice($value, 0, 1)} {
+				#{$key}-#{$value}: increment($i, $increment, $unit);
+			}
+		}
+	}
+}

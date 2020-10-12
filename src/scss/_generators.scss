@@ -31,7 +31,7 @@ $repeatable-slugs: $pad $l, $pad $r, $pad $t, $pad $b, $mar $l, $mar $r, $mar $t
 		/* #{$slug} */
 
 		@for $i from $start through $end {
-			.#{$key}-#{$i * $increment}-#{str-slice($value, 0, 1)} {
+			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}-#{$i * $increment} {
 				#{$key}-#{$value}: increment($i, $increment, $unit);
 			}
 		}

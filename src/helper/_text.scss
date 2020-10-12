@@ -1,0 +1,62 @@
+
+/* ######## ######## ##     ## ########
+/*    ##    ##        ##   ##     ##
+/*    ##    ##         ## ##      ##
+/*    ##    ######      ###       ##
+/*    ##    ##         ## ##      ##
+/*    ##    ##        ##   ##     ##
+/*    ##    ######## ##     ##    ##
+*/
+
+/* Align */
+.tal, .t-left {
+  text-align: left;
+}
+.tar, .t-right {
+  text-align: right;
+}
+.tac, .t-center {
+  text-align: center;
+}
+.taj, .t-justify {
+  text-align: justify;
+}
+
+/* Align only heading elements */
+.tac-h h1, .tac-h h2, .tac-h h3, .tac-h h4, .tac-h h5, .tac-h h6 {
+  text-align: center;
+}
+.tal-h h1, .tal-h h2, .tal-h h3, .tal-h h4, .tal-h h5, .tal-h h6 {
+  text-align: left;
+}
+.tar-h h1, .tar-h h2, .tar-h h3, .tar-h h4, .tar-h h5, .tar-h h6 {
+  text-align: right;
+}
+
+/* Transform */
+.ttu, .t-uppercase {
+  text-transform: uppercase;
+}
+.ttl, .t-lowercase {
+  text-transform: lowercase;
+}
+.ttc, .t-capitalise, .t-capitalize {
+  text-transform: capitalize;
+}
+.t-monospace {
+  font-family: monospace;
+}
+
+/* Decoration */
+.tdu, .underline {
+  text-decoration: underline;
+}
+.tdlt, .line-through {
+  text-decoration: line-through;
+}
+.tdo, .overline {
+  text-decoration: overline;
+}
+.tdn {
+  text-decoration: none;
+}

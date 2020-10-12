@@ -1,0 +1,48 @@
+
+/* FLEX */
+/* Flex Group */
+.flg-50 > * {flex: 1 1 50px}
+.flg-100 > * {flex: 1 1 100px}
+.flg-200 > * {flex: 1 1 200px}
+.flg-300 > * {flex: 1 1 300px}
+.flg-400 > * {flex: 1 1 400px}
+.flg-500 > * {flex: 1 1 500px}
+.flg-600 > * {flex: 1 1 600px}
+
+/* Flex Weights */
+.fl-20 {flex: 1 1 200px;}
+.fl-30 {flex: 1 1 300px;}
+.fl-40 {flex: 1 1 400px;}
+.fl-50 {flex: 1 1 500px;}
+.fl-60 {flex: 1 1 600px;}
+
+
+/* Flex Layout */
+.block-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+}
+
+/* Flex-flow */
+.row {
+  flex-flow: row wrap;
+  display: flex;
+}
+.column {
+  flex-flow: column wrap;
+  display: flex;
+}
+
+/* Justify Content */
+.space-between {
+  justify-content: space-between;
+}
+.center {
+  justify-content: center;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}

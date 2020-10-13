@@ -16,9 +16,12 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+// Box sizing fix
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
   line-height: normal;
   min-height: 100vh;
@@ -198,15 +201,18 @@ hr {
   border-top: 3px solid #ccc;
   margin: 1em 0;
   padding: 0;
-}
-hr.big {
-  border-top: 5px;
-}
-hr.small {
-  border-top: 1px;
-}
-hr.dashed {
-  border-top: dashed;
+
+  &.big {
+    border-top: 5px;
+  }
+
+  &.small {
+    border-top: 1px;
+  }
+
+  &.dashed {
+    border-top: dashed;
+  }
 }
 
 /* Navigation Bar */
@@ -215,22 +221,27 @@ nav {
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-}
-nav a {
-  flex: 1 0 50px;
-  transition: background-color .1s;
-  cursor:pointer;
-}
-nav a:hover {
-  background-color: #0000001f;
-}
-nav a:active {
-  background-color: #333;
+
+  a {
+    flex: 1 0 50px;
+    transition: background-color .1s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0000001f;
+    }
+
+    &:active {
+      background-color: #333;
+    }
+  }
 }
 
-ul.minimal {
-  padding: 0;
-  list-style: none;
+ul {
+  &.minimal {
+    padding: 0;
+    list-style: none;
+  }
 }
 
 code {

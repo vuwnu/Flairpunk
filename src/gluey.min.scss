@@ -1,15 +1,16 @@
 @charset 'UTF-8';
 
-@import 'scss/generators';
+@import "scss/variables";
+@import 'scss/functions';
+@import 'scss/mixins';
 
-@import 'base/vars';
+@import 'base/custom-variables';
 @import 'base/breakpoints';
 @import 'base/other';
 @import 'base/layout';
 @import 'base/components';
 @import 'base/elements';
 
-// HELPER CLASSES
 @import "helper/colors";
 @import 'helper/spacing';
 @import 'helper/sizing';

@@ -2,37 +2,120 @@
 @include repeat-unit-classes-map($repeatable-slugs, 0, 10, px, 5);
 
 /* PADDING */
-.p {padding: var(--padding);}
-.p-0 {padding: 0;}
-.p-5 {padding: 5px;}
-.p-10 {padding: 10px}
-.p-15 {padding: 15px}
-.p-20 {padding: 20px}
-/* X */
-.px-5 {padding: 0 5px}
-.px-10 {padding: 0 10px}
-.px-15 {padding: 0 15px}
-.px-20 {padding: 0 20px}
-/* Y */
-.py-5 {padding: 5px 0}
-.py-10 {padding: 10px 0}
-.py-15 {padding: 15px 0}
-.py-20 {padding: 20px 0}
 
-/* MARGIN */
-.m {margin: var(--margin);}
-.m-0 {margin: 0;}
-.m-5 {margin: 5px}
-.m-10 {margin: 10px}
-.m-15 {margin: 15px}
-.m-20 {margin: 20px}
+.p {
+  padding: var(--padding);
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
 /* X */
-.mx-5 {margin: 0 5px}
-.mx-10 {margin: 0 10px}
-.mx-15 {margin: 0 15px}
-.mx-20 {margin: 0 20px}
+
+.px-5 {
+  padding: 0 5px;
+}
+
+.px-10 {
+  padding: 0 10px;
+}
+
+.px-15 {
+  padding: 0 15px;
+}
+
+.px-20 {
+  padding: 0 20px;
+}
 /* Y */
-.my-5 {margin: 5px 0}
-.my-10 {margin: 10px 0}
-.my-15 {margin: 15px 0}
-.my-20 {margin: 20px 0}
+
+.py-5 {
+  padding: 5px 0;
+}
+
+.py-10 {
+  padding: 10px 0;
+}
+
+.py-15 {
+  padding: 15px 0;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+/* MARGIN */
+
+.m {
+  margin: var(--margin);
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+/* X */
+
+.mx-5 {
+  margin: 0 5px;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mx-15 {
+  margin: 0 15px;
+}
+
+.mx-20 {
+  margin: 0 20px;
+}
+/* Y */
+
+.my-5 {
+  margin: 5px 0;
+}
+
+.my-10 {
+  margin: 10px 0;
+}
+
+.my-15 {
+  margin: 15px 0;
+}
+
+.my-20 {
+  margin: 20px 0;
+}

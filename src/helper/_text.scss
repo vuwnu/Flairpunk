@@ -22,6 +22,14 @@
   text-align: justify;
 }
 
+// Text Size
+.ts-smaller {
+  font-size: smaller;
+}
+.ts-larger {
+  font-size: larger;
+}
+
 /* Align only heading elements */
 .tac-h h1, .tac-h h2, .tac-h h3, .tac-h h4, .tac-h h5, .tac-h h6 {
   text-align: center;

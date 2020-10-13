@@ -1,0 +1,9 @@
+// helper functions
+
+@function add-unit-to-value($value, $unit){
+	@return if($value != 0, $value + $unit, 0);
+}
+
+@function increment($i, $increment, $unit){
+	@return add-unit-to-value(0 + ($i * $increment), $unit);
+}

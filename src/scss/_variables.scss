@@ -1,0 +1,12 @@
+// SCSS VARIABLES
+
+$l: left;
+$r: right;
+$t: top;
+$b: bottom;
+$pad: padding;
+$mar: margin;
+
+// GENERATOR MAPS
+
+$repeatable-slugs: $pad $l, $pad $r, $pad $t, $pad $b, $mar $l, $mar $r, $mar $t, $mar $b;

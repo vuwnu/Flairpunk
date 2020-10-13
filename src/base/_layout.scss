@@ -12,9 +12,10 @@
 .use-layout {
   display: grid;
   grid-gap: var(--layout-grid-gap);
-}
-.use-layout main {
-  align-self: flex-start;
+
+  main {
+    align-self: flex-start;
+  }
 }
 
 /* GRID ASSIGNMENT CLASSES */

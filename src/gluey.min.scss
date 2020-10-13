@@ -1,20 +1,24 @@
 @charset 'UTF-8';
 
-@import "scss/variables";
-@import 'scss/functions';
-@import 'scss/mixins';
+// SETTINGS
+@import "settings/variables";
+@import 'settings/custom-variables';
 
-@import 'base/custom-variables';
+// TOOLS
+@import 'tools/functions';
+@import 'tools/mixins';
+
 @import 'base/breakpoints';
 @import 'base/other';
 @import 'base/layout';
 @import 'base/components';
 @import 'base/elements';
 
-@import "helper/colors";
-@import 'helper/spacing';
-@import 'helper/sizing';
-@import 'helper/flex';
-@import 'helper/misc';
-@import 'helper/text';
-@import 'helper/transforms';
+// UTILITIES
+@import "utilities/colors";
+@import 'utilities/spacing';
+@import 'utilities/sizing';
+@import 'utilities/flex';
+@import 'utilities/misc';
+@import 'utilities/text';
+@import 'utilities/transforms';

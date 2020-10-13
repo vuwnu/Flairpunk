@@ -17,3 +17,17 @@
 		}
 	}
 }
+
+@mixin color-class-generator($name-map, $start, $end, $unit, $increment: 1){
+	@each $color in $name-map {
+		$col: nth($slug, 1);
+
+		/* #{$slug} */
+
+		@for $i from $start through $end {
+			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}-#{$i * $increment} {
+				#{$key}-#{$value}: increment($i, $increment, $unit);
+			}
+		}
+	}
+}

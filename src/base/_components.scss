@@ -55,19 +55,22 @@
 }
 
 /* Navbar */
-z-nav a {
-  background: #00000050;
-  border: 1px solid rgba(1,1,1,.3);
-  border-right: 0;
-  padding: 10px;
-  margin:0;
-}
-z-nav a:first-of-type {
-  border-right: 1px solid rgba(1,1,1,.3);
-}
 z-nav {
   margin: 5px;
-}
-z-nav a:hover {
-  background: var(--color-main-2);
+
+  a {
+    background: #00000050;
+    border: 1px solid rgba(1,1,1,.3);
+    border-left: 0;
+    padding: 10px;
+    margin:0;
+
+    &:first-of-type {
+      border-left: 1px solid rgba(1,1,1,.3);
+    }
+
+    &:hover {
+      background: var(--color-main-2);
+    }
+  }
 }

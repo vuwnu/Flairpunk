@@ -3,16 +3,21 @@
 // SETTINGS
 @import "settings/variables";
 @import 'settings/custom-variables';
+@import 'settings/breakpoints';
 
 // TOOLS
 @import 'tools/functions';
 @import 'tools/mixins';
 
-@import 'base/breakpoints';
-@import 'base/other';
-@import 'base/layout';
-@import 'base/components';
-@import 'base/elements';
+// OBJECTS
+@import 'objects/layout';
+
+// COMPONENTS
+@import 'components/components';
+
+// ELEMENTS
+@import 'elements/elements';
+@import 'elements/other';
 
 // UTILITIES
 @import "utilities/colors";

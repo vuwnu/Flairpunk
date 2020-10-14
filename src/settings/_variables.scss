@@ -11,7 +11,8 @@ $h: height;
 
 // GENERATOR MAPS
 
-$repeatable-types: $pad $l, $pad $r, $pad $t, $pad $b, $mar $l, $mar $r, $mar $t, $mar $b;
+$padding-types: $pad $l, $pad $r, $pad $t, $pad $b;
+$margin-types: $mar $l, $mar $r, $mar $t, $mar $b;
 
 $color-types: (
 "aquamarine": #84FFC7,
@@ -22,7 +23,7 @@ $color-types: (
 "blue": blue,
 "dark-blue": #4078C0,
 "pink": pink,
-"gray": #8f8f8f,
+"gray": #8F8F8F,
 "green": green,
 "orange": #F96854,
 "purple": #6441A4,

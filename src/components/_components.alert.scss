@@ -1,0 +1,19 @@
+// Alert
+
+.alert {
+  padding: var(--padding);
+  margin: var(--margin);
+
+  &--danger {
+    background: red;
+  }
+
+  &--warning {
+    background: yellow;
+  }
+
+  &--info {
+    background: blue;
+  }
+
+}

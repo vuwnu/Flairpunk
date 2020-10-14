@@ -1,0 +1,10 @@
+// Container
+
+.con, .container {
+  border: var(--border-thickness) var(--border-type) var(--border-color);
+  border-radius: var(--border-radius);
+  background: #00000050;
+
+  padding: 20px;
+  margin: 5px;
+}

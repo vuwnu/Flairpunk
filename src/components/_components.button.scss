@@ -1,0 +1,33 @@
+// Button
+
+.btn, .button {
+  color: var(--color-accent-1);
+  background: var(--color-main-2);
+
+  border: var(--border-thickness) var(--border-type) var(--border-color);
+  border-radius: var(--border-radius);
+
+  margin: var(--margin);
+  padding: var(--padding);
+  display: inline-block;
+  flex: 1 1;
+
+  &:hover {
+    filter: brightness(150%);
+  }
+
+  &.lg {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.sm {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.square {
+    width: 20px;
+    height: 20px;
+  }
+}

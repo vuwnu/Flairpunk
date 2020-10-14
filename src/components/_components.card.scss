@@ -1,0 +1,15 @@
+// Card
+
+.card {
+  width: 5rem;
+  padding: 10px;
+  margin: 5px;
+
+  & &--title {
+    padding: 5px;
+  }
+
+  & &--text {
+    padding: 5px;
+  }
+}

@@ -1,16 +1,10 @@
+// COLOR
 
-/* COLOR CLASSES */
-.black { color: black; }
-.blue { color: #55acee; }
-.darkblue { color: #4078c0; }
-.dimgrey { color: dimgrey; }
-.green { color: green; }
+@each $name, $hex in $color-types {
+  .color-#{$name} {
+    color: $hex;
+  }
+}
+
 .instagram { color: #55acee; }
-.magenta { color: magenta; }
-.orange { color: #f96854; }
-.purple { color: #6441a4; }
-.pink { color: pink; }
-.red { color: #f00; }
 .spotify { color: #1ed761; }
-.white { color: white; }
-.whitesmoke { color: whitesmoke; }

@@ -13,6 +13,25 @@ $h: height;
 
 $repeatable-types: $pad $l, $pad $r, $pad $t, $pad $b, $mar $l, $mar $r, $mar $t, $mar $b;
 
-$color-types: white, black, green, blue, red;
+$color-types: (
+"aquamarine": #84FFC7,
+"apple": #4EA334,
+"white": #111111,
+"black": #000000,
+"red": red,
+"blue": blue,
+"dark-blue": #4078C0,
+"pink": pink,
+"gray": #8f8f8f,
+"green": green,
+"orange": #F96854,
+"purple": #6441A4,
+"magenta": magenta,
+"bright-green": #5DFF00,
+"dusty-gray": #999999,
+"silver": #BFBFBF,
+"mercury": #E5E5E5,
+"dove-gray": #727272,
+"sapphire": #344EA3);
 
 $display-types: block, flex, inline, inline-block, grid, contents, none;

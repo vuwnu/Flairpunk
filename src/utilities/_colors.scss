@@ -6,5 +6,13 @@
   }
 }
 
+@each $name, $hex in $color-types {
+  .color-bg-#{$name} {
+    background-color: $hex;
+  }
+}
+
+// SOCIAL MEDIA
+
 .instagram { color: #55acee; }
 .spotify { color: #1ed761; }

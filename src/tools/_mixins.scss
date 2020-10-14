@@ -1,8 +1,6 @@
-// map with keywords used to automate building of CSS class names and property names
-
-
-// CLASS GENERATOR
-
+//
+												// CLASS GENERATORS
+//
 @mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1){
 	@each $slug in $name-map {
 		$key: nth($slug, 1);
@@ -28,6 +26,15 @@
 			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}-#{$i * $increment} {
 				#{$key}-#{$value}: increment($i, $increment, $unit);
 			}
+		}
+	}
+}
+
+// Display Class Generator
+@mixin display-classes($name-map, $namespace){
+	@each $type in $name-map {
+		.#{$namespace}-#{$type} {
+	        display: #{$type};
 		}
 	}
 }

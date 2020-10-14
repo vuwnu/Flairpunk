@@ -11,8 +11,8 @@ $h: height;
 
 // GENERATOR MAPS
 
-$repeatable-slugs: $pad $l, $pad $r, $pad $t, $pad $b, $mar $l, $mar $r, $mar $t, $mar $b;
+$repeatable-types: $pad $l, $pad $r, $pad $t, $pad $b, $mar $l, $mar $r, $mar $t, $mar $b;
 
-$color-slugs: white, black, green, blue, red;
+$color-types: white, black, green, blue, red;
 
-$display-types: block, flex, inline, inline-block, grid, none;
+$display-types: block, flex, inline, inline-block, grid, contents, none;

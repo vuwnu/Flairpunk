@@ -2,11 +2,11 @@
 												// CLASS GENERATORS
 //
 @mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1){
-	@each $slug in $name-map {
-		$key: nth($slug, 1);
-		$value: nth($slug, 2);
+	@each $type in $name-map {
+		$key: nth($type, 1);
+		$value: nth($type, 2);
 
-		/* #{$slug} */
+		/* #{$type} */
 
 		@for $i from $start through $end {
 			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}-#{$i * $increment} {
@@ -18,9 +18,9 @@
 
 @mixin color-class-generator($name-map, $start, $end, $unit, $increment: 1){
 	@each $color in $name-map {
-		$col: nth($slug, 1);
+		$col: nth($type, 1);
 
-		/* #{$slug} */
+		/* #{$type} */
 
 		@for $i from $start through $end {
 			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}-#{$i * $increment} {

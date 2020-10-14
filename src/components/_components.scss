@@ -35,9 +35,10 @@
   padding: var(--padding);
   display: inline-block;
   flex: 1 1;
-}
-.btn:hover {
-  filter: brightness(150%);
+  
+  &:hover {
+    filter: brightness(150%);
+  }
 }
 
 .btn.lg {

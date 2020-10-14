@@ -1,23 +1,10 @@
 /* WIDTH */
 
 /* Exact Widths */
-.w-25 {
-  width: 2.5rem;
-}
-.w-50 {
-  width: 5rem;
-}
-.w-100 {
-  width: 10rem;
-}
-.w-200 {
-  width: 20rem;
-}
-.w-300 {
-  width: 30rem;
-}
-.w-400 {
-  width: 40rem;
+@for $i from 1 through 10 {
+  .w-#{$i * 50} {
+    width: (5 * $i) * 1rem;
+  }
 }
 
 /* Relative Widths */
@@ -98,23 +85,10 @@
 /* HEIGHT */
 
 /* Exact Heights */
-.h-25 {
-  height: 2.5rem;
-}
-.h-50 {
-  height: 5rem;
-}
-.h-100 {
-  height: 10rem;
-}
-.h-200 {
-  height: 20rem;
-}
-.h-300 {
-  height: 30rem;
-}
-.h-400 {
-  height: 40rem;
+@for $i from 1 through 10 {
+  .h-#{$i * 50} {
+    height: (5 * $i) * 1rem;
+  }
 }
 
 /* Relative Heights */

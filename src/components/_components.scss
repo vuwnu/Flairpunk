@@ -35,25 +35,27 @@
   padding: var(--padding);
   display: inline-block;
   flex: 1 1;
-  
+
   &:hover {
     filter: brightness(150%);
   }
+
+  &.lg {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.sm {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.square {
+    width: 20px;
+    height: 20px;
+  }
 }
 
-.btn.lg {
-  width: 20px;
-  height: 20px;
-}
-.btn.sm {
-  width: 20px;
-  height: 20px;
-}
-
-.btn.square {
-  width: 20px;
-  height: 20px;
-}
 
 /* Navbar */
 z-nav {

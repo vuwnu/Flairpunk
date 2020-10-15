@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+// This is a simpler version of the framework with certain features stripped out
+
+// SETTINGS
+@import "settings/variables";
+@import 'settings/custom-variables';
+@import 'settings/breakpoints';
+
+// TOOLS
+@import 'tools/functions';
+@import 'tools/mixins';
+
+// OBJECTS
+@import 'objects/layout';
+
+// ABSTRACT
+@import 'abstract/abstract.fixes';
+
+// COMPONENTS
+@import 'components/components.button';
+@import 'components/components.container';
+@import 'components/components.card';
+@import 'components/components.alert';
+
+// ELEMENTS
+@import 'elements/elements';
+@import 'elements/other';
+
+// UTILITIES
+@import "utilities/colors";
+@import 'utilities/spacing';
+@import 'utilities/sizing';
+@import 'utilities/flex';
+@import 'utilities/misc';
+@import 'utilities/text';
+@import 'utilities/transforms';

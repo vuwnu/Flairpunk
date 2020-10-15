@@ -1,0 +1,185 @@
+/* Animation Keyframes */
+/* Slide In */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    visibility: visible;
+  }
+  50% {
+    visibility: hidden;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    color: orange;
+  }
+
+  20% {
+    color: red;
+  }
+
+  40% {
+    color: yellow;
+  }
+
+  60% {
+    color: green;
+  }
+
+  80% {
+    color: DeepPink;
+  }
+
+  100% {
+    color: orange;
+  }
+}
+
+@-webkit-keyframes slide-in-bottom {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-bottom {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-top {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-top {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-back {
+  from {
+    transform: scale(.8);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(1);
+    opacity: 1;
+  }
+}
+
+[anim^='rotate-right-360'] {
+  animation-name: rotate-right-360;
+}
+
+@keyframes rotate-right-360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-left-360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes dance {
+  0% {
+    transform: scaleX(1) translate(0, 0px);
+  }
+
+  1% {
+    transform: scaleX(-1) translate(0, 20px);
+  }
+
+  40% {
+    transform: scaleX(-1) translate(0, 20px);
+  }
+
+  41% {
+    transform: scaleX(1) translate(0, 0px);
+  }
+
+  80% {
+    transform: scaleX(1) translate(0, 0px);
+  }
+
+  81% {
+    transform: scaleX(1) translate(0, 20px);
+  }
+
+  100% {
+    transform: scaleX(1) translate(0, 20px);
+  }
+}
+
+.marquee {
+  background-color: black;
+  color: lime;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee div {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+}

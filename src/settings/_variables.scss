@@ -45,3 +45,9 @@ $color-types: (
 "sapphire": #344EA3);
 
 $display-types: block, flex, inline, inline-block, grid, contents, none;
+
+// Anim Variables
+
+$anim-timing-types: linear, ease, ease-in, ease-out, ease-in-out;
+
+$anim-direction-types: normal, reverse, alternate, alternate-reverse;

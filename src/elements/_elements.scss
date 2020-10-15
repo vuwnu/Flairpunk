@@ -208,28 +208,6 @@ hr {
   }
 }
 
-/* Navigation Bar */
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  width: 100%;
-
-  a {
-    flex: 1 0 50px;
-    transition: background-color .1s;
-    cursor: pointer;
-
-    &:hover {
-      background-color: #0000001f;
-    }
-
-    &:active {
-      background-color: #333;
-    }
-  }
-}
-
 /* Navbar */
 z-nav {
   margin: 5px;
@@ -251,6 +229,27 @@ z-nav {
   }
 }
 
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+
+  a {
+    flex: 1 0 50px;
+    transition: background-color .1s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0000001f;
+    }
+
+    &:active {
+      background-color: #333;
+    }
+  }
+}
 
 ul {
   &.minimal {

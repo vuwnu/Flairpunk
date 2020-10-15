@@ -1,0 +1,4 @@
+// Removes border around elements with contenteditable toggled on
+[contenteditable] {
+  outline: 0px solid transparent;
+}

@@ -48,6 +48,8 @@ $display-types: block, flex, inline, inline-block, grid, contents, none;
 
 // Anim Variables
 
+$anim-name-types: rainbow, blink, fade-in, rotate-right-360, rotate-left-360, slide-in-back, slide-in-top, slide-in-bottom, marquee, dance,;
+
 $anim-timing-types: linear, ease, ease-in, ease-out, ease-in-out;
 
 $anim-direction-types: normal, reverse, alternate, alternate-reverse;

@@ -19,41 +19,7 @@
 
 // Names
 
-[anim^='rotate-left-360'] {
-  animation-name: rotate-left-360;
-}
-
-[anim^='slide-in-back'] {
-  animation-name: slide-in-back;
-}
-
-[anim^='slide-in-top'] {
-  animation-name: slide-in-top;
-}
-
-[anim^='slide-in-bottom'] {
-  animation-name: slide-in-bottom;
-}
-
-[anim^='marquee'] {
-  animation-name: marquee;
-}
-
-[anim^='dance'] {
-  animation-name: dance;
-}
-
-[anim^='fade-in'] {
-  animation-name: fade-in;
-}
-
-[anim^='blink'] {
-  animation-name: blink;
-}
-
-[anim^='rainbow'] {
-  animation-name: rainbow;
-}
+@include anim-name-classes($anim-name-types, animation-name);
 
 // Timing
 

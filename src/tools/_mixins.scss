@@ -32,3 +32,11 @@
 		}
 	}
 }
+
+@mixin anim-name-classes($name-map, $property){
+	@each $type in $name-map {
+		[anim^=#{$type}] {
+	        #{$property}: #{$type};
+		}
+	}
+}

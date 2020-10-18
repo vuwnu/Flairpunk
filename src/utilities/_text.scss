@@ -1,12 +1,4 @@
-
-/* ######## ######## ##     ## ########
-/*    ##    ##        ##   ##     ##
-/*    ##    ##         ## ##      ##
-/*    ##    ######      ###       ##
-/*    ##    ##         ## ##      ##
-/*    ##    ##        ##   ##     ##
-/*    ##    ######## ##     ##    ##
-*/
+// TEXT
 
 // Align Text
 .tal, .t-left {
@@ -58,7 +50,7 @@
   font-weight: 700;
 }
 
-/* Transform */
+// Transform
 .ttu, .t-uppercase {
   text-transform: uppercase;
 }
@@ -86,7 +78,7 @@
   text-decoration: none;
 }
 
-/* Outline Text */
+// Outline Text
 .t-outline {
   --txt-outline-width: 1px;
   --txt-outline-color: black;

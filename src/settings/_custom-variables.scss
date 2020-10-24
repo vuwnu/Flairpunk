@@ -2,11 +2,12 @@
 :root {
 
   // These are the custom variables that the end user can alter to customise the look of their site
-  //
-  //
+
+  //// GLOBAL VARIABLES
 
   // SIZING VARIABLES
   // Margin and Padding variables for giving an even size across site
+  
   --margin: 5px;
   --padding: 5px;
 
@@ -27,7 +28,7 @@
 
   --background: #111;
 
-  // COMPONENT VARIABLES
+  //// COMPONENT VARIABLES
   // These variables are for altering the default settings of components
 
   // BUTTONS

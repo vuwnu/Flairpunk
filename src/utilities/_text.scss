@@ -1,4 +1,5 @@
 // TEXT
+// All classes made for manipulating the appearance of text
 
 // Align Text
 .tal, .t-left {
@@ -37,6 +38,18 @@
 }
 .ts-larger {
   font-size: larger;
+}
+.ts-sm {
+  font-size: .5rem;
+}
+.ts-md {
+  font-size: 1.5rem;
+}
+.ts-lg {
+  font-size: 3rem;
+}
+.ts-xl {
+  font-size: 5rem;
 }
 
 // Text Weight

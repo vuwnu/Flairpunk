@@ -36,13 +36,22 @@
   display: flex;
 }
 
-/* Justify Content */
-.space-between {
-  justify-content: space-between;
-}
+// Justify Content
 .center {
   justify-content: center;
 }
+.space-between {
+  justify-content: space-between;
+}
 .space-evenly {
   justify-content: space-evenly;
+}
+.space-around {
+  justify-content: space-around;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-start {
+  justify-content: flex-start;
 }

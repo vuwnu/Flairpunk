@@ -3,11 +3,15 @@
 @include repeat-unit-classes-map($padding-types, 0, 10, px, 5);
 
 .p { padding: var(--padding); }
+
 .p-0 { padding: 0; }
 .p-5 { padding: 5px; }
 .p-10 { padding: 10px; }
 .p-15 { padding: 15px; }
 .p-20 { padding: 20px; }
+.p-25 { padding: 25px; }
+.p-30 { padding: 30px; }
+.p-35 { padding: 35px; }
 
 /* X */
 
@@ -28,11 +32,15 @@
 @include repeat-unit-classes-map($margin-types, 0, 10, px, 5);
 
 .m { margin: var(--margin); }
+
 .m-0 { margin: 0; }
 .m-5 { margin: 5px; }
 .m-10 { margin: 10px; }
 .m-15 { margin: 15px; }
 .m-20 { margin: 20px; }
+.m-25 { margin: 25px; }
+.m-30 { margin: 30px; }
+.m-35 { margin: 35px; }
 
 /* X */
 

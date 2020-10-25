@@ -1,6 +1,4 @@
-//
-                                          // WIDTH
-//
+// WIDTH
 
 /* Exact Widths */
 @for $i from 1 through 10 {
@@ -16,8 +14,14 @@
 .w-half {
   width: 50%;
 }
+.w-third {
+  width: 33%;
+}
 .w-quarter {
   width: 25%;
+}
+.w-tenth {
+  width: 10%;
 }
 
 /* Max-width */
@@ -34,9 +38,9 @@
   }
 }
 
-//
-                                          // HEIGHT
-//
+
+// HEIGHT
+
 
 /* Exact Heights */
 @for $i from 1 through 10 {
@@ -52,8 +56,14 @@
 .h-half {
   height: 50%;
 }
+.h-third {
+  height: 33%;
+}
 .h-quarter {
   height: 25%;
+}
+.h-tenth {
+  height: 10%;
 }
 
 /* Max-height */

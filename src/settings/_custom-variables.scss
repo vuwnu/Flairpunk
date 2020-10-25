@@ -7,7 +7,7 @@
 
   // SIZING VARIABLES
   // Margin and Padding variables for giving an even size across site
-  
+
   --margin: 5px;
   --padding: 5px;
 
@@ -28,25 +28,12 @@
 
   --background: #111;
 
-  //// COMPONENT VARIABLES
-  // These variables are for altering the default settings of components
-
-  // BUTTONS
-  --button-border: 1px solid rgba(1,1,1,.3);
-  --button-padding: 5px;
-  --button-margin: 5px;
-
-  // CONTAINERS
-  --container-border: 1px solid rgba(1,1,1,.3);
-
-  // ALERTS
-
   // BORDER
   --border-type: solid;
   --border-thickness: 1px;
   --border-radius: 0px;
   --border-color: rgba(1,1,1,.3);
-
+  
   // SCROLLBAR VARIABLES
   --scrollbar-width: 5px;
   --scrollbar-track: #111;
@@ -67,4 +54,23 @@
   --font-secondary: 'Open Sans', sans-serif;
   --font-header: 'Open Sans', sans-serif;
   --font-logo: 'Open Sans', sans-serif;
+
+  //// COMPONENT VARIABLES
+
+  // These variables are for altering the default settings of components
+
+  // BUTTONS
+  --button-border: 1px solid rgba(1,1,1,.3);
+  --button-padding: 5px;
+  --button-margin: 5px;
+
+  // CONTAINERS
+  --container-border: 1px solid rgba(1,1,1,.3);
+  --container-padding: 5px;
+  --container-margin: 5px;
+
+  // ALERTS
+  --alerts-border: 1px solid;
+  --alerts-padding: 5px;
+  --alerts-margin: 5px;
 }

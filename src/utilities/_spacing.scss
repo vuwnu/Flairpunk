@@ -1,57 +1,59 @@
 // PADDING
 
+.p { padding: var(--padding); }
+.p-0 { padding: 0; }
+
 @include repeat-unit-classes-map($padding-types, 0, 10, px, 5);
 
-.p { padding: var(--padding); }
+@for $i from 1 through 10 {
+  .p-#{$i * 5} {
+    padding: (5 * $i)px;
+  }
+}
 
-.p-0 { padding: 0; }
-.p-5 { padding: 5px; }
-.p-10 { padding: 10px; }
-.p-15 { padding: 15px; }
-.p-20 { padding: 20px; }
-.p-25 { padding: 25px; }
-.p-30 { padding: 30px; }
-.p-35 { padding: 35px; }
+// X
 
-/* X */
+@for $i from 1 through 10 {
+  .px-#{$i * 5} {
+    padding: 0 (5 * $i)px;
+  }
+}
 
-.px-5 { padding: 0 5px; }
-.px-10 { padding: 0 10px; }
-.px-15 { padding: 0 15px; }
-.px-20 { padding: 0 20px; }
+// Y
 
-/* Y */
+@for $i from 1 through 10 {
+  .py-#{$i * 5} {
+    padding: (5 * $i)px 0;
+  }
+}
 
-.py-5 { padding: 5px 0; }
-.py-10 { padding: 10px 0; }
-.py-15 { padding: 15px 0; }
-.py-20 { padding: 20px 0; }
 
 // MARGIN
 
-@include repeat-unit-classes-map($margin-types, 0, 10, px, 5);
 
 .m { margin: var(--margin); }
-
 .m-0 { margin: 0; }
-.m-5 { margin: 5px; }
-.m-10 { margin: 10px; }
-.m-15 { margin: 15px; }
-.m-20 { margin: 20px; }
-.m-25 { margin: 25px; }
-.m-30 { margin: 30px; }
-.m-35 { margin: 35px; }
 
-/* X */
+@include repeat-unit-classes-map($margin-types, 0, 10, px, 5);
 
-.mx-5 { margin: 0 5px; }
-.mx-10 { margin: 0 10px; }
-.mx-15 { margin: 0 15px; }
-.mx-20 { margin: 0 20px; }
+@for $i from 1 through 10 {
+  .m-#{$i * 5} {
+    margin: (5 * $i)mx;
+  }
+}
 
-/* Y */
+// X
 
-.my-5 { margin: 5px 0; }
-.my-10 { margin: 10px 0; }
-.my-15 { margin: 15px 0; }
-.my-20 { margin: 20px 0; }
+@for $i from 1 through 10 {
+  .mx-#{$i * 5} {
+    margin: 0 (5 * $i)mx;
+  }
+}
+
+// Y
+
+@for $i from 1 through 10 {
+  .my-#{$i * 5} {
+    margin: (5 * $i)mx 0;
+  }
+}

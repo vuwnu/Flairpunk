@@ -24,3 +24,7 @@
   --font-header: 'Open Sans', sans-serif;
   --font-logo: 'Pacifico', cursive;
 }
+
+.con {
+  flex: 1 1;
+}

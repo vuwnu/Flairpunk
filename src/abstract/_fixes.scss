@@ -2,3 +2,8 @@
 [contenteditable]:focus {
   outline: none;
 }
+
+// Box sizing fix
+*, *:before, *:after {
+  box-sizing: inherit;
+}

@@ -1,6 +1,5 @@
-//
-												// CLASS GENERATORS
-//
+// CLASS GENERATORS
+
 @mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1){
 	@each $type in $name-map {
 		$key: nth($type, 1);

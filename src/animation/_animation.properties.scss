@@ -31,63 +31,26 @@
 
 // Durations
 
-[anim~="dur:.5s"] {
-  animation-duration: .5s;
+@for $i from 1 through 10 {
+  [anim~="dur:#{$i/2}"] {
+    animation-duration: #{$i/2}s;
+  }
 }
 
-[anim~="dur:1s"] {
-  animation-duration: 1s;
-}
+// Delays
 
-[anim~="dur:2s"] {
-  animation-duration: 2s;
-}
-
-[anim~="dur:3s"] {
-  animation-duration: 3s;
-}
-
-[anim~="dur:4s"] {
-  animation-duration: 4s;
-}
-
-/* Delays */
-[anim~="del:.5s"] {
-  animation-delay: .5s;
-}
-
-[anim~="del:1s"] {
-  animation-delay: 1s;
-}
-
-[anim~="del:2s"] {
-  animation-delay: 2s;
-}
-
-[anim~="del:3s"] {
-  animation-delay: 3s;
-}
-
-[anim~="del:4s"] {
-  animation-delay: 4s;
+@for $i from 1 through 10 {
+  [anim~="del:#{$i/2}"] {
+    animation-delay: #{$i/2}s;
+  }
 }
 
 // Iteration
 
-[anim~='play:1'] {
-  animation-iteration-count: 1;
-}
-
-[anim~='play:2'] {
-  animation-iteration-count: 2;
-}
-
-[anim~='play:3'] {
-  animation-iteration-count: 3;
-}
-
-[anim~='play:4'] {
-  animation-iteration-count: 4;
+@for $i from 1 through 10 {
+  [anim~="play:#{$i}"] {
+    animation-iteration-count: #{$i};
+  }
 }
 
 [anim~='infinite'] {

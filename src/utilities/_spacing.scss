@@ -1,4 +1,4 @@
-// PADDING
+/// PADDING
 
 .p { padding: var(--padding); }
 .p-0 { padding: 0; }
@@ -6,30 +6,28 @@
 @include repeat-unit-classes-map($padding-types, 0, 10, px, 5);
 
 @for $i from 1 through 10 {
-  .p-#{$i * 5} {
-    padding: (5 * $i)px;
+  .p-#{$i*5} {
+    padding: #{5*$i}px;
   }
 }
 
 // X
 
 @for $i from 1 through 10 {
-  .px-#{$i * 5} {
-    padding: 0 (5 * $i)px;
+  .px-#{$i*5} {
+    padding: 0 #{5*$i}px;
   }
 }
 
 // Y
 
 @for $i from 1 through 10 {
-  .py-#{$i * 5} {
-    padding: (5 * $i)px 0;
+  .py-#{$i*5} {
+    padding: #{5*$i}px 0;
   }
 }
 
-
-// MARGIN
-
+/// MARGIN
 
 .m { margin: var(--margin); }
 .m-0 { margin: 0; }
@@ -37,23 +35,23 @@
 @include repeat-unit-classes-map($margin-types, 0, 10, px, 5);
 
 @for $i from 1 through 10 {
-  .m-#{$i * 5} {
-    margin: (5 * $i)mx;
+  .m-#{$i*5} {
+    margin: #{5*$i}px;
   }
 }
 
 // X
 
 @for $i from 1 through 10 {
-  .mx-#{$i * 5} {
-    margin: 0 (5 * $i)mx;
+  .mx-#{$i*5} {
+    margin: 0 #{5*$i}px;
   }
 }
 
 // Y
 
 @for $i from 1 through 10 {
-  .my-#{$i * 5} {
-    margin: (5 * $i)mx 0;
+  .my-#{$i*5} {
+    margin: #{5*$i}px 0;
   }
 }

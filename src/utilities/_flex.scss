@@ -16,6 +16,17 @@
 .flg-500 > * {flex-basis: 500px}
 .flg-600 > * {flex-basis: 600px}
 
+@for $i from 1 through 20 {
+
+  .fb\:#{$i*50} {
+    flex-basis: #{$i*50}px;
+  }
+
+  .c--fb\:#{$i*50} > * {
+    flex-basis: #{$i*50}px;
+  }
+
+}
 
 /* Flex-flow */
 .row {

@@ -38,6 +38,17 @@
   display: flex;
 }
 
+// Flex Wrap
+.fw\:wrap {
+  flex-wrap: wrap;
+}
+.fw\:none {
+  flex-wrap: nowrap;
+}
+.fw\:reverse {
+  flex-wrap: wrap-reverse;
+}
+
 // Justify Content
 .center {
   justify-content: center;

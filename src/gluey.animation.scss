@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+// FULL VERSION
+// This is the full version of the framework that has everything included
+
+// SETTINGS
+@import "settings/variables";
+@import 'settings/custom-variables';
+@import 'settings/breakpoints';
+
+// TOOLS
+@import 'tools/functions';
+@import 'tools/mixins';
+
+// ANIMATION
+@import 'animation/animation.keyframes';
+@import 'animation/animation.properties';

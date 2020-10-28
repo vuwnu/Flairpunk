@@ -2,6 +2,7 @@
 :root {
   --padding: 10px;
   --margin: 10px;
+  --layout-grid-gap: 0;
 
   --color-accent-1: cornflowerblue;
   --color-accent-2: rgba(171, 76, 239, 0.5);

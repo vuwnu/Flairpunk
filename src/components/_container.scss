@@ -1,14 +1,19 @@
 // Container
 
-.con, .container {
+.container {
   border: var(--border-thickness) var(--border-type) var(--border-color);
   border-radius: var(--border-radius);
   background: #00000050;
 
-  padding: 20px;
-  margin: 5px;
+  padding: var(--container-padding);
+  margin: var(--container-margin);
 
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
+
+  &--small {
+    padding: calc(var(--container-padding) / 2);
+    margin: calc(var(--container-margin) / 2);
+  }
 }

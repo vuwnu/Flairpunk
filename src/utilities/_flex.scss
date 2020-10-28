@@ -1,12 +1,5 @@
 // FLEX
 
-// Flex Basis
-.fl-20 {flex-basis: 200px;}
-.fl-30 {flex-basis: 300px;}
-.fl-40 {flex-basis: 400px;}
-.fl-50 {flex-basis: 500px;}
-.fl-60 {flex-basis: 600px;}
-
 // Flex Basis Groups
 .flg-50 > * {flex-basis: 50px}
 .flg-100 > * {flex-basis: 100px}
@@ -16,13 +9,24 @@
 .flg-500 > * {flex-basis: 500px}
 .flg-600 > * {flex-basis: 600px}
 
+// Flex Basis
+.fl-20 {flex-basis: 200px;}
+.fl-30 {flex-basis: 300px;}
+.fl-40 {flex-basis: 400px;}
+.fl-50 {flex-basis: 500px;}
+.fl-60 {flex-basis: 600px;}
+
 @for $i from 1 through 20 {
 
-  .fb\:#{$i*50} {
+  .c--fb\:#{$i*50} > * {
     flex-basis: #{$i*50}px;
   }
 
-  .c--fb\:#{$i*50} > * {
+}
+
+@for $i from 1 through 20 {
+
+  .fb\:#{$i*50} {
     flex-basis: #{$i*50}px;
   }
 
@@ -64,21 +68,21 @@
 }
 
 // Justify Content
-.center {
+.jc\:center {
   justify-content: center;
 }
-.space-between {
+.jc\:space_between {
   justify-content: space-between;
 }
-.space-evenly {
+.jc\:space_evenly {
   justify-content: space-evenly;
 }
-.space-around {
+.jc\:space_around {
   justify-content: space-around;
 }
-.flex-end {
+.jc\:flex_end {
   justify-content: flex-end;
 }
-.flex-start {
+.jc\:flex_start {
   justify-content: flex-start;
 }

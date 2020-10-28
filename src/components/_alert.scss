@@ -1,19 +1,30 @@
 // Alert
 
 .alert {
-  padding: var(--padding);
-  margin: var(--margin);
+  padding: var(--alert-padding);
+  margin: var(--alert-margin);
+  
+  border-width: 1px;
+  border-style: solid;
 
   &--danger {
-    background: red;
+    background: #d23f3f;
+    border-color: #e72121;
   }
 
   &--warning {
-    background: yellow;
+    background: #d2b23f;
+    border-color: #e7b521;
   }
 
   &--info {
-    background: blue;
+    background: #3fa6d2;
+    border-color: #21a0e7;
+  }
+
+  &--success {
+    background: #4bd23f;
+    border-color: #49e721;
   }
 
 }

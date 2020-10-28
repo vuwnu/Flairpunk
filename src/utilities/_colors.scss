@@ -2,14 +2,14 @@
 
 // Color Class Generator
 @each $name, $hex in $color-types {
-  .color-#{$name} {
+  .color\:#{$name} {
     color: $hex;
   }
 }
 
 // Background Color Class Generator
 @each $name, $hex in $color-types {
-  .color-bg-#{$name} {
+  .color-bg\:#{$name} {
     background-color: $hex;
   }
 }

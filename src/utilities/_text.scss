@@ -32,6 +32,34 @@
   }
 }
 
+.h-t-a\: {
+
+  &center {
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+    }
+  }
+
+  &left {
+    h1, h2, h3, h4, h5, h6 {
+      text-align: left;
+    }
+  }
+
+  &right {
+    h1, h2, h3, h4, h5, h6 {
+      text-align: right;
+    }
+  }
+
+  &justify {
+    h1, h2, h3, h4, h5, h6 {
+      text-align: justify;
+    }
+  }
+
+}
+
 .t-a\: {
 
   &left {

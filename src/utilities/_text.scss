@@ -64,31 +64,45 @@
 }
 
 // Transform
-.ttu, .t-uppercase {
-  text-transform: uppercase;
-}
-.ttl, .t-lowercase {
-  text-transform: lowercase;
-}
-.ttc, .t-capitalise, .t-capitalize {
-  text-transform: capitalize;
-}
-.t-monospace {
-  font-family: monospace;
+.t-t\: {
+
+  &uppercase {
+    text-transform: uppercase;
+  }
+
+  &lowercase {
+    text-transform: lowercase;
+  }
+
+  &capitalize {
+    text-transform: capitalize;
+  }
+
+  &monospace {
+    font-family: monospace;
+  }
+
 }
 
-/* Decoration */
-.tdu, .underline {
-  text-decoration: underline;
-}
-.tdlt, .line-through {
-  text-decoration: line-through;
-}
-.tdo, .overline {
-  text-decoration: overline;
-}
-.tdn {
-  text-decoration: none;
+// Decoration
+.t-d\: {
+
+  &underline {
+    text-decoration: underline;
+  }
+
+  &line_through {
+    text-decoration: line-through;
+  }
+
+  &overline {
+    text-decoration: overline;
+  }
+
+  &none {
+    text-decoration: none;
+  }
+
 }
 
 // Outline Text

@@ -2,8 +2,9 @@
 
 .card {
   width: 5rem;
-  padding: 10px;
-  margin: 5px;
+  
+  padding: var(--card-padding);
+  margin: var(--card-margin);;
 
   & &--title {
     padding: 5px;

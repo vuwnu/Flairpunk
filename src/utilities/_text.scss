@@ -32,21 +32,6 @@
   }
 }
 
-// Text Size
-.ts-smaller {
-  font-size: smaller;
-}
-.ts-larger {
-  font-size: larger;
-}
-.ts-sm {
-  font-size: .5rem;
-}
-.ts-md {
-  font-size: 1.5rem;
-}
-.ts-lg {
-  font-size: 3rem;
 .t-a\: {
 
   &left {
@@ -66,8 +51,34 @@
   }
 
 }
-.ts-xl {
-  font-size: 5rem;
+
+// Text Size
+.t-s\: {
+
+  &smaller {
+    font-size: smaller;
+  }
+
+  &larger {
+    font-size: larger;
+  }
+
+  &sm {
+    font-size: .5rem;
+  }
+
+  &md {
+    font-size: 1.5rem;
+  }
+
+  &lg {
+    font-size: 3rem;
+  }
+
+  &xl {
+    font-size: 5rem;
+  }
+
 }
 
 // Text Weight

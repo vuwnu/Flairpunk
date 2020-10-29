@@ -47,6 +47,24 @@
 }
 .ts-lg {
   font-size: 3rem;
+.t-a\: {
+
+  &left {
+    text-align: left;
+  }
+
+  &right {
+    text-align: right;
+  }
+
+  &center {
+    text-align: center;
+  }
+
+  &justify {
+    text-align: justify;
+  }
+
 }
 .ts-xl {
   font-size: 5rem;

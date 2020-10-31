@@ -36,7 +36,7 @@
   }
 
   // Holy Grail
-  &.holy-grail {
+  &.holy_grail {
     grid-template-areas:
       "hd hd hd"
       "nv mn sd"
@@ -46,7 +46,7 @@
   }
 
   // Header With Navigation
-  &.header-with-nav {
+  &.header_with_nav {
     grid-template-areas:
       "hd nv"
       "mn mn"
@@ -70,7 +70,7 @@
   }
 
   // Side Navigation
-  &.side-nav {
+  &.side_nav {
     grid-template-areas: "hd hd"
                          "nv mn"
                          "ft ft";

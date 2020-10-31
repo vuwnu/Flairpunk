@@ -1,5 +1,5 @@
 
-/* Filters */
+// Filters
 .placeholder {
   filter: brightness(40%);
 }
@@ -44,12 +44,9 @@
 }
 
 // Scale Transforms
-.scale-2 {
-  transform: scale(2);
-}
-.scale-3 {
-  transform: scale(3);
-}
-.scale-4 {
-  transform: scale(4);
+
+@for $i from 1 through 10 {
+  .tr-s\:#{$i} {
+    transform: scale(#{$i});
+  }
 }

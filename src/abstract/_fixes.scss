@@ -7,3 +7,8 @@
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+/* Fix for h1 having a different size within section elements */
+h1 {
+  font-size: 2em;
+}

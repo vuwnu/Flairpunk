@@ -85,35 +85,48 @@ section {
   display: flex;
   flex-flow: column;
   flex: 1 1;
+
+  img {
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* Image Styling */
-section img {
-  margin: 0 auto;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
 
-/* Social Links */
-footer .social {
+// Social Links
+.social {
   display: flex;
   flex-flow: row wrap;
   font-size: 200%;
   justify-content: space-evenly;
   background: #151515;
   border: solid 5px #222222;
+
+  a {
+    margin: 10px;
+    transition: color .2s;
+    &:hover {
+      color: white;
+    }
+  }
 }
-footer .social a {
-  margin: 10px;
-  transition: color .2s;
-}
-footer .social a:hover {
-  color: white;
+
+code {
+  background: rgba(1,1,1,.2);
+  padding: 2px 5px;
 }
 
 pre {
   background: rgba(0,0,0,.2);
+
+  /* Removing code element styling when it's inside of a pre element */
+  code {
+    background: 0;
+    padding: 0;
+  }
 }
 
 option {
@@ -136,22 +149,25 @@ thead {
   filter: brightness(120%);
 } */
 
+table {
 
-table tr {
-  padding: .2em;
+  tr {
+    padding: .2em;
+  }
+
+  th {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: .85em;
+  }
+
+  th, td {
+    padding: .15em;
+    text-align: center;
+  }
 }
 
-table th,
-table td {
-  padding: .15em;
-  text-align: center;
-}
 
-table th {
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  font-size: .85em;
-}
 
 /* Forms */
 button, input, select, textarea {
@@ -246,14 +262,4 @@ ul {
     padding: 0;
     list-style: none;
   }
-}
-
-code {
-  background: rgba(1,1,1,.2);
-  padding: 2px 5px;
-}
-/* Removing code element styling when it's inside of a pre element */
-pre code {
-  background: 0;
-  padding: 0;
 }

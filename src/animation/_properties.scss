@@ -31,6 +31,8 @@
 
 // Durations
 
+
+
 @for $i from 1 through 10 {
   [anim~="dur:#{$i/2}"] {
     animation-duration: #{$i/2}s;
@@ -38,6 +40,7 @@
 }
 
 // Delays
+// This class adds a delay before the animation plays
 
 @for $i from 1 through 10 {
   [anim~="del:#{$i/2}"] {
@@ -46,6 +49,7 @@
 }
 
 // Iteration
+// This class controls how many times and animation plays
 
 @for $i from 1 through 10 {
   [anim~="play:#{$i}"] {

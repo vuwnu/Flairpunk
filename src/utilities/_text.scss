@@ -83,6 +83,7 @@
 // Text Size
 .t-s\: {
 
+  // Relative Sizes
   &smaller {
     font-size: smaller;
   }
@@ -91,6 +92,7 @@
     font-size: larger;
   }
 
+  // Set Sizes
   &sm {
     font-size: .5rem;
   }
@@ -105,6 +107,19 @@
 
   &xl {
     font-size: 5rem;
+  }
+
+
+  &1 {
+    font-size: 1rem;
+  }
+
+  &2 {
+    font-size: 2rem;
+  }
+
+  &3 {
+    font-size: 3rem;
   }
 
 }

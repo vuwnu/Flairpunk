@@ -2,16 +2,31 @@
 // All classes made for manipulating the appearance of text
 
 // Align Text
-.tal, .t-left {
+.t- {
+  &left {
+    text-align: left;
+  }
+  &right {
+    text-align: right;
+  }
+  &center {
+    text-align: center;
+  }
+  &justify {
+    text-align: justify;
+  }
+}
+
+.tal {
   text-align: left;
 }
-.tar, .t-right {
+.tar {
   text-align: right;
 }
-.tac, .t-center {
+.tac {
   text-align: center;
 }
-.taj, .t-justify {
+.taj {
   text-align: justify;
 }
 

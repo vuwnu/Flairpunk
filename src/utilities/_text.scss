@@ -110,37 +110,24 @@
     font-size: 5rem;
   }
 
-
-  &1 {
-    font-size: 1rem;
-  }
-
-  &2 {
-    font-size: 2rem;
-  }
-
-  &3 {
-    font-size: 3rem;
+  // Number Sizes
+  @for $i from 1 through 9 {
+    &#{$i} {
+      font-size: $i + rem;
+    }
   }
 
 }
 
 // Text Weight
 .t-w\: {
-
-  &500 {
-    font-weight: 500;
+  @for $i from 1 through 9 {
+    &#{100 * $i} {
+      font-weight: 100 * $i;
+    }
   }
-
-  &600 {
-    font-weight: 600;
-  }
-
-  &700 {
-    font-weight: 700;
-  }
-
 }
+
 
 // Transform
 .t-t\: {

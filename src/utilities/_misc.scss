@@ -8,7 +8,8 @@
   border-radius: var(--border-radius);
 }
 
-/* Logo */
+// LOGO
+
 header .logo {
   color: var(--color-logo);
   font-family: var(--font-logo);
@@ -17,7 +18,8 @@ header .logo {
   width: 100%;
 }
 
-/* Table */
+// TABLE
+
 .table-auto {
   table-layout: auto;
 }
@@ -25,7 +27,8 @@ header .logo {
   table-layout: fixed;
 }
 
-/* DISPLAY */
+// DISPLAY
+
 @include display-classes($display-types, d);
 
 .invisible {
@@ -44,6 +47,9 @@ header .logo {
   -ms-user-drag: none;
   user-drag: none;
 }
+
+
+// OVERFLOW
 
 .overflow-auto, .of-auto {
   overflow: auto;

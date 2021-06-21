@@ -1,80 +1,87 @@
 // WIDTH
 
-// Exact Widths
-@for $i from 1 through 10 {
-  .w-#{$i * 50} {
-    width: (5 * $i) * 1rem;
+.w- {
+
+  // Relative Widths
+
+  &full {
+    width: 100%;
   }
-}
 
-// Max-width
-@for $i from 1 through 10 {
-  .w-max-#{$i * 50} {
-    max-width: (5 * $i) * 1rem;
+  &half {
+    width: 50%;
   }
-}
 
-// Min-width
-@for $i from 1 through 10 {
-  .w-min-#{$i * 50} {
-    min-width: (5 * $i) * 1rem;
+  &quarter {
+    width: 33%;
   }
-}
 
-// Relative Widths
-.w-full {
-  width: 100%;
-}
-.w-half {
-  width: 50%;
-}
-.w-third {
-  width: 33%;
-}
-.w-quarter {
-  width: 25%;
-}
-.w-tenth {
-  width: 10%;
-}
+  &tenth {
+    width: 10%;
+  }
 
+  // Exact Widths
+
+  @for $i from 1 through 10 {
+    &#{$i * 50} {
+      width: (5 * $i) * 1rem;
+    }
+  }
+
+  @for $i from 1 through 10 {
+    &max-#{$i * 50} {
+      max-width: (5 * $i) * 1rem;
+    }
+  }
+
+  @for $i from 1 through 10 {
+    &min-#{$i * 50} {
+      min-width: (5 * $i) * 1rem;
+    }
+  }
+
+}
 
 // HEIGHT
 
-// Exact Heights
-@for $i from 1 through 10 {
-  .h-#{$i * 50} {
-    height: (5 * $i) * 1rem;
-  }
-}
+.h- {
 
-// Max-height
-@for $i from 1 through 10 {
-  .h-max-#{$i * 50} {
-    max-height: (5 * $i) * 1rem;
-  }
-}
+  // Relative Heights
 
-// Min-height
-@for $i from 1 through 10 {
-  .h-min-#{$i * 50} {
-    min-height: (5 * $i) * 1rem;
+  &full {
+    height: 100%;
   }
-}
 
-// Relative Heights
-.h-full {
-  height: 100%;
-}
-.h-half {
-  height: 50%;
-}
-.h-third {
-  height: 33%;
-}
-.h-quarter {
-  height: 25%;
-}
-.h-tenth {
-  height: 10%;
+  &half {
+    height: 50%;
+  }
+
+  &quarter {
+    height: 33%;
+  }
+
+  &tenth {
+    height: 10%;
+  }
+
+  // Exact Heights
+
+  @for $i from 1 through 10 {
+    &#{$i * 50} {
+      height: (5 * $i) * 1rem;
+    }
+  }
+
+  @for $i from 1 through 10 {
+    &max-#{$i * 50} {
+      max-height: (5 * $i) * 1rem;
+    }
+  }
+
+  @for $i from 1 through 10 {
+    &min-#{$i * 50} {
+      min-height: (5 * $i) * 1rem;
+    }
+  }
+
 }

@@ -57,15 +57,23 @@
 }
 
 // Flex Wrap
-.fw\:wrap {
-  flex-wrap: wrap;
+
+.fw\: {
+
+  &wrap {
+    flex-wrap: wrap;
+  }
+
+  &none {
+    flex-wrap: nowrap;
+  }
+
+  &reverse {
+    flex-wrap: wrap-reverse;
+  }
+
 }
-.fw\:none {
-  flex-wrap: nowrap;
-}
-.fw\:reverse {
-  flex-wrap: wrap-reverse;
-}
+
 
 // Justify Content
 

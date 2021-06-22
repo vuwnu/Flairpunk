@@ -1,27 +1,24 @@
 /// PADDING
 
-.p { padding: var(--padding); }
-.p-0 { padding: 0; }
+.p {
+  padding: var(--padding);
+}
+.p-0 {
+  padding: 0;
+}
 
 @include repeat-unit-classes-map($padding-types, 0, 10, px, 5);
 
 @for $i from 1 through 10 {
+  //  X AND Y AXIS
   .p-#{$i*5} {
     padding: #{5*$i}px;
   }
-}
-
-// X
-
-@for $i from 1 through 10 {
+  // X AXIS
   .px-#{$i*5} {
     padding: 0 #{5*$i}px;
   }
-}
-
-// Y
-
-@for $i from 1 through 10 {
+  // Y AXIS
   .py-#{$i*5} {
     padding: #{5*$i}px 0;
   }
@@ -29,28 +26,25 @@
 
 /// MARGIN
 
-.m { margin: var(--margin); }
-.m-0 { margin: 0; }
+.m {
+  margin: var(--margin);
+}
+.m-0 {
+  margin: 0;
+}
 
 @include repeat-unit-classes-map($margin-types, 0, 10, px, 5);
 
 @for $i from 1 through 10 {
+  //  X AND Y AXIS
   .m-#{$i*5} {
     margin: #{5*$i}px;
   }
-}
-
-// X
-
-@for $i from 1 through 10 {
+  // X AXIS
   .mx-#{$i*5} {
     margin: 0 #{5*$i}px;
   }
-}
-
-// Y
-
-@for $i from 1 through 10 {
+  // Y AXIS
   .my-#{$i*5} {
     margin: #{5*$i}px 0;
   }

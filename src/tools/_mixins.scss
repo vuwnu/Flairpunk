@@ -8,7 +8,7 @@
 		/* #{$type} */
 
 		@for $i from $start through $end {
-			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}-#{$i * $increment} {
+			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}\:#{$i * $increment} {
 				#{$key}-#{$value}: increment($i, $increment, $unit);
 			}
 		}

@@ -43,17 +43,24 @@
 }
 
 // Flex Direction
-.fd\:row {
-  flex-direction: row;
-}
-.fd\:row_reverse {
-  flex-direction: row-reverse;
-}
-.fd\:col {
-  flex-direction: column;
-}
-.fd\:col_reverse {
-  flex-direction: column-reverse;
+.fd\: {
+
+  &row {
+    flex-direction: row;
+  }
+
+  &row_reverse {
+    flex-direction: row-reverse;
+  }
+
+  &col {
+    flex-direction: column;
+  }
+
+  &col_reverse {
+    flex-direction: column-reverse;
+  }
+  
 }
 
 // Flex Wrap

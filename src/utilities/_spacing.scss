@@ -3,7 +3,7 @@
 .p {
   padding: var(--padding);
 }
-.p-0 {
+.p\:0 {
   padding: 0;
 }
 
@@ -11,15 +11,15 @@
 
 @for $i from 1 through 10 {
   //  X AND Y AXIS
-  .p-#{$i*5} {
+  .p\:#{$i*5} {
     padding: #{5*$i}px;
   }
   // X AXIS
-  .px-#{$i*5} {
+  .px\:#{$i*5} {
     padding: 0 #{5*$i}px;
   }
   // Y AXIS
-  .py-#{$i*5} {
+  .py\:#{$i*5} {
     padding: #{5*$i}px 0;
   }
 }
@@ -29,7 +29,7 @@
 .m {
   margin: var(--margin);
 }
-.m-0 {
+.m\:0 {
   margin: 0;
 }
 
@@ -37,15 +37,15 @@
 
 @for $i from 1 through 10 {
   //  X AND Y AXIS
-  .m-#{$i*5} {
+  .m\:#{$i*5} {
     margin: #{5*$i}px;
   }
   // X AXIS
-  .mx-#{$i*5} {
+  .mx\:#{$i*5} {
     margin: 0 #{5*$i}px;
   }
   // Y AXIS
-  .my-#{$i*5} {
+  .my\:#{$i*5} {
     margin: #{5*$i}px 0;
   }
 }

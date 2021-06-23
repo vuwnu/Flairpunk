@@ -1,31 +1,13 @@
 // FLEX
 
-// Flex Basis Groups
-.flg- {
-  @for $i from 1 through 12 {
-    &#{$i*50} > * {
-      flex-basis: #{$i*50}px;
-    }
-  }
-}
-
-// Flex Basis
-.fl-20 {flex-basis: 200px;}
-.fl-30 {flex-basis: 300px;}
-.fl-40 {flex-basis: 400px;}
-.fl-50 {flex-basis: 500px;}
-.fl-60 {flex-basis: 600px;}
-
 @for $i from 1 through 20 {
 
+  // Flex Basis
   .c--fb\:#{$i*50} > * {
     flex-basis: #{$i*50}px;
   }
 
-}
-
-@for $i from 1 through 20 {
-
+  // Flex Basis Groups
   .fb\:#{$i*50} {
     flex-basis: #{$i*50}px;
   }
@@ -43,6 +25,7 @@
 }
 
 // Flex Direction
+
 .fd\: {
 
   &row {
@@ -60,7 +43,7 @@
   &col_reverse {
     flex-direction: column-reverse;
   }
-  
+
 }
 
 // Flex Wrap

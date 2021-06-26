@@ -2,16 +2,15 @@
 
 // Color Class Generator
 @each $name, $hex in $color-types {
+
   .color\:#{$name} {
     color: $hex;
   }
-}
 
-// Background Color Class Generator
-@each $name, $hex in $color-types {
   .color-bg\:#{$name} {
     background-color: $hex;
   }
+
 }
 
 // SOCIAL MEDIA

@@ -51,15 +51,22 @@ header .logo {
 
 // OVERFLOW
 
-.overflow-auto, .of-auto {
-  overflow: auto;
-}
-.overflow-hidden, .of-hidden {
-  overflow: hidden;
-}
-.overflow-scroll, .of-scroll {
-  overflow: scroll;
-}
-.overflow-visible, .of-visible {
-  overflow: visible;
+.of\: {
+
+  &auto {
+    overflow: auto;
+  }
+
+  &hidden {
+    overflow: hidden;
+  }
+
+  &scroll {
+    overflow: scroll;
+  }
+
+  &visible {
+    overflow: visible;
+  }
+
 }

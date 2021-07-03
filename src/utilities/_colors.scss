@@ -3,11 +3,11 @@
 // Color Class Generator
 @each $name, $hex in $color-types {
 
-  .clr\:#{$name} {
+  .c\:#{$name} {
     color: $hex;
   }
 
-  .clr-bg\:#{$name} {
+  .c-bg\:#{$name} {
     background-color: $hex;
   }
 

@@ -29,32 +29,26 @@
 
 @include anim-classes($anim-direction-types, animation-direction);
 
-// Durations
-
-
 
 @for $i from 1 through 10 {
+
+  // Durations
   [anim~="dur:#{$i/2}"] {
     animation-duration: #{$i/2}s;
   }
-}
 
-// Delays
-// This class adds a delay before the animation plays
-
-@for $i from 1 through 10 {
+  // Delays
+  // This class adds a delay before the animation plays
   [anim~="del:#{$i/2}"] {
     animation-delay: #{$i/2}s;
   }
-}
 
-// Iteration
-// This class controls how many times and animation plays
-
-@for $i from 1 through 10 {
+  // Iteration
+  // This class controls how many times and animation plays
   [anim~="play:#{$i}"] {
     animation-iteration-count: #{$i};
   }
+
 }
 
 [anim~='infinite'] {

@@ -20,11 +20,16 @@ header .logo {
 
 // TABLE
 
-.table-auto {
-  table-layout: auto;
-}
-.table-fixed {
-  table-layout: fixed;
+.tbl-layout\: {
+
+  &auto{
+    table-layout: auto;
+  }
+
+  &fixed{
+    table-layout: fixed;
+  }
+
 }
 
 // DISPLAY

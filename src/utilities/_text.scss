@@ -48,112 +48,114 @@
 
 }
 
-.t-a\: {
+// TEXT NAMESPACE
 
-  &left {
-    text-align: left;
-  }
+.t- {
 
-  &right {
-    text-align: right;
-  }
+  &a\: {
 
-  &center {
-    text-align: center;
-  }
-
-  &justify {
-    text-align: justify;
-  }
-
-}
-
-// Text Size
-.t-s\: {
-
-  // Relative Sizes
-  &smaller {
-    font-size: smaller;
-  }
-
-  &larger {
-    font-size: larger;
-  }
-
-  // Set Sizes
-  &sm {
-    font-size: .5rem;
-  }
-
-  &md {
-    font-size: 1.5rem;
-  }
-
-  &lg {
-    font-size: 3rem;
-  }
-
-  &xl {
-    font-size: 5rem;
-  }
-
-  // Number Sizes
-  @for $i from 1 through 9 {
-    &#{$i} {
-      font-size: $i + rem;
+    &left {
+      text-align: left;
     }
-  }
 
-}
-
-// Text Weight
-.t-w\: {
-  @for $i from 1 through 9 {
-    &#{100 * $i} {
-      font-weight: 100 * $i;
+    &right {
+      text-align: right;
     }
+
+    &center {
+      text-align: center;
+    }
+
+    &justify {
+      text-align: justify;
+    }
+
   }
+
+  &s\: {
+
+    // Relative Sizes
+    &smaller {
+      font-size: smaller;
+    }
+
+    &larger {
+      font-size: larger;
+    }
+
+    // Set Sizes
+    &sm {
+      font-size: .5rem;
+    }
+
+    &md {
+      font-size: 1.5rem;
+    }
+
+    &lg {
+      font-size: 3rem;
+    }
+
+    &xl {
+      font-size: 5rem;
+    }
+
+  }
+
+  // Transform
+  &t\: {
+
+    &uppercase {
+      text-transform: uppercase;
+    }
+
+    &lowercase {
+      text-transform: lowercase;
+    }
+
+    &capitalize {
+      text-transform: capitalize;
+    }
+
+    &monospace {
+      font-family: monospace;
+    }
+
+  }
+
+  // Decoration
+  &d\: {
+
+    &underline {
+      text-decoration: underline;
+    }
+
+    &line_through {
+      text-decoration: line-through;
+    }
+
+    &overline {
+      text-decoration: overline;
+    }
+
+    &none {
+      text-decoration: none;
+    }
+
+  }
+
 }
 
+@for $i from 1 through 9 {
 
-// Transform
-.t-t\: {
-
-  &uppercase {
-    text-transform: uppercase;
+  // Text Weight
+  .t-w\:#{100 * $i} {
+    font-weight: 100 * $i;
   }
 
-  &lowercase {
-    text-transform: lowercase;
-  }
-
-  &capitalize {
-    text-transform: capitalize;
-  }
-
-  &monospace {
-    font-family: monospace;
-  }
-
-}
-
-// Decoration
-.t-d\: {
-
-  &underline {
-    text-decoration: underline;
-  }
-
-  &line_through {
-    text-decoration: line-through;
-  }
-
-  &overline {
-    text-decoration: overline;
-  }
-
-  &none {
-    text-decoration: none;
+  // Numerical Text Sizes
+  .t-s\:#{$i} {
+    font-size: $i + rem;
   }
 
 }

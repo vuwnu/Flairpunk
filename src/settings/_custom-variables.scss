@@ -3,16 +3,19 @@
 
   //// GLOBAL VARIABLES
   // These are the custom variables that the end user can alter to customise the look of their site
+  // With these variables you can change the overall look of your website
 
   // SIZING VARIABLES
   // Margin and Padding variables for giving an even size across site
 
   --margin: 5px;
   --padding: 5px;
-
   --align-text: left;
 
+
   // COLOR VARIABLES
+  // Set the colours used for all elements on your site
+
   --color-accent-1: cornflowerblue;
   --color-accent-2: blue;
   --color-accent-3: lightblue;
@@ -27,6 +30,7 @@
   --color-text: #dddddd;
 
   --background: #111;
+
 
   // BORDER
   --border-type: solid;

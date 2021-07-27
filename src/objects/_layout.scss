@@ -1,6 +1,7 @@
-// LAYOUT SYSTEM
+// SITE LAYOUT SYSTEM
 
 // This class is used on the body element, applies default layout stuff
+
 .use-layout {
   display: grid;
   grid-gap: var(--layout-grid-gap);

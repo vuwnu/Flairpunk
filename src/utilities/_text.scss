@@ -138,6 +138,13 @@
       text-decoration: overline;
     }
 
+    &outline {
+      --txt-outline-width: 1px;
+      --txt-outline-color: black;
+      -webkit-text-stroke-width: var(--tsw);
+      -webkit-text-stroke-color: var(--tsc);
+    }
+
     &none {
       text-decoration: none;
     }
@@ -158,12 +165,4 @@
     font-size: $i + rem;
   }
 
-}
-
-// Outline Text
-.t-outline {
-  --txt-outline-width: 1px;
-  --txt-outline-color: black;
-  -webkit-text-stroke-width: var(--tsw);
-  -webkit-text-stroke-color: var(--tsc);
 }

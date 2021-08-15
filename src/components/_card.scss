@@ -1,16 +1,16 @@
 // Card
 
-.card {
+g-card {
   width: 5rem;
-  
+
   padding: var(--card-padding);
   margin: var(--card-margin);;
 
-  & &--title {
+  & &-title {
     padding: 5px;
   }
 
-  & &--text {
+  & &-text {
     padding: 5px;
   }
 }

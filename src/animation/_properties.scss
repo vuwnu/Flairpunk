@@ -33,14 +33,14 @@
 @for $i from 1 through 10 {
 
   // Durations
-  [anim~="dur:#{$i/2}"] {
-    animation-duration: #{$i/2}s;
+  [anim~="dur:#{$i*0.5}"] {
+    animation-duration: #{$i*0.5}s;
   }
 
   // Delays
   // This class adds a delay before the animation plays
-  [anim~="del:#{$i/2}"] {
-    animation-delay: #{$i/2}s;
+  [anim~="del:#{$i*0.5}"] {
+    animation-delay: #{$i*0.5}s;
   }
 
   // Iteration

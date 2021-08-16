@@ -1,11 +1,3 @@
-//  :root {
-//   --anim-name: none;
-//   --anim-duration: 1s;
-//   --anim-timing-function: ease;
-//   --anim-delay: 0.1s;
-//   --anim-iteration-count: 1;
-// }
-
 [anim] {
   animation-name: none;
   animation-duration: 0s;
@@ -33,6 +25,7 @@
 @for $i from 1 through 10 {
 
   // Durations
+  // This class sets the length of the animation
   [anim~="dur:#{$i*0.5}"] {
     animation-duration: #{$i*0.5}s;
   }
@@ -45,12 +38,12 @@
 
   // Iteration
   // This class controls how many times and animation plays
-  [anim~="play:#{$i}"] {
+  [anim~="rpt:#{$i}"] {
     animation-iteration-count: #{$i};
   }
 
 }
 
-[anim~='infinite'] {
+[anim~="rpt:inf"] {
   animation-iteration-count: infinite;
 }

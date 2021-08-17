@@ -18,18 +18,22 @@ header .logo {
   width: 100%;
 }
 
-// TABLE
+// Social Links
+.social {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 200%;
+  justify-content: space-evenly;
+  background: #151515;
+  border: solid 5px #222222;
 
-.tbl-layout\: {
-
-  &auto{
-    table-layout: auto;
+  a {
+    margin: 10px;
+    transition: color .2s;
+    &:hover {
+      color: white;
+    }
   }
-
-  &fixed{
-    table-layout: fixed;
-  }
-
 }
 
 // DISPLAY
@@ -52,7 +56,6 @@ header .logo {
   -ms-user-drag: none;
   user-drag: none;
 }
-
 
 // OVERFLOW
 

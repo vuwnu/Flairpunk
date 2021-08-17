@@ -94,25 +94,22 @@ section {
   }
 }
 
+// TABLE
+
+table {
+
+  &[layout="auto"] {
+    table-layout: auto;
+  }
+
+  &[layout="fixed"] {
+    table-layout: fixed;
+  }
+
+}
+
 /* Image Styling */
 
-// Social Links
-.social {
-  display: flex;
-  flex-flow: row wrap;
-  font-size: 200%;
-  justify-content: space-evenly;
-  background: #151515;
-  border: solid 5px #222222;
-
-  a {
-    margin: 10px;
-    transition: color .2s;
-    &:hover {
-      color: white;
-    }
-  }
-}
 
 code {
   background: rgba(1,1,1,.2);

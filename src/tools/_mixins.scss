@@ -16,14 +16,15 @@
 }
 
 // Display Class Generator
-@mixin display-classes($name-map, $namespace){
+@mixin namespaced-classes($namespace, $name-map, $property){
 	@each $type in $name-map {
 		.#{$namespace}-#{$type} {
-	        display: #{$type};
+	        #{$property}: #{$type};
 		}
 	}
 }
 
+// Attribute Class Generator
 @mixin attr-classes($attribute, $name-map, $property){
 	@each $type in $name-map {
 		[#{$attribute}=#{$type}] {

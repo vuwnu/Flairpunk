@@ -5,6 +5,7 @@
 //
 // - Components
 // - Animation
+// - Utilities
 
 // SETTINGS
 @import "settings/variables";
@@ -24,12 +25,3 @@
 // ELEMENTS
 @import 'elements/elements';
 @import 'elements/other';
-
-// UTILITIES
-@import "utilities/colors";
-@import 'utilities/spacing';
-@import 'utilities/sizing';
-@import 'utilities/flex';
-@import 'utilities/misc';
-@import 'utilities/text';
-@import 'utilities/transforms';

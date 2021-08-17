@@ -38,7 +38,7 @@ header .logo {
 
 // DISPLAY
 
-@include display-classes($display-types, d);
+@include namespaced-classes(d, $display-types, display);
 
 .invisible {
   visibility: hidden;

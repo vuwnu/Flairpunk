@@ -2,7 +2,7 @@
 :root {
 
   //// GLOBAL VARIABLES
-  // These are the custom variables that the end user can alter to customise the look of their site
+  // These are the custom variables that the can be changed to alter the overall look of your site
   // With these variables you can change the overall look of your website
 
   // SIZING VARIABLES
@@ -53,6 +53,8 @@
   --max-width: 1300px;
 
   // FONT VARIABLES
+  // These variables allow you to change the overall font size of your site or the style of fonts your site uses
+
   --font-size: 14px;
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;

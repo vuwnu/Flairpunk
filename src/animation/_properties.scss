@@ -10,16 +10,13 @@
 }
 
 // Names
-
-@include anim-name-classes($anim-name-types, animation-name);
+@include attr-classes('anim^', $anim-name-types, animation-name);
 
 // Timing
-
-@include anim-classes($anim-timing-types, animation-timing-function);
+@include attr-classes('anim~', $anim-timing-types, animation-timing-function);
 
 // Direction
-
-@include anim-classes($anim-direction-types, animation-direction);
+@include attr-classes('anim~', $anim-direction-types, animation-direction);
 
 
 @for $i from 1 through 10 {

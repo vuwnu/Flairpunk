@@ -24,17 +24,9 @@
 	}
 }
 
-@mixin anim-classes($name-map, $property){
+@mixin attr-classes($attribute, $name-map, $property){
 	@each $type in $name-map {
-		[anim~=#{$type}] {
-	        #{$property}: #{$type};
-		}
-	}
-}
-
-@mixin anim-name-classes($name-map, $property){
-	@each $type in $name-map {
-		[anim^=#{$type}] {
+		[#{$attribute}=#{$type}] {
 	        #{$property}: #{$type};
 		}
 	}

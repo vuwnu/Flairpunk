@@ -1,11 +1,14 @@
-/* Selection */
+// Selection Styling
+// This style allows you to change how it looks when you select text
 ::selection {
   background: var(--selection-background, lightblue);
   color: var(--selection-color, white);
   text-shadow: none;
 }
 
-/* Scrollbar */
+// Scrollbar Styling
+// These styles allow you to change how the scrollbar and track look
+// I've tied custom variables to them so they can be easily altered in the custom CSS variables file
 ::-webkit-scrollbar {
   width: var(--scrollbar-width);
 }
@@ -14,9 +17,4 @@
 }
 ::-webkit-scrollbar-thumb {
   background: var(--scrollbar-handle);
-}
-
-/* Navbar */
-.current-page {
-  filter: brightness(80%) !important;
 }

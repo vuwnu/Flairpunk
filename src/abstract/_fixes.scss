@@ -12,3 +12,6 @@
 h1 {
   font-size: 2em;
 }
+
+// Fix for default hidden attribute having low specificity
+[hidden] { display: none !important; }

@@ -1,6 +1,8 @@
 // SITE LAYOUT SYSTEM
 
 // This class is used on the parent element for all the segments of your site
+// The purpose of this is to set the foundation for how your website should look so you can then make more specific adjustments using utility classes
+
 
 .use-layout {
   display: grid;

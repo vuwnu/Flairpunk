@@ -1,4 +1,5 @@
 // ELEMENTS
+// This file contains changes made to default elements
 
 html {
   width: 100%;
@@ -12,29 +13,28 @@ html {
 
 body {
   line-height: normal;
-  min-height: 100vh;
+  height: 100%;
 
-  /* Apply Base Font */
+  // Apply Base Font
   font-family: var(--font-primary);
   color: var(--color-text);
   background: var(--background, white);
 
-  /* Flex */
-  display: flex;
-  flex-flow: column;
   margin: auto;
 
-  /* Page Alignment */
+  // Page Alignment
   text-align: var(--align-text);
 }
 
+// Applies the custom header font to all default header elements
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-header);
 }
 
-/* Links */
+// Default anchor styling
+// TODO: give new global styling to links
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-accent-1);
   transition: color .2s;
 }
@@ -43,45 +43,49 @@ a:hover {
 }
 
 
-/* SEMANTIC TAGS */
-header {
-  grid-area: hd;
-  display: flex;
-  order: 1;
-  align-content: center;
-  align-items: center;
-  width:100%;
-}
-nav {
-  grid-area: nv;
-  order: 2;
-  width: 100%;
-}
-main {
-  grid-area: mn;
-  display: flex;
-  order: 3;
-  flex-flow: column wrap;
-  width: 100%;
-}
-aside {
-  order: 4;
-  grid-area: sd;
-}
-footer {
-  grid-area: ft;
-  align-content: center;
-  text-align: center;
-  order: 5;
-  display: flex;
-  flex-flow: column;
-  width: 100%;
-}
+// SEMANTIC TAGS
+// TODO: update semantic tags to only have needed styling
+// header {
+//   grid-area: hd;
+//   display: flex;
+//   order: 1;
+//   align-content: center;
+//   align-items: center;
+//   width:100%;
+// }
+//
+// nav {
+//   grid-area: nv;
+//   order: 2;
+//   width: 100%;
+// }
+//
+// main {
+//   grid-area: mn;
+//   display: flex;
+//   order: 3;
+//   flex-flow: column wrap;
+//   width: 100%;
+// }
+//
+// aside {
+//   grid-area: sd;
+//   order: 4;
+// }
+//
+// footer {
+//   grid-area: ft;
+//   align-content: center;
+//   text-align: center;
+//   order: 5;
+//   display: flex;
+//   flex-flow: column;
+//   width: 100%;
+// }
 
-
-/* Section */
 section {
-  /* Flex */
+
+  // Flex
   display: flex;
   flex-flow: column;
   flex: 1 1;
@@ -92,12 +96,19 @@ section {
     max-width: 100%;
     height: auto;
   }
+
 }
 
 // TABLE
 
+table, th, td {
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
 table {
 
+  //Add an attribute for setting table layout
   &[layout="auto"] {
     table-layout: auto;
   }
@@ -106,50 +117,14 @@ table {
     table-layout: fixed;
   }
 
-}
-
-/* Image Styling */
-
-
-code {
-  background: rgba(1,1,1,.2);
-  padding: 2px 5px;
-}
-
-pre {
-  background: rgba(0,0,0,.2);
-
-  /* Removing code element styling when it's inside of a pre element */
-  code {
-    background: 0;
-    padding: 0;
-  }
-}
-
-option {
-  background: var(--color-accent-2)
-}
-
-
-/* table, th, td {
-  text-align: center;
-  border: 1px solid var(--border-color);
-} */
-
-thead {
-  text-align: left;
-  font-family: var(--font-header);
-  filter: brightness(80%);
-}
-
-/* tr:nth-child(even) {
-  filter: brightness(120%);
-} */
-
-table {
-
   tr {
     padding: .2em;
+
+    // Add style for alternating rows to make table reading easier
+    &:nth-child(even) {
+      filter: brightness(120%);
+    }
+
   }
 
   th {
@@ -164,9 +139,32 @@ table {
   }
 }
 
+thead {
+  text-align: left;
+  font-family: var(--font-header);
+  filter: brightness(80%);
+}
 
+code {
+  background: rgba(1,1,1,.2);
+  padding: 2px 5px;
+}
 
-/* Forms */
+pre {
+  background: rgba(0,0,0,.2);
+
+  // Removing code element styling when it's inside of a pre element
+  code {
+    background: 0;
+    padding: 0;
+  }
+}
+
+option {
+  background: var(--color-accent-2)
+}
+
+// Forms
 button, input, select, textarea {
   background-color: transparent;
   border: 1px solid WindowFrame;
@@ -175,6 +173,7 @@ button, input, select, textarea {
   letter-spacing: inherit;
   padding: 0.25em 0.375em;
 }
+
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -182,33 +181,35 @@ select {
   border-radius: 0;
   padding-right: 1em;
 }
+
 select:not([multiple]):not([size]) {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E");
 }
+
 ::-ms-expand {
   display: none;
 }
 
-/* Horizontal Rule */
+// Horizontal Rule
 hr {
   display: block;
   height: 1px;
-  border: 0;
-  border-top: 3px solid #ccc;
+  border: 2px 0 solid #ccc;
   margin: 1em 0;
   padding: 0;
 
   &.big {
-    border-top: 5px;
+    border-width: 3px 0
   }
 
   &.small {
-    border-top: 1px;
+    border-width: 1px 0
   }
 
   &.dashed {
-    border-top: dashed;
+    border-style: dashed;
   }
+
 }
 
 /* Navbar */
@@ -224,15 +225,15 @@ z-nav {
 
     &:first-of-type {
       border-left: 1px solid rgba(1,1,1,.3);
-    }
 
+    }
     &:hover {
       background: var(--color-main-2);
     }
   }
 }
 
-/* Navigation Bar */
+// Navigation Bar
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -254,9 +255,16 @@ nav {
   }
 }
 
+// List attribute for setting bulletpoint type
 ul {
-  &.minimal {
+
+  &[list="none"] {
     padding: 0;
     list-style: none;
   }
+
+  &[list="square"] {
+    list-style: square;
+  }
+
 }

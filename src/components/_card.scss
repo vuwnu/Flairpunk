@@ -6,11 +6,4 @@ g-card {
   padding: var(--card-padding);
   margin: var(--card-margin);;
 
-  & &-title {
-    padding: 5px;
-  }
-
-  & &-text {
-    padding: 5px;
-  }
 }

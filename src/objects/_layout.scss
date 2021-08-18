@@ -94,22 +94,23 @@
   }
 }
 
+
 // GRID ASSIGNMENT CLASSES
 // The default semantic classes will fit into the layouts above
 // These classes can be used for manually applying grid areas
 
-.l-header {
+.l\:hd {
   grid-area: hd;
 }
-.l-nav {
+.l\:nv {
   grid-area: nv;
 }
-.l-footer {
+.l\:ft {
   grid-area: ft;
 }
-.l-main {
+.l\:mn {
   grid-area: mn;
 }
-.l-aside {
+.l\:sd {
   grid-area: sd;
 }

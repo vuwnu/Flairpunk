@@ -8,6 +8,12 @@
   // SIZING VARIABLES
   // Margin and Padding variables for giving an even size across site
 
+  --xs: .25em;
+  --sm: .5em;
+  --md: 1em;
+  --lg: 2em;
+  --xl: 4em;
+
   --margin: 5px;
   --padding: 5px;
   --align-text: left;
@@ -55,7 +61,7 @@
   // FONT VARIABLES
   // These variables allow you to change the overall font size of your site or the style of fonts your site uses
 
-  --font-size: 14px;
+  --font-size: var(--md);
   --font-primary: 'Open Sans', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;
   --font-header: 'Open Sans', sans-serif;

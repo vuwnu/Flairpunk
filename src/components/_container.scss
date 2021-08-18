@@ -1,6 +1,7 @@
 // Container
 
-.container {
+s-block {
+
   border: var(--border-thickness) var(--border-type) var(--border-color);
   border-radius: var(--border-radius);
   background: #00000050;
@@ -12,7 +13,7 @@
   flex-shrink: 1;
   flex-basis: auto;
 
-  &--small {
+  &[size="small"] {
     padding: calc(var(--container-padding) / 2);
     margin: calc(var(--container-margin) / 2);
   }

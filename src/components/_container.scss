@@ -2,6 +2,7 @@
 
 s-section {
 
+  display: block;
   border: var(--border-thickness) var(--border-type) var(--border-color);
   border-radius: var(--border-radius);
   background: #00000050;

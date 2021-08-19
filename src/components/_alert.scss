@@ -1,11 +1,10 @@
 // Alert
 
-g-alert {
+s-alert {
   padding: var(--alert-padding);
   margin: var(--alert-margin);
 
-  border-width: 2px;
-  border-style: solid;
+  border: solid 2px;
 
   &[type="error"] {
     background: #d23f3f;

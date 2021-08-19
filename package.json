@@ -1,7 +1,7 @@
 {
   "name": "shyphen",
   "version": "0.0.2",
-  "description": "An expansive and modular CSS framework that works how you want it to",
+  "description": "An expansive and modular CSS framework that works exactly how you want it to",
   "main": "dist/shyphen.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

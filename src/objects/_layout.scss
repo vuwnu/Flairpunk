@@ -23,6 +23,8 @@
     grid-area: mn;
     order: 3;
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
   }
 
   aside {

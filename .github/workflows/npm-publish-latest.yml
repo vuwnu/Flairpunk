@@ -1,11 +1,11 @@
-name: npm-publish
+name: npm-publish-latest
 on:
   push:
     branches:
-      - master # Change this to your default branch
+      - release
 jobs:
   npm-publish:
-    name: npm-publish
+    name: npm-publish-latest
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -13,5 +13,4 @@ jobs:
     - uses: JS-DevTools/npm-publish@v1
       with:
         token: ${{ secrets.NPM_AUTH_TOKEN }}
-        tag: "dev"
-        check-version: false
+        tag: "latest"

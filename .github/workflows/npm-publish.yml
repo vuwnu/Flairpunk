@@ -14,4 +14,4 @@ jobs:
       with:
         token: ${{ secrets.NPM_AUTH_TOKEN }}
         tag: "dev"
-        check-version: "false"
+        check-version: false

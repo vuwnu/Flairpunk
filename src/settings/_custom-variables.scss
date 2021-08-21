@@ -58,10 +58,13 @@
   --selection-background: lightblue;
   --selection-color: white;
 
-  // LAYOUT VARIABLES
+  //// LAYOUT VARIABLES
+  // These variables are used for the layout module to make overal customisations to your layout
+
   --layout-grid-gap: 5px;
   --layout-max-width: 1300px;
   --max-width: 1300px;
+
 
   // FONT VARIABLES
   // These variables allow you to change the overall font size of your site or the style of fonts your site uses
@@ -75,7 +78,6 @@
 
   //// COMPONENT VARIABLES
   // These variables are for altering the default settings of components
-
 
   // BUTTONS
   --button-border: 1px solid rgba(1,1,1,.3);

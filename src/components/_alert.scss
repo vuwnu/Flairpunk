@@ -4,25 +4,25 @@ s-alert {
   padding: var(--alert-padding);
   margin: var(--alert-margin);
 
-  border: solid 2px;
+  border: solid var(--s-alert-border-width);
 
   &[type="error"] {
-    background: #d23f3f;
+    background: var(--s-color-error);
     border-color: #e72121;
   }
 
   &[type="warning"] {
-    background: #d2b23f;
+    background: var(--s-color-warning);
     border-color: #e7b521;
   }
 
   &[type="info"] {
-    background: #3fa6d2;
+    background: var(--s-color-info);
     border-color: #21a0e7;
   }
 
   &[type="success"] {
-    background: #4bd23f;
+    background: var(--s-color-success);
     border-color: #49e721;
   }
 

@@ -3,26 +3,24 @@
 // This class is used on the parent element for all the segments of your site
 // The purpose of this is to set the foundation for how your website should look so you can then make more specific adjustments using utility classes
 
-.use-layout {
+[s-layout] {
+
   display: grid;
   grid-gap: var(--layout-grid-gap);
 
   header {
     grid-area: hd;
     order: 1;
-    width: 100%;
   }
 
   nav {
     grid-area: nv;
     order: 2;
-    width: 100%;
   }
 
   main {
     grid-area: mn;
     order: 3;
-    width: 100%;
     display: flex;
     flex-flow: column nowrap;
   }
@@ -35,94 +33,84 @@
   footer {
     grid-area: ft;
     order: 5;
-    width: 100%;
   }
 
-  // LAYOUTS
+}
 
-  // Single Column
-  &.single_column {
-    grid-template-areas:
-      "hd"
-      "nv"
-      "mn"
-      "sd"
-      "ft";
-    grid-template-columns: min(var(--max-width), 100%);
-    grid-template-rows: min-content min-content 1fr min-content min-content;
-    place-content: center;
-  }
+// LAYOUTS
 
-  // Top Navbar
-  &.top_navbar {
-    grid-template-areas:
-      "nv"
-      "hd"
-      "mn"
-      "sd"
-      "ft";
-    grid-template-columns: min(var(--max-width), 100%);
-    grid-template-rows: min-content min-content 1fr min-content min-content;
-    place-content: center;
-  }
+[s-layout="single_column"] {
+  grid-template-areas:
+    "hd"
+    "nv"
+    "mn"
+    "sd"
+    "ft";
+  grid-template-columns: min(var(--max-width), 100%);
+  grid-template-rows: min-content min-content 1fr min-content min-content;
+  place-content: center;
+}
 
-  // Holy Grail
-  &.holy_grail {
-    grid-template-areas:
-      "hd hd hd"
-      "nv mn sd"
-      "ft ft ft";
-    grid-template-columns: 200px min(var(--max-width), 100%) 200px;
-    grid-template-rows: auto 1fr auto;
-  }
+[s-layout="top_navbar"] {
+grid-template-areas:
+"nv"
+    "hd"
+    "mn"
+    "sd"
+    "ft";
+  grid-template-columns: min(var(--max-width), 100%);
+  grid-template-rows: min-content min-content 1fr min-content min-content;
+  place-content: center;
+}
 
-  // Header With Navigation
-  &.header_with_nav {
-    grid-template-areas:
-      "hd nv"
-      "mn mn"
-      "ft ft";
-    grid-template-columns: min(var(--max-width), 100%);
-    grid-template-rows:
+[s-layout="holy_grail"] {
+  grid-template-areas:
+    "hd hd hd"
+    "nv mn sd"
+    "ft ft ft";
+  grid-template-columns: 200px min(var(--max-width), 100%) 200px;
+  grid-template-rows: auto 1fr auto;
+}
+
+[s-layout="header_with_nav"] {
+  grid-template-areas:
+    "hd nv"
+    "mn mn"
+    "ft ft";
+  grid-template-columns: min(var(--max-width), 100%) 200px;
+  grid-template-rows: auto 1fr auto;
+}
+
+[s-layout="center"] {
+  grid-template-areas:
+    ". .  ."
+    ". hd ."
+    ". nv ."
+    ". mn ."
+    ". ft ."
+    ". .  .";
+  grid-template-columns: auto min(var(--max-width), 100%) auto;
+  grid-template-rows:
+    auto
+    min-content
+    min-content
+    min-content
+    min-content
+    auto;
+  place-items: center;
+}
+
+[s-layout="side_nav"] {
+  grid-template-areas:
+    "hd hd"
+    "nv mn"
+    "ft ft";
+  grid-template-columns: 150px min(var(--max-width), 100%);
+  grid-template-rows:
     auto
     1fr
     auto;
-  }
-
-  // Center
-  &.center {
-    grid-template-areas:
-      ". .  ."
-      ". hd ."
-      ". nv ."
-      ". mn ."
-      ". ft ."
-      ". .  .";
-    grid-template-columns: auto min(var(--max-width), 100%) auto;
-    grid-template-rows:
-      auto
-      min-content
-      min-content
-      min-content
-      min-content
-      auto;
-    place-items: center;
-  }
-
-  // Side Navigation
-  &.side_nav {
-    grid-template-areas:
-      "hd hd"
-      "nv mn"
-      "ft ft";
-    grid-template-columns: 150px min(var(--max-width), 100%);
-    grid-template-rows:
-      auto
-      1fr
-      auto;
-  }
 }
-
 
 // GRID ASSIGNMENT CLASSES
 // The default semantic classes will fit into the layouts above

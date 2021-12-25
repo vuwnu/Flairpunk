@@ -108,6 +108,8 @@ table, th, td {
 
 table {
 
+  width: 100%;
+
   //Add an attribute for setting table layout
   &[layout="auto"] {
     table-layout: auto;

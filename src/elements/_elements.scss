@@ -34,13 +34,17 @@ h1, h2, h3, h4, h5, h6 {
 // Default anchor styling
 // TODO: give new global styling to links
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-accent-1);
-  transition: color .2s;
+  transition: .3s;
+    &[s-style="auto"] {
+      table-layout: auto;
 }
-a:hover {
+	&:hover {
   filter: brightness(150%);
 }
+}
+
 
 
 // SEMANTIC TAGS

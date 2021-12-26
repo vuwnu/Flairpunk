@@ -115,22 +115,20 @@ table {
   width: 100%;
 
   //Add an attribute for setting table layout
-  &[layout="auto"] {
+  &[s-style="auto"] {
     table-layout: auto;
   }
 
-  &[layout="fixed"] {
+  &[s-style="fixed"] {
     table-layout: fixed;
   }
 
   tr {
     padding: .2em;
-
     // Add style for alternating rows to make table reading easier
     &:nth-child(even) {
       filter: brightness(120%);
     }
-
   }
 
   th {

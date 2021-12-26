@@ -61,7 +61,6 @@ a {
 // nav {
 //   grid-area: nv;
 //   order: 2;
-//   width: 100%;
 // }
 //
 // main {
@@ -221,8 +220,6 @@ nav, s-navbar, .s-navbar {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  width: 100%;
-  margin: 5px;
 
   a {
     flex: 1 0 50px;
@@ -234,31 +231,27 @@ nav, s-navbar, .s-navbar {
     border-left: 0;
     padding: 10px;
     margin:0;
-
-    &:hover {
-      filter: brightness(120%);
-    }
-
     &:first-of-type {
       border-left: 1px solid rgba(1,1,1,.3);
     }
-
+		&:hover {
+			filter: brightness(120%);
+		}
     &:active {
       filter: brightness(90%);
     }
-
   }
 }
 
 // List attribute for setting bulletpoint type
 ul {
 
-  &[list="none"] {
+  &[s-style="none"] {
     padding: 0;
     list-style: none;
   }
 
-  &[list="square"] {
+  &[s-style="square"] {
     list-style: square;
   }
 

@@ -1,24 +1,24 @@
 {
-  "name": "shyphen",
-  "version": "0.1.5",
-  "description": "An expansive and modular CSS framework that works exactly how you want it to",
-  "main": "dist/shyphen.min.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vuwnu/shyphen.git"
-  },
-  "keywords": [
-    "css",
-    "html",
-    "vuwnu"
-  ],
-  "author": "Vuwnu <vuwnu.com@gmail.com> (https://vuwnu.com)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vuwnu/shyphen/issues"
-  },
-  "homepage": "https://github.com/vuwnu/shyphen#readme"
+	"name": "shyphen",
+	"version": "0.1.6",
+	"description": "An expansive and modular CSS framework that works exactly how you want it to",
+	"main": "dist/shyphen.min.css",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vuwnu/shyphen.git"
+	},
+	"keywords": [
+		"css",
+		"html",
+		"vuwnu"
+	],
+	"author": "Vuwnu <vuwnu.com@gmail.com> (https://vuwnu.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vuwnu/shyphen/issues"
+	},
+	"homepage": "https://github.com/vuwnu/shyphen#readme"
 }

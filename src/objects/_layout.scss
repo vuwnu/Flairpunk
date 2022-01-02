@@ -7,6 +7,7 @@
 
 	display: grid;
 	grid-gap: var(--layout-grid-gap);
+	min-height: 100%;
 
 	header {
 		grid-area: hd;
@@ -93,7 +94,6 @@
 	grid-template-columns: auto min(var(--max-width), 100%) auto;
 	grid-template-rows:
 		auto min-content min-content min-content min-content auto;
-	place-items: center;
 }
 
 [s-layout="side_nav"] {

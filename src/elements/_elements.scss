@@ -13,6 +13,7 @@ html {
 
 body {
 	line-height: normal;
+	height: 100%;
 	min-height: 100vh;
 
 	// Apply Base Font
@@ -27,7 +28,12 @@ body {
 }
 
 // Applies the custom header font to all default header elements
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: var(--font-header);
 }
 
@@ -36,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
 	text-decoration: underline;
 	color: var(--color-accent-1);
-	transition: .3s;
+	transition: 0.3s;
 
 	&[s-style="underline"] {
 		text-decoration: underline;
@@ -46,8 +52,6 @@ a {
 		filter: brightness(150%);
 	}
 }
-
-
 
 // SEMANTIC TAGS
 // TODO: update semantic tags to only have needed styling
@@ -89,7 +93,6 @@ a {
 // }
 
 section {
-
 	// Flex
 	display: flex;
 	flex-flow: column;
@@ -101,18 +104,18 @@ section {
 		max-width: 100%;
 		height: auto;
 	}
-
 }
 
 // TABLE
 
-table, th, td {
+table,
+th,
+td {
 	text-align: center;
 	border: 1px solid var(--border-color);
 }
 
 table {
-
 	width: 100%;
 
 	//Add an attribute for setting table layout
@@ -125,7 +128,7 @@ table {
 	}
 
 	tr {
-		padding: .2em;
+		padding: 0.2em;
 
 		// Add style for alternating rows to make table reading easier
 		&:nth-child(even) {
@@ -134,14 +137,14 @@ table {
 	}
 
 	th {
-		letter-spacing: .1em;
+		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		font-size: .85em;
+		font-size: 0.85em;
 	}
 
 	th,
 	td {
-		padding: .15em;
+		padding: 0.15em;
 		text-align: center;
 	}
 }
@@ -153,12 +156,12 @@ thead {
 }
 
 code {
-	background: rgba(1,1,1,.2);
+	background: rgba(1, 1, 1, 0.2);
 	padding: 2px 5px;
 }
 
 pre {
-	background: rgba(0,0,0,.2);
+	background: rgba(0, 0, 0, 0.2);
 
 	// Removing code element styling when it's inside of a pre element
 	code {
@@ -168,11 +171,14 @@ pre {
 }
 
 option {
-	background: var(--color-accent-2)
+	background: var(--color-accent-2);
 }
 
 // Forms
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
 	background-color: transparent;
 	border: 1px solid WindowFrame;
 	color: inherit;
@@ -206,41 +212,46 @@ hr {
 	padding: 0;
 
 	&.big {
-		border-width: 3px 0
+		border-width: 3px 0;
 	}
 
 	&.small {
-		border-width: 1px 0
+		border-width: 1px 0;
 	}
 
 	&.dashed {
 		border-style: dashed;
 	}
-
 }
 
 // Navigation Bar
-nav, s-navbar, .s-navbar {
+nav,
+s-nav,
+s-navbar,
+.s-navbar {
 	display: flex;
 	justify-content: space-evenly;
 	text-align: center;
 
 	a {
 		flex: 1 0 50px;
-		transition: background-color .1s;
+		transition: background-color 0.1s;
 		text-decoration: none;
 		cursor: pointer;
 		background: #00000050;
-		border: 1px solid rgba(1,1,1,.3);
+		border: 1px solid rgba(1, 1, 1, 0.3);
 		border-left: 0;
 		padding: 10px;
-		margin:0;
+		margin: 0;
+
 		&:first-of-type {
-			border-left: 1px solid rgba(1,1,1,.3);
+			border-left: 1px solid rgba(1, 1, 1, 0.3);
 		}
+
 		&:hover {
 			filter: brightness(120%);
 		}
+
 		&:active {
 			filter: brightness(90%);
 		}
@@ -249,7 +260,6 @@ nav, s-navbar, .s-navbar {
 
 // List attribute for setting bulletpoint type
 ul {
-
 	&[s-style="none"] {
 		padding: 0;
 		list-style: none;
@@ -258,5 +268,4 @@ ul {
 	&[s-style="square"] {
 		list-style: square;
 	}
-
 }

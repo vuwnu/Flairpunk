@@ -1,5 +1,7 @@
 // COLOR
 
+@use '../0-utility'as *;
+
 // Color Class Generator
 @each $name, $hex in $color-types {
 

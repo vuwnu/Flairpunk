@@ -1,44 +1,7 @@
 @charset 'UTF-8';
 
-// FULL VERSION
-// This is the full version of the framework that has everything included
-
-// SETTINGS
-@import "settings/variables";
-@import 'settings/custom-variables';
-@import 'settings/breakpoints';
-
-// TOOLS
-@import 'tools/functions';
-@import 'tools/mixins';
-
-// OBJECTS
-@import 'objects/layout';
-
-// ABSTRACT
-@import 'abstract/fixes';
-
-// COMPONENTS
-@import 'components/button';
-@import 'components/container';
-@import 'components/card';
-@import 'components/alert';
-
-// ELEMENTS
-@import 'elements/elements';
-@import 'elements/other';
-
-// UTILITIES
-@import "utilities/colors";
-@import "utilities/grid";
-@import 'utilities/spacing';
-@import 'utilities/sizing';
-@import 'utilities/flex';
-@import 'utilities/misc';
-@import 'utilities/text';
-@import 'utilities/transforms';
-
-// ANIMATION
-@import 'animation/variables';
-@import 'animation/keyframes';
-@import 'animation/properties';
+@use '0-utility' as *;
+@use "1-base" as *;
+@use '2-components' as *;
+@use "3-utilities" as *;
+@use '4-animation' as *;

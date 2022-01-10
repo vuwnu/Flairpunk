@@ -1,17 +1,31 @@
 // Removes border around elements with contenteditable toggled on
 [contenteditable]:focus {
-  outline: none;
+	outline: none;
 }
 
 // Box sizing fix
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
 // Fix for h1 having a different size within section elements
 h1 {
-  font-size: 2em;
+	font-size: 2em;
 }
 
 // Fix for default hidden attribute having low specificity
-[hidden] { display: none !important; }
+[hidden] {
+	display: none !important;
+}
+
+// Improved media default styling
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}

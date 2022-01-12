@@ -12,20 +12,17 @@ html {
 }
 
 body {
-	line-height: normal;
 	height: 100%;
 	min-height: 100vh;
-
-	// Apply Base Font
+	margin: auto;
+	
+	// Font Settings
 	font-family: var(--font-primary);
 	color: var(--color-text);
 	background: var(--background, white);
   line-height: 1.5;
-
-	margin: auto;
-
-	// Page Alignment
 	text-align: var(--align-text);
+	-webkit-font-smoothing: antialiased;
 }
 
 // Applies the custom header font to all default header elements

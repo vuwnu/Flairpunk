@@ -20,6 +20,15 @@ h1 {
 	display: none !important;
 }
 
+// Form controls inherit font settings
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+
 // Improved media default styling
 img,
 picture,

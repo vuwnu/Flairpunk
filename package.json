@@ -1,6 +1,6 @@
 {
 	"name": "shyphen",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"description": "An expansive and modular CSS framework that works exactly how you want it to",
 	"main": "dist/shyphen.min.css",
 	"scripts": {

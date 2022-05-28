@@ -4,7 +4,6 @@
 // The purpose of this is to set the foundation for how your website should look so you can then make more specific adjustments using utility classes
 
 [s-layout] {
-
 	display: grid;
 	grid-gap: var(--layout-grid-gap);
 	min-height: 100%;
@@ -36,7 +35,6 @@
 		grid-area: ft;
 		order: 5;
 	}
-
 }
 
 // LAYOUTS
@@ -85,15 +83,13 @@
 
 [s-layout="center"] {
 	grid-template-areas:
-		". .  ."
-		". hd ."
-		". nv ."
-		". mn ."
-		". ft ."
-		". .  .";
-	grid-template-columns: auto min(var(--max-width), 100%) auto;
-	grid-template-rows:
-		auto min-content min-content min-content min-content auto;
+		"hd"
+		"nv"
+		"mn"
+		"ft";
+	grid-template-columns: min(var(--max-width), 100%);
+	grid-template-rows: min-content min-content min-content min-content;
+	place-content: center;
 }
 
 [s-layout="side_nav"] {
@@ -102,8 +98,7 @@
 		"nv mn"
 		"ft ft";
 	grid-template-columns: 150px min(var(--max-width), 100%);
-	grid-template-rows:
-		auto 1fr auto;
+	grid-template-rows: auto 1fr auto;
 }
 
 // GRID ASSIGNMENT CLASSES

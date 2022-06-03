@@ -1,9 +1,17 @@
-// Card
-
 s-card {
-  width: 5rem;
-
-  padding: var(--card-padding);
-  margin: var(--card-margin);;
-
+	padding: var(--card-padding);
+	margin: var(--card-margin);
+	max-width: 300px;
+	background: #00000050;
+	img {
+		width: 100%;
+		height: auto;
+		&.padded {
+			margin: 1em 0;
+			padding: 0 1em;
+		}
+	}
+	p {
+		margin: 1em;
+	}
 }

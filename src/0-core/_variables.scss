@@ -1,0 +1,68 @@
+// SCSS VARIABLES
+
+$l: left;
+$r: right;
+$t: top;
+$b: bottom;
+$pad: padding;
+$mar: margin;
+$w: width;
+$h: height;
+
+// GENERATOR MAPS
+
+$padding-types: $pad $l, $pad $r, $pad $t, $pad $b;
+
+$margin-types: $mar $l, $mar $r, $mar $t, $mar $b;
+
+// COLOR VARIABLES
+
+$color-types: (
+	"aquamarine": #84ffc7,
+	"apple": #4ea334,
+	"white": #111111,
+	"black": #000000,
+	"red": red,
+	"blue": blue,
+	"dark_blue": #4078c0,
+	"steel_blue": steelblue,
+	"midnight_blue": midnightblue,
+	"pink": pink,
+	"gray": #8f8f8f,
+	"green": green,
+	"pink_flamingo": #ff5bf6,
+	"cranberry": #d8498a,
+	"salmon": #ff926b,
+	"hot_pink": #ff69b4,
+	"jade": #00af52,
+	"lemon": #f6f918,
+	"rose": #f91885,
+	"scarlet": #f91c18,
+	"malibu": #69affb,
+	"pastel_pink": #ffd1e3,
+	"electric_violet": #701eff,
+	"pumpkin": #ff8019,
+	"orange": #f96854,
+	"purple": #6441a4,
+	"magenta": magenta,
+	"bright_green": #5dff00,
+	"dusty_gray": #999999,
+	"silver": #bfbfbf,
+	"mercury": #e5e5e5,
+	"dove_gray": #727272,
+	"sapphire": #344ea3,
+);
+
+$display-types: block, flex, inline, inline-block, grid, contents, none;
+
+$spacing-types: center, space-between, space-evenly, space-around, flex-end, flex-start;
+
+// ANIMATION VARIABLES
+
+$anim-name-types: rainbow, blink, fade_in, shake, rotate_right_360, rotate_left_360, slide_in_back, slide_in_top, slide_in_bottom, slide_in_left, slide_in_right, marquee, dance;
+
+$anim-timing-types: linear, ease, ease-in, ease-out, ease-in-out;
+
+$anim-direction-types: normal, reverse, alternate, alternate-reverse;
+
+$border-params: width, style, color, radius;

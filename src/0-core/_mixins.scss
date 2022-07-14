@@ -1,6 +1,6 @@
 // CLASS GENERATORS
 
-@mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1){
+@mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1) {
 	@each $type in $name-map {
 		$key: nth($type, 1);
 		$value: nth($type, 2);
@@ -16,19 +16,25 @@
 }
 
 // Display Class Generator
-@mixin namespaced-classes($namespace, $name-map, $property){
+@mixin namespaced-classes($namespace, $name-map, $property) {
 	@each $type in $name-map {
 		.#{$namespace}-#{$type} {
-	        #{$property}: #{$type};
+			#{$property}: #{$type};
 		}
 	}
 }
 
 // Attribute Class Generator
-@mixin attr-classes($attribute, $name-map, $property){
+@mixin attr-classes($attribute, $name-map, $property) {
 	@each $type in $name-map {
-		[#{$attribute}=#{$type}] {
-	        #{$property}: #{$type};
+		[#{$attribute}="#{$type}"] {
+			#{$property}: #{$type};
 		}
+	}
+}
+
+@mixin box($param-map) {
+	@each $a in $param-map {
+		border-#{$a}: var(--s-box-border-#{$a});
 	}
 }

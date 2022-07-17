@@ -38,3 +38,10 @@
 		border-#{$a}: var(--s-box-border-#{$a});
 	}
 }
+
+// CUSTOM VARIABLES
+@mixin color-variables($type, $shades) {
+	@each $shade, $p in $shades {
+		--s-c-brand-#{$type}-#{$shade}: hsl(var(--s-color-brand-h), var(--s-color-brand-s), calc(var(--s-color-brand-l) #{$p}));
+	}
+}

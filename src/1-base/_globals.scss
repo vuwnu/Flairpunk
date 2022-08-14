@@ -1,0 +1,28 @@
+@use "../0-core" as *;
+
+.boxed-sections {
+	section {
+		@include box($border-params);
+		background: var(--s-base_1-darker);
+		padding: 20px;
+	}
+}
+
+.numbered-headings {
+	counter-reset: headings subheadings;
+	> h1 {
+		counter-increment: headings;
+		&::before {
+			content: counter(headings) ". ";
+		}
+		+ h2 {
+			counter-reset: subheadings;
+		}
+		~ h2 {
+			counter-increment: subheadings;
+			&::before {
+				content: counter(headings) "." counter(subheadings) ". ";
+			}
+		}
+	}
+}

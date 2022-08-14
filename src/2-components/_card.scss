@@ -1,8 +1,9 @@
 s-card {
+	display: block;
 	padding: var(--card-padding);
-	margin: var(--card-margin);
+	margin: calc(1rem * var(--s-global-margin-multi));
 	max-width: 300px;
-	background: #00000050;
+	background: hsla(0, 0%, 0%, 0.314);
 	img {
 		width: 100%;
 		height: auto;

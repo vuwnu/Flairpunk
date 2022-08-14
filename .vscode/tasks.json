@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sass watch",
+			"type": "shell",
+			"command": "sass --watch --no-source-map  src:dist --style compressed",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}

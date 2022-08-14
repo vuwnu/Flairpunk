@@ -1,29 +1,26 @@
-// Alert
-
 s-alert {
-  padding: var(--alert-padding);
-  margin: var(--alert-margin);
+	padding: var(--alert-padding);
+	margin: var(--alert-margin);
 
-  border: solid var(--s-alert-border-width);
+	border: solid var(--s-alert-border-width);
 
-  &[type="error"] {
-    background: var(--s-color-error);
-    border-color: #e72121;
-  }
+	&[type="error"] {
+		background: var(--s-color-error);
+		border-color: #e72121;
+	}
 
-  &[type="warning"] {
-    background: var(--s-color-warning);
-    border-color: #e7b521;
-  }
+	&[type="warning"] {
+		background: var(--s-color-warning);
+		border-color: #e7b521;
+	}
 
-  &[type="info"] {
-    background: var(--s-color-info);
-    border-color: #21a0e7;
-  }
+	&[type="info"] {
+		background: var(--s-color-info);
+		border-color: #21a0e7;
+	}
 
-  &[type="success"] {
-    background: var(--s-color-success);
-    border-color: #49e721;
-  }
-
+	&[type="success"] {
+		background: var(--s-color-success);
+		border-color: #49e721;
+	}
 }

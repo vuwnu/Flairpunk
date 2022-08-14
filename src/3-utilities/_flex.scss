@@ -1,74 +1,68 @@
-@use "../0-utility"as *;
+@use "../0-core" as *;
 
 // FLEX
 
+[class*="responsive-"] {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.responsive- {
+	&row {
+		flex-direction: row;
+		gap: var(--s-spacing-gap, 1em);
+		margin-top: var(--s-spacing-gap, 1em);
+		margin-bottom: var(--s-spacing-gap, 1em);
+	}
+	&column {
+		flex-direction: column;
+		gap: var(--s-spacing-gap, 1em);
+		margin-top: var(--s-spacing-gap, 1em);
+		margin-bottom: var(--s-spacing-gap, 1em);
+	}
+}
+
 @for $i from 1 through 20 {
+	// Flex Basis
+	.c--fb\:#{$i*50} > * {
+		flex-basis: #{$i * 50}px;
+	}
 
-  // Flex Basis
-  .c--fb\:#{$i*50} > * {
-    flex-basis: #{$i*50}px;
-  }
-
-  // Flex Basis Groups
-  .fb\:#{$i*50} {
-    flex-basis: #{$i*50}px;
-  }
-
+	// Flex Basis Groups
+	.fb\:#{$i*50} {
+		flex-basis: #{$i * 50}px;
+	}
 }
 
 // Flex Direction
 
 .fd\: {
-
-  &row {
-    flex-direction: row;
-  }
-
-  &row_r {
-    flex-direction: row-reverse;
-  }
-
-  &col {
-    flex-direction: column;
-  }
-
-  &col_r {
-    flex-direction: column-reverse;
-  }
-
+	&row {
+		flex-direction: row;
+	}
+	&row_r {
+		flex-direction: row-reverse;
+	}
+	&col {
+		flex-direction: column;
+	}
+	&col_r {
+		flex-direction: column-reverse;
+	}
 }
 
 // Flex Wrap
 
 .fw\: {
+	&wrap {
+		flex-wrap: wrap;
+	}
 
-  &wrap {
-    flex-wrap: wrap;
-  }
+	&none {
+		flex-wrap: nowrap;
+	}
 
-  &none {
-    flex-wrap: nowrap;
-  }
-
-  &reverse {
-    flex-wrap: wrap-reverse;
-  }
-
-}
-
-
-// Justify Content
-
-@each $name in $spacing-types {
-  .jc\:#{$name} {
-    justify-content: $name;
-  }
-}
-
-// Align Content
-
-@each $name in $spacing-types {
-  .ac\:#{$name} {
-    align-content: $name;
-  }
+	&reverse {
+		flex-wrap: wrap-reverse;
+	}
 }

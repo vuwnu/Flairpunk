@@ -3,11 +3,13 @@
 	outline: none;
 }
 
-// Box sizing fix
 *,
-*:before,
-*:after {
-	box-sizing: inherit;
+*::before,
+*::after {
+	// Box sizing fix
+	box-sizing: border-box;
+	// Dynamic line height for all elements
+	line-height: calc(1em + 0.6rem);
 }
 
 // Fix for h1 having a different size within section elements
@@ -27,7 +29,6 @@ textarea,
 select {
 	font: inherit;
 }
-
 
 // Improved media default styling
 img,

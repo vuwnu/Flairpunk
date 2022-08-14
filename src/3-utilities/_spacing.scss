@@ -1,55 +1,55 @@
-@use "../0-utility" as *;
+@use "../0-core" as *;
 
 .p {
-  padding: var(--padding);
+	padding: var(--s-padding);
 }
 
 .p\:0 {
-  padding: 0;
+	padding: 0;
 }
 
 .m {
-  margin: var(--margin);
+	margin: var(--margin);
 }
 
 .m\:0 {
-  margin: 0;
+	margin: 0;
 }
 
-@for $i from 1 through 10 {
+@for $i from 1 through 5 {
+	/// PADDING
+	//  X AND Y AXIS
+	.p\:#{$i} {
+		padding-inline: var(--s-size-#{$i});
+		padding-block: var(--s-size-#{$i});
+	}
 
-  /// PADDING
-  //  X AND Y AXIS
-  .p\:#{$i*5} {
-    padding: #{5*$i}px;
-  }
+	// X AXIS
+	.px\:#{$i} {
+		padding-inline: var(--s-size-#{$i});
+	}
 
-  // X AXIS
-  .px\:#{$i*5} {
-    padding: 0 #{5*$i}px;
-  }
+	// Y AXIS
+	.py\:#{$i} {
+		padding-block: var(--s-size-#{$i});
+	}
 
-  // Y AXIS
-  .py\:#{$i*5} {
-    padding: #{5*$i}px 0;
-  }
+	/// MARGIN
+	//  X AND Y AXIS
+	.m\:#{$i} {
+		margin-inline: var(--s-size-#{$i});
+		margin-block: var(--s-size-#{$i});
+	}
 
-  /// MARGIN
-  //  X AND Y AXIS
-  .m\:#{$i*5} {
-    margin: #{5*$i}px;
-  }
+	// X AXIS
+	.mx\:#{$i} {
+		margin-inline: var(--s-size-#{$i});
+	}
 
-  // X AXIS
-  .mx\:#{$i*5} {
-    margin: 0 #{5*$i}px;
-  }
-
-  // Y AXIS
-  .my\:#{$i*5} {
-    margin: #{5*$i}px 0;
-  }
-
+	// Y AXIS
+	.my\:#{$i} {
+		margin-block: var(--s-size-#{$i});
+	}
 }
 
 @include repeat-unit-classes-map($padding-types, 0, 10, px, 5);

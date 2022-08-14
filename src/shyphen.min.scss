@@ -1,7 +1,6 @@
 @charset 'UTF-8';
 
-@use '0-utility' as *;
+@use "0-core" as *;
 @use "1-base" as *;
-@use '2-components' as *;
+@use "2-components" as *;
 @use "3-utilities" as *;
-@use '4-animation' as *;

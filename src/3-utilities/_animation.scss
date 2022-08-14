@@ -1,6 +1,6 @@
 @use "../0-core" as *;
 
-[anim] {
+[data-s-anim] {
 	animation-name: none;
 	animation-duration: 1s;
 	animation-timing-function: ease;
@@ -12,35 +12,35 @@
 }
 
 // Names
-@include attr-classes("anim^", $anim-name-types, animation-name);
+@include attr-classes("data-s-anim^", $anim-name-types, animation-name);
 
 // Timing
-@include attr-classes("anim~", $anim-timing-types, animation-timing-function);
+@include attr-classes("data-s-anim~", $anim-timing-types, animation-timing-function);
 
 // Direction
-@include attr-classes("anim~", $anim-direction-types, animation-direction);
+@include attr-classes("data-s-anim~", $anim-direction-types, animation-direction);
 
 @for $i from 1 through 10 {
 	// Durations
 	// This class sets the length of the animation
-	[anim~="dur:#{$i*0.5}"] {
+	[data-s-anim~="dur:#{$i*0.5}"] {
 		animation-duration: #{$i * 0.5}s;
 	}
 
 	// Delays
 	// This class adds a delay before the animation plays
-	[anim~="del:#{$i*0.5}"] {
+	[data-s-anim~="del:#{$i*0.5}"] {
 		animation-delay: #{$i * 0.5}s;
 	}
 
 	// Iteration
 	// This class controls how many times and animation plays
-	[anim~="rpt:#{$i}"] {
+	[data-s-anim~="rpt:#{$i}"] {
 		animation-iteration-count: #{$i};
 	}
 }
 
-[anim~="rpt:inf"] {
+[data-s-anim~="rpt:inf"] {
 	animation-iteration-count: infinite;
 }
 

@@ -1,21 +1,21 @@
-// Container
+s-block {
+	display: block;
 
-s-section {
+	border-width: var(--border-thickness);
+	border-style: var(--border-type);
+	border-color: var(--border-color);
+	border-radius: var(--border-radius);
+	background: #00000050;
 
-  display: block;
-  border: var(--border-thickness) var(--border-type) var(--border-color);
-  border-radius: var(--border-radius);
-  background: #00000050;
+	padding: var(--container-padding);
+	margin: var(--container-margin);
 
-  padding: var(--container-padding);
-  margin: var(--container-margin);
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
 
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-
-  &[size="small"] {
-    padding: calc(var(--container-padding) / 2);
-    margin: calc(var(--container-margin) / 2);
-  }
+	&[size="small"] {
+		padding: calc(var(--container-padding) / 2);
+		margin: calc(var(--container-margin) / 2);
+	}
 }

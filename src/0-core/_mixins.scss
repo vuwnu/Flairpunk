@@ -1,3 +1,6 @@
+@use "sass:map";
+@use "variables" as *;
+
 // CLASS GENERATORS
 
 @mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1) {
@@ -40,8 +43,46 @@
 }
 
 // CUSTOM VARIABLES
-@mixin color-variables($type, $shades) {
-	@each $shade, $p in $shades {
-		--s-c-brand-#{$type}-#{$shade}: hsl(var(--s-color-brand-h), var(--s-color-brand-s), calc(var(--s-color-brand-l) #{$p}));
+@mixin color-variables($type, $h, $s, $l) {
+	// Set up variables
+	$ns: "--s-";
+	$hsl: (
+		h: $h,
+		s: $s,
+		l: $l,
+	);
+	$shades: (
+		lightest: "+" var(--s-color-#{$type}-shade-lightest),
+		lighter: "+" var(--s-color-#{$type}-shade-lighter),
+		standard: "+" var(--s-color-#{$type}-shade-standard),
+		darker: "-" var(--s-color-#{$type}-shade-darker),
+		darkest: "-" var(--s-color-#{$type}-shade-darkest),
+	);
+
+	// Add custom shade variables
+	--s-color-#{$type}-shade-multi: var(--s-global-shade-multi);
+	--s-color-#{$type}-shade-lightest: calc(var(--s-color-#{$type}-shade-lighter) * var(--s-color-#{$type}-shade-multi));
+	--s-color-#{$type}-shade-lighter: calc(5% * var(--s-color-#{$type}-shade-multi));
+	--s-color-#{$type}-shade-standard: 0%;
+	--s-color-#{$type}-shade-darker: calc(5% * var(--s-color-#{$type}-shade-multi));
+	--s-color-#{$type}-shade-darkest: calc(var(--s-color-#{$type}-shade-darker) * var(--s-color-#{$type}-shade-multi));
+
+	// Generate seperate variables for HSL color values
+	@each $p, $v in $hsl {
+		#{$ns}#{$type}-#{$p}: #{$v};
+	}
+
+	// Generate seperate variables for 5 different shades of color
+	@each $p, $v in $shades {
+		#{$ns}#{$type}-#{$p}: hsl(var(#{$ns}#{$type}-h), var(#{$ns}#{$type}-s), calc(var(#{$ns}#{$type}-l) #{$v}));
+	}
+}
+
+@mixin size-variables {
+	--s-size-1: 1em;
+	--s-size-1-multi: var(--s-global-size-multi);
+	@for $i from 1 to 6 {
+		--s-size-#{$i+1}-multi: var(--s-global-size-multi);
+		--s-size-#{$i+1}: calc(var(--s-size-#{$i + 1 - 1}) * var(--s-size-#{$i + 1}-multi));
 	}
 }

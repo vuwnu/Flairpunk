@@ -1,12 +1,12 @@
 s-button {
-	color: var(--color-accent-1);
-	background: var(--color-main-2);
+	color: var();
+	background: var();
 
 	border: var(--border-thickness) var(--border-type) var(--border-color);
 	border-radius: var(--border-radius);
 
-	margin: var(--margin);
-	padding: var(--padding);
+	margin: var();
+	padding: var();
 	display: inline-block;
 	flex: 1 1;
 
@@ -14,14 +14,14 @@ s-button {
 		filter: brightness(150%);
 	}
 
-	&.lg {
+	&.large {
 		width: 1.5rem;
 		height: 1.25rem;
 	}
 
-	&.sm {
-		width: .5rem;
-		height: .25rem;
+	&.small {
+		width: 0.5rem;
+		height: 0.25rem;
 	}
 
 	&.square {

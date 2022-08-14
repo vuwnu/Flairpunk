@@ -1,48 +1,57 @@
 // SITE LAYOUT SYSTEM
-
 // This class is used on the parent element for all the segments of your site
 // The purpose of this is to set the foundation for how your website should look so you can then make more specific adjustments using utility classes
 
-[s-layout] {
+[data-s-layout] {
 	display: grid;
-	grid-gap: var(--layout-grid-gap);
+	gap: var(--s-layout-gap);
+	padding: 0 var(--s-layout-gap);
 	min-height: 100%;
 
 	header {
 		grid-area: hd;
-		order: 1;
 	}
 
 	nav,
 	s-nav {
 		grid-area: nv;
-		order: 2;
 	}
 
 	main {
 		grid-area: mn;
-		order: 3;
 		display: flex;
 		flex-flow: column nowrap;
 	}
 
 	aside {
 		grid-area: sd;
-		order: 4;
 	}
 
 	footer {
 		grid-area: ft;
-		order: 5;
 	}
 }
 
-// LAYOUTS
-
-[s-layout="single_column"] {
+[data-s-layout*="single_column"] {
 	grid-template-areas:
 		"hd"
 		"nv"
+		"mn"
+		"sd"
+		"ft";
+	grid-template-columns: min(var(--max-width), 100%);
+	grid-template-rows:
+		min-content
+		min-content
+		1fr
+		min-content
+		min-content;
+}
+
+[data-s-layout="top_navbar"] {
+	grid-template-areas:
+		"nv"
+		"hd"
 		"mn"
 		"sd"
 		"ft";
@@ -51,19 +60,7 @@
 	place-content: center;
 }
 
-[s-layout="top_navbar"] {
-	grid-template-areas:
-		"nv"
-		"hd"
-		"mn"
-		"sd"
-		"ft";
-	grid-template-columns: min(var(--max-width), 100%);
-	grid-template-rows: min-content min-content 1fr min-content min-content;
-	place-content: center;
-}
-
-[s-layout="holy_grail"] {
+[data-s-layout="holy_grail"] {
 	grid-template-areas:
 		"hd hd hd"
 		"nv mn sd"
@@ -72,7 +69,7 @@
 	grid-template-rows: auto 1fr auto;
 }
 
-[s-layout="header_with_nav"] {
+[data-s-layout="header_with_nav"] {
 	grid-template-areas:
 		"hd nv"
 		"mn mn"
@@ -81,24 +78,60 @@
 	grid-template-rows: auto 1fr auto;
 }
 
-[s-layout="center"] {
+[data-s-layout="center"] {
 	grid-template-areas:
 		"hd"
 		"nv"
 		"mn"
 		"ft";
 	grid-template-columns: min(var(--max-width), 100%);
-	grid-template-rows: min-content min-content min-content min-content;
+	grid-template-rows:
+		min-content
+		min-content
+		min-content
+		min-content;
 	place-content: center;
 }
 
-[s-layout="side_nav"] {
+[data-s-layout="side_nav"] {
 	grid-template-areas:
 		"hd hd"
 		"nv mn"
 		"ft ft";
 	grid-template-columns: 150px min(var(--max-width), 100%);
 	grid-template-rows: auto 1fr auto;
+}
+
+[data-s-layout="sidebar"] {
+	s-sidebar {
+		grid-area: hd;
+	}
+	grid-template-areas: "hd mn";
+	grid-template-columns:
+		var(--s-layout-column_1-width)
+		min(var(--s-layout-column_2-width), 100%);
+	grid-template-rows: 1fr;
+}
+
+// TODO: setup custom layout
+[data-s-layout="custom"] {
+	grid-template-columns: repeat(var(--s-layout-columns), auto);
+	grid-template-rows: repeat(var(--s-layout-rows), auto);
+	place-content: center;
+	> * {
+		grid-column: var(--s-column);
+		grid-row: var(--s-row);
+	}
+}
+
+//ALT CLASSES
+
+[data-s-layout*="align:center"] {
+	place-content: center;
+}
+
+[data-s-layout*="align:right"] {
+	place-content: flex-end;
 }
 
 // GRID ASSIGNMENT CLASSES

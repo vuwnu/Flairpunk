@@ -51,7 +51,3 @@
 		margin-block: var(--s-size-#{$i});
 	}
 }
-
-@include repeat-unit-classes-map($padding-types, 0, 10, px, 5);
-
-@include repeat-unit-classes-map($margin-types, 0, 10, px, 5);

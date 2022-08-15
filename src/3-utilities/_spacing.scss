@@ -1,15 +1,7 @@
 @use "../0-core" as *;
 
-.p {
-	padding: var(--s-padding);
-}
-
 .p\:0 {
 	padding: 0;
-}
-
-.m {
-	margin: var(--margin);
 }
 
 .m\:0 {

@@ -33,36 +33,3 @@
 		flex-basis: #{$i * 50}px;
 	}
 }
-
-// Flex Direction
-
-.fd\: {
-	&row {
-		flex-direction: row;
-	}
-	&row_r {
-		flex-direction: row-reverse;
-	}
-	&col {
-		flex-direction: column;
-	}
-	&col_r {
-		flex-direction: column-reverse;
-	}
-}
-
-// Flex Wrap
-
-.fw\: {
-	&wrap {
-		flex-wrap: wrap;
-	}
-
-	&none {
-		flex-wrap: nowrap;
-	}
-
-	&reverse {
-		flex-wrap: wrap-reverse;
-	}
-}

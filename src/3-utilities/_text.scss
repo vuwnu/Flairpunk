@@ -70,88 +70,8 @@
       text-align: justify;
     }
 
-  }
 
-  &s\: {
 
-    // Relative Sizes
-    &smaller {
-      font-size: smaller;
-    }
-
-    &larger {
-      font-size: larger;
-    }
-
-    // Set Sizes
-    &sm {
-      font-size: .5rem;
-    }
-
-    &md {
-      font-size: 1.5rem;
-    }
-
-    &lg {
-      font-size: 3rem;
-    }
-
-    &xl {
-      font-size: 5rem;
-    }
-
-  }
-
-  // Transform
-  &t\: {
-
-    &uppercase {
-      text-transform: uppercase;
-    }
-
-    &lowercase {
-      text-transform: lowercase;
-    }
-
-    &capitalize {
-      text-transform: capitalize;
-    }
-
-    &monospace {
-      font-family: monospace;
-    }
-
-  }
-
-  // Decoration
-  &d\: {
-
-    &underline {
-      text-decoration: underline;
-    }
-
-    &line_through {
-      text-decoration: line-through;
-    }
-
-    &overline {
-      text-decoration: overline;
-    }
-
-    &outline {
-      --txt-outline-width: 1px;
-      --txt-outline-color: black;
-      -webkit-text-stroke-width: var(--tsw);
-      -webkit-text-stroke-color: var(--tsc);
-    }
-
-    &none {
-      text-decoration: none;
-    }
-
-  }
-
-}
 
 @for $i from 1 through 9 {
 

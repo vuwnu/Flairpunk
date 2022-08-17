@@ -22,17 +22,6 @@
 	}
 }
 
-@for $i from 1 through 20 {
-	// Flex Basis
-	.c--fb\:#{$i*50} > * {
-		flex-basis: #{$i * 50}px;
-	}
-
-	// Flex Basis Groups
-	.fb\:#{$i*50} {
-		flex-basis: #{$i * 50}px;
-	}
-}
 
 .group {
 	display: flex;

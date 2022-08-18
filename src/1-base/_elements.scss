@@ -49,51 +49,6 @@ a {
 }
 
 // SEMANTIC TAGS
-// TODO: update semantic tags to only have needed styling
-// header {
-//   grid-area: hd;
-//   display: flex;
-//   order: 1;
-//   align-content: center;
-//   align-items: center;
-//   width:100%;
-// }
-//
-// nav {
-//   grid-area: nv;
-//   order: 2;
-// }
-//
-// main {
-//   grid-area: mn;
-//   display: flex;
-//   order: 3;
-//   flex-flow: column wrap;
-//   width: 100%;
-// }
-//
-// aside {
-//   grid-area: sd;
-//   order: 4;
-// }
-//
-// footer {
-//   grid-area: ft;
-//   align-content: center;
-//   text-align: center;
-//   order: 5;
-//   display: flex;
-//   flex-flow: column;
-//   width: 100%;
-// }
-
-section {
-	img {
-		margin: 0 auto;
-		width: auto;
-		height: auto;
-	}
-}
 
 // TABLE
 table,

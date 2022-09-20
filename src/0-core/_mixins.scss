@@ -2,22 +2,6 @@
 @use "variables" as *;
 
 // CLASS GENERATORS
-
-@mixin repeat-unit-classes-map($name-map, $start, $end, $unit, $increment: 1) {
-	@each $type in $name-map {
-		$key: nth($type, 1);
-		$value: nth($type, 2);
-
-		/* #{$type} */
-
-		@for $i from $start through $end {
-			.#{str-slice($key, 0, 1)}#{str-slice($value, 0, 1)}\:#{$i * $increment} {
-				#{$key}-#{$value}: increment($i, $increment, $unit);
-			}
-		}
-	}
-}
-
 // Display Class Generator
 @mixin namespaced-classes($namespace, $name-map, $property) {
 	@each $type in $name-map {

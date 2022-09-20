@@ -37,7 +37,7 @@
 	@include color-variables(info, 215, 54%, 47%);
 
 	--s-text_color: var(--s-base_3-darker);
-	--s-color-body_background: var(--s-base_1-standard);
+	--s-body-background_color: var(--s-base_1-standard);
 
 	// BORDER
 	--border-type: solid;
@@ -80,32 +80,9 @@
 
 	--s-primary_font: "Verdana", sans-serif;
 	--s-secondary_font: "Verdana", sans-serif;
-	--s-header_font: "Verdana", sans-serif;
-	--s-f-logo: "Verdana", sans-serif;
-
-	// COMPONENT VARIABLES
-	// These variables are for altering the default settings of components
-
-	// BUTTONS
-	--button-border: 1px solid rgba(1, 1, 1, 0.3);
-	--button-padding: 5px;
-	--button-margin: 5px;
-
-	// CONTAINERS
-	--container-border: 1px solid rgba(1, 1, 1, 0.3);
-	--container-padding: 20px;
-	--container-margin: 5px;
-
-	// CARD
-	--card-border: 1px solid rgba(1, 1, 1, 0.3);
-	--card-padding: 5px;
-	--card-margin: 5px;
-
-	// ALERTS
-	--alert-border: 1px solid;
-	--alert-padding: 10px;
-	--alert-margin: 5px;
+	--s-header-font: "Verdana", sans-serif;
+	--s-logo-font: "Arial", sans-serif;
 
 	// MISCELLANEOUS
-	--s-header_align: left;
+	--s-header-align: left;
 }

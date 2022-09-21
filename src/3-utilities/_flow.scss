@@ -2,12 +2,12 @@
 
 // FLEX
 
-[class*="responsive-"] {
+[class*="flow-"] {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.responsive- {
+.flow- {
 	&row {
 		flex-direction: row;
 		gap: var(--s-spacing-gap, 1em);
@@ -21,7 +21,6 @@
 		margin-bottom: var(--s-spacing-gap, 1em);
 	}
 }
-
 
 .group {
 	display: flex;
@@ -42,4 +41,3 @@
 .grid-group {
 	grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
 }
-

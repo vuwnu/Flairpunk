@@ -3,17 +3,14 @@
 
 // Align only heading elements
 
-
 @for $i from 1 through 9 {
+	// Text Weight
+	.text-weight\:#{100 * $i} {
+		font-weight: 100 * $i;
+	}
 
-  // Text Weight
-  .t-w\:#{100 * $i} {
-    font-weight: 100 * $i;
-  }
-
-  // Numerical Text Sizes
-  .t-s\:#{$i} {
-    font-size: $i + rem;
-  }
-
+	// Numerical Text Sizes
+	.text-size\:#{$i} {
+		font-size: $i + rem;
+	}
 }
